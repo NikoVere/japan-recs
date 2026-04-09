@@ -189,19 +189,43 @@ img { max-width: 100%; display: block; }
   opacity: 0; visibility: hidden; transition: all 0.4s var(--ease-out);
 }
 .gyro-prompt.visible { opacity: 1; visibility: visible; }
-.gyro-prompt-content { text-align: center; padding: var(--space-2xl); max-width: 320px; }
-.gyro-prompt-icon { font-size: 3rem; margin-bottom: var(--space-lg); animation: tiltPhone 2s ease-in-out infinite; }
+.gyro-prompt-content { text-align: center; padding: var(--space-2xl) var(--space-xl); max-width: 340px; }
+.gyro-prompt-greeting {
+  font-family: var(--font-serif); font-size: 1rem; color: var(--sakura);
+  letter-spacing: 0.3em; margin-bottom: var(--space-sm); opacity: 0.7;
+}
+.gyro-prompt-title {
+  font-family: var(--font-serif); font-size: 1.6rem; font-weight: 900;
+  color: var(--cream); margin-bottom: var(--space-sm); line-height: 1.3;
+}
+.gyro-prompt-welcome {
+  font-size: 0.9rem; color: var(--text-secondary); margin-bottom: var(--space-lg); line-height: 1.5;
+}
+.gyro-prompt-divider {
+  width: 40px; height: 2px; margin: 0 auto var(--space-lg);
+  background: linear-gradient(90deg, transparent, var(--sakura), transparent);
+}
+.gyro-prompt-icon { font-size: 2rem; margin-bottom: var(--space-sm); animation: tiltPhone 2s ease-in-out infinite; }
 @keyframes tiltPhone { 0%, 100% { transform: rotate(-10deg); } 50% { transform: rotate(10deg); } }
-.gyro-prompt h3 { font-family: var(--font-serif); font-size: 1.3rem; margin-bottom: var(--space-md); }
-.gyro-prompt p { font-size: 0.85rem; color: var(--text-secondary); margin-bottom: var(--space-xl); }
+.gyro-prompt h3 { font-family: var(--font-serif); font-size: 1.1rem; margin-bottom: var(--space-sm); color: var(--cream); }
+.gyro-prompt p { font-size: 0.82rem; color: var(--text-secondary); margin-bottom: 0; line-height: 1.55; }
+.gyro-btn-group {
+  display: flex; flex-direction: column; gap: var(--space-md);
+  margin-top: var(--space-xl); align-items: center;
+}
 .gyro-btn {
   font-family: var(--font-sans); font-size: 0.9rem; font-weight: 600;
-  padding: 0.8em 2em; border-radius: 100px; border: none; cursor: pointer;
-  transition: transform 0.2s var(--ease-spring);
+  padding: 0.9em 2.5em; border-radius: 100px; border: none; cursor: pointer;
+  transition: transform 0.2s var(--ease-spring); width: 100%; max-width: 240px;
+  min-height: 48px;
 }
 .gyro-btn:active { transform: scale(0.95); }
-.gyro-btn-yes { background: var(--sakura); color: var(--ink); margin-right: var(--space-md); }
-.gyro-btn-no { background: transparent; color: var(--text-muted); border: 1px solid rgba(255,255,255,0.1); }
+.gyro-btn-yes { background: var(--sakura); color: var(--ink); }
+.gyro-btn-no {
+  background: transparent; color: var(--text-muted);
+  border: 1px solid rgba(255,255,255,0.1);
+  font-size: 0.8rem; padding: 0.7em 2em;
+}
 
 /* ═══════════════ PROGRESS BAR ═══════════════ */
 .scroll-progress {
