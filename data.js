@@ -63,20 +63,12 @@ window.JAPAN_DATA = {
       color: "#5D4037"
     },
     {
-      id: "tokyo-explore",
-      name: "Tokyo Essentials",
+      id: "city-explore",
+      name: "City Essentials",
       emoji: "\ud83c\udfd9\ufe0f",
-      tagline: "The city that never runs out of surprises",
-      description: "Arcades, observation decks, shopping malls, museums, and onsen. The things you do in Tokyo that you can't do anywhere else.",
+      tagline: "The experiences you can't get anywhere else",
+      description: "Arcades, observation decks, shopping malls, museums, and onsen. The things you do in Tokyo, Kyoto, Osaka, Nara, Hiroshima, and Kobe that you can't do anywhere else.",
       color: "#1565C0"
-    },
-    {
-      id: "day-trips",
-      name: "Day Trips & Beyond",
-      emoji: "\ud83d\ude83",
-      tagline: "Get on the Shinkansen",
-      description: "Kanazawa, Nikko, Nagano, Fukuoka, Nara, Hakone, Kamakura, and the quiet towns most visitors skip. Japan beyond the big cities is where the magic compounds.",
-      color: "#2E7D32"
     },
     {
       id: "stationery-craft",
@@ -90,41 +82,37 @@ window.JAPAN_DATA = {
 
   areas: [
     // Tokyo neighborhoods
-    { id: "shibuya", name: "Shibuya", city: "tokyo", lat: 35.6595, lng: 139.7004 },
-    { id: "shinjuku", name: "Shinjuku", city: "tokyo", lat: 35.6938, lng: 139.7034 },
-    { id: "shimokitazawa", name: "Shimokitazawa", city: "tokyo", lat: 35.6613, lng: 139.6680 },
-    { id: "harajuku", name: "Harajuku", city: "tokyo", lat: 35.6702, lng: 139.7027 },
-    { id: "akihabara", name: "Akihabara", city: "tokyo", lat: 35.7023, lng: 139.7745 },
-    { id: "ginza", name: "Ginza", city: "tokyo", lat: 35.6717, lng: 139.7649 },
-    { id: "asakusa", name: "Asakusa", city: "tokyo", lat: 35.7148, lng: 139.7967 },
-    { id: "roppongi", name: "Roppongi", city: "tokyo", lat: 35.6627, lng: 139.7307 },
-    { id: "nakano", name: "Nakano", city: "tokyo", lat: 35.7056, lng: 139.6659 },
-    { id: "ueno", name: "Ueno", city: "tokyo", lat: 35.7141, lng: 139.7774 },
-    { id: "ikebukuro", name: "Ikebukuro", city: "tokyo", lat: 35.7295, lng: 139.7109 },
-    { id: "odaiba", name: "Odaiba", city: "tokyo", lat: 35.6264, lng: 139.7753 },
-    { id: "kappabashi", name: "Kappabashi", city: "tokyo", lat: 35.7138, lng: 139.7885 },
-    { id: "nihonbashi", name: "Nihonbashi", city: "tokyo", lat: 35.6839, lng: 139.7744 },
-    { id: "meguro", name: "Meguro", city: "tokyo", lat: 35.6332, lng: 139.7156 },
-    // Other cities/areas
-    { id: "kyoto-central", name: "Kyoto Central", city: "kyoto", lat: 35.0116, lng: 135.7681 },
-    { id: "kyoto-gion", name: "Gion", city: "kyoto", lat: 35.0036, lng: 135.7747 },
-    { id: "kyoto-kiyomizu", name: "Kiyomizu", city: "kyoto", lat: 34.9949, lng: 135.7850 },
-    { id: "kyoto-arashiyama", name: "Arashiyama", city: "kyoto", lat: 35.0094, lng: 135.6669 },
-    { id: "kyoto-nishiki", name: "Nishiki", city: "kyoto", lat: 35.0050, lng: 135.7649 },
-    { id: "osaka-shinsaibashi", name: "Shinsaibashi", city: "osaka", lat: 34.6723, lng: 135.5017 },
-    { id: "osaka-namba", name: "Namba", city: "osaka", lat: 34.6656, lng: 135.5013 },
-    { id: "osaka-umeda", name: "Umeda", city: "osaka", lat: 34.7050, lng: 135.4983 },
-    { id: "kanazawa", name: "Kanazawa", city: "kanazawa", lat: 36.5613, lng: 136.6562 },
-    { id: "nikko", name: "Nikko", city: "nikko", lat: 36.7199, lng: 139.6982 },
-    { id: "nagano", name: "Nagano", city: "nagano", lat: 36.6485, lng: 138.1948 },
-    { id: "fukuoka", name: "Fukuoka", city: "fukuoka", lat: 33.5902, lng: 130.4017 },
-    { id: "nara", name: "Nara", city: "nara", lat: 34.6851, lng: 135.8048 },
-    { id: "hakone", name: "Hakone", city: "hakone", lat: 35.2326, lng: 139.1070 },
-    { id: "yokohama", name: "Yokohama", city: "yokohama", lat: 35.4437, lng: 139.6380 },
-    { id: "takayama", name: "Takayama", city: "takayama", lat: 36.1460, lng: 137.2523 },
-    { id: "mt-takao", name: "Mt. Takao", city: "tokyo", lat: 35.6254, lng: 139.2437 },
-    { id: "kamakura", name: "Kamakura", city: "kamakura", lat: 35.3192, lng: 139.5467 },
-    { id: "fujiyoshida", name: "Fujiyoshida", city: "fujiyoshida", lat: 35.4874, lng: 138.8039 }
+    { id: "shibuya", name: "Shibuya", city: "tokyo", lat: 35.6595, lng: 139.7004, funFact: "Tokyo has more Michelin-starred restaurants than any other city on Earth \u2014 over 200." },
+    { id: "shinjuku", name: "Shinjuku", city: "tokyo", lat: 35.6938, lng: 139.7034, funFact: "Tokyo has more Michelin-starred restaurants than any other city on Earth \u2014 over 200." },
+    { id: "shimokitazawa", name: "Shimokitazawa", city: "tokyo", lat: 35.6613, lng: 139.6680, funFact: "Tokyo has more Michelin-starred restaurants than any other city on Earth \u2014 over 200." },
+    { id: "harajuku", name: "Harajuku", city: "tokyo", lat: 35.6702, lng: 139.7027, funFact: "Tokyo has more Michelin-starred restaurants than any other city on Earth \u2014 over 200." },
+    { id: "akihabara", name: "Akihabara", city: "tokyo", lat: 35.7023, lng: 139.7745, funFact: "Tokyo has more Michelin-starred restaurants than any other city on Earth \u2014 over 200." },
+    { id: "ginza", name: "Ginza", city: "tokyo", lat: 35.6717, lng: 139.7649, funFact: "Tokyo has more Michelin-starred restaurants than any other city on Earth \u2014 over 200." },
+    { id: "asakusa", name: "Asakusa", city: "tokyo", lat: 35.7148, lng: 139.7967, funFact: "Tokyo has more Michelin-starred restaurants than any other city on Earth \u2014 over 200." },
+    { id: "roppongi", name: "Roppongi", city: "tokyo", lat: 35.6627, lng: 139.7307, funFact: "Tokyo has more Michelin-starred restaurants than any other city on Earth \u2014 over 200." },
+    { id: "nakano", name: "Nakano", city: "tokyo", lat: 35.7056, lng: 139.6659, funFact: "Tokyo has more Michelin-starred restaurants than any other city on Earth \u2014 over 200." },
+    { id: "ueno", name: "Ueno", city: "tokyo", lat: 35.7141, lng: 139.7774, funFact: "Tokyo has more Michelin-starred restaurants than any other city on Earth \u2014 over 200." },
+    { id: "ikebukuro", name: "Ikebukuro", city: "tokyo", lat: 35.7295, lng: 139.7109, funFact: "Tokyo has more Michelin-starred restaurants than any other city on Earth \u2014 over 200." },
+    { id: "odaiba", name: "Odaiba", city: "tokyo", lat: 35.6264, lng: 139.7753, funFact: "Tokyo has more Michelin-starred restaurants than any other city on Earth \u2014 over 200." },
+    { id: "kappabashi", name: "Kappabashi", city: "tokyo", lat: 35.7138, lng: 139.7885, funFact: "Tokyo has more Michelin-starred restaurants than any other city on Earth \u2014 over 200." },
+    { id: "nihonbashi", name: "Nihonbashi", city: "tokyo", lat: 35.6839, lng: 139.7744, funFact: "Tokyo has more Michelin-starred restaurants than any other city on Earth \u2014 over 200." },
+    { id: "meguro", name: "Meguro", city: "tokyo", lat: 35.6332, lng: 139.7156, funFact: "Tokyo has more Michelin-starred restaurants than any other city on Earth \u2014 over 200." },
+    // Kyoto neighborhoods
+    { id: "kyoto-central", name: "Kyoto Central", city: "kyoto", lat: 35.0116, lng: 135.7681, funFact: "Kyoto was deliberately spared from WWII bombing because of its cultural significance." },
+    { id: "kyoto-gion", name: "Gion", city: "kyoto", lat: 35.0036, lng: 135.7747, funFact: "Kyoto was deliberately spared from WWII bombing because of its cultural significance." },
+    { id: "kyoto-kiyomizu", name: "Kiyomizu", city: "kyoto", lat: 34.9949, lng: 135.7850, funFact: "Kyoto was deliberately spared from WWII bombing because of its cultural significance." },
+    { id: "kyoto-arashiyama", name: "Arashiyama", city: "kyoto", lat: 35.0094, lng: 135.6669, funFact: "Kyoto was deliberately spared from WWII bombing because of its cultural significance." },
+    { id: "kyoto-nishiki", name: "Nishiki", city: "kyoto", lat: 35.0050, lng: 135.7649, funFact: "Kyoto was deliberately spared from WWII bombing because of its cultural significance." },
+    // Osaka neighborhoods
+    { id: "osaka-shinsaibashi", name: "Shinsaibashi", city: "osaka", lat: 34.6723, lng: 135.5017, funFact: "Osaka's unofficial motto is kuidaore \u2014 'eat until you drop.'" },
+    { id: "osaka-namba", name: "Namba", city: "osaka", lat: 34.6656, lng: 135.5013, funFact: "Osaka's unofficial motto is kuidaore \u2014 'eat until you drop.'" },
+    { id: "osaka-umeda", name: "Umeda", city: "osaka", lat: 34.7050, lng: 135.4983, funFact: "Osaka's unofficial motto is kuidaore \u2014 'eat until you drop.'" },
+    // Nara
+    { id: "nara", name: "Nara", city: "nara", lat: 34.6851, lng: 135.8048, funFact: "The 1,000+ deer in Nara Park are considered sacred messengers of the gods and are protected as national treasures." },
+    // Kobe
+    { id: "kobe", name: "Kobe", city: "kobe", lat: 34.6901, lng: 135.1956, funFact: "Kobe beef cattle are allegedly massaged and fed beer. Only 3,000 certified heads exist per year." },
+    // Hiroshima
+    { id: "hiroshima", name: "Hiroshima", city: "hiroshima", lat: 34.3853, lng: 132.4553, funFact: "Hiroshima has more okonomiyaki restaurants per capita than any other city in Japan." }
   ],
 
   places: [
@@ -144,7 +132,11 @@ window.JAPAN_DATA = {
       themes: ["denim-trail"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "MOMOTARO JEANS Aoyama, Tokyo, Japan"
+      gmapsQuery: "MOMOTARO JEANS Aoyama, Tokyo, Japan",
+      description: "Okayama-born denim brand known for its going-to-battle stripe and peach motifs. The Aoyama flagship carries the full range, including Japan-exclusive cuts.",
+      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageAlt: "Japanese denim jeans display in a boutique store",
+      tabelogUrl: ""
     },
     {
       id: "studio-dartisan-tokyo",
@@ -159,7 +151,11 @@ window.JAPAN_DATA = {
       themes: ["denim-trail"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Studio D'artisan Tokyo, Japan"
+      gmapsQuery: "Studio D'artisan Tokyo, Japan",
+      description: "One of Osaka's original five denim houses, producing selvedge since 1979. The pig mascot is iconic and the vintage-reproduction fabrics are phenomenal.",
+      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageAlt: "Japanese selvedge denim store interior",
+      tabelogUrl: ""
     },
     {
       id: "warehouse-denim-tokyo",
@@ -174,7 +170,11 @@ window.JAPAN_DATA = {
       themes: ["denim-trail"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "WAREHOUSE DENIM TOKYO, Japan"
+      gmapsQuery: "WAREHOUSE DENIM TOKYO, Japan",
+      description: "Obsessive American vintage reproductions. Warehouse deconstructs original garments stitch by stitch to recreate them with period-accurate detail.",
+      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageAlt: "Vintage-inspired Japanese denim on display",
+      tabelogUrl: ""
     },
     {
       id: "the-real-mccoys",
@@ -189,7 +189,11 @@ window.JAPAN_DATA = {
       themes: ["denim-trail"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "THE REAL McCOY'S Tokyo, Japan"
+      gmapsQuery: "THE REAL McCOY'S Tokyo, Japan",
+      description: "Military heritage and Americana reproduced with Japanese precision. Their leather jackets and flight suits are museum-quality pieces you can actually wear.",
+      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageAlt: "Heritage clothing and denim in a curated shop",
+      tabelogUrl: ""
     },
     {
       id: "kapital-store-1",
@@ -204,7 +208,11 @@ window.JAPAN_DATA = {
       themes: ["denim-trail"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Kapital Tokyo, Japan"
+      gmapsQuery: "Kapital Tokyo, Japan",
+      description: "Kapital's wild, patchwork-heavy take on Americana. Sashiko stitching, boro-inspired repairs, and denim that looks like it's lived three lives already.",
+      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageAlt: "Kapital clothing store with patchwork denim display",
+      tabelogUrl: ""
     },
     {
       id: "kapital-store-2",
@@ -219,7 +227,11 @@ window.JAPAN_DATA = {
       themes: ["denim-trail"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Kapital Harajuku Tokyo, Japan"
+      gmapsQuery: "Kapital Harajuku Tokyo, Japan",
+      description: "The Harajuku outpost of Kapital, spread across multiple floors. More curated than the Shibuya store, with a gallery-like atmosphere.",
+      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageAlt: "Kapital Harajuku store with Japanese denim",
+      tabelogUrl: ""
     },
     {
       id: "kapital-soho-roppongi",
@@ -234,7 +246,11 @@ window.JAPAN_DATA = {
       themes: ["denim-trail"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "KAPITAL SOHO ROPPONGI, Tokyo, Japan"
+      gmapsQuery: "KAPITAL SOHO ROPPONGI, Tokyo, Japan",
+      description: "Kapital's Roppongi concept space. Smaller and more curated, with a focus on their high-end collaborations and limited runs.",
+      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageAlt: "Kapital SOHO concept store in Roppongi",
+      tabelogUrl: ""
     },
     {
       id: "evisu-omotesando",
@@ -249,7 +265,11 @@ window.JAPAN_DATA = {
       themes: ["denim-trail"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Evisu Omotesando, Tokyo, Japan"
+      gmapsQuery: "Evisu Omotesando, Tokyo, Japan",
+      description: "The hand-painted seagull brand's flagship. Evisu started the Japanese premium denim movement in 1991, and the Omotesando store carries heritage pieces you won't find abroad.",
+      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageAlt: "Evisu denim with hand-painted seagull logo",
+      tabelogUrl: ""
     },
     {
       id: "evisu-ginza",
@@ -264,7 +284,11 @@ window.JAPAN_DATA = {
       themes: ["denim-trail"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "EVISU Ginza, Tokyo, Japan"
+      gmapsQuery: "EVISU Ginza, Tokyo, Japan",
+      description: "Evisu's upscale Ginza location. More polished presentation than Omotesando, catering to the Ginza crowd with premium and limited-edition lines.",
+      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageAlt: "EVISU Ginza store front with premium denim",
+      tabelogUrl: ""
     },
     {
       id: "the-flat-head",
@@ -279,7 +303,11 @@ window.JAPAN_DATA = {
       themes: ["denim-trail"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "The Flat Head Tokyo, Japan"
+      gmapsQuery: "The Flat Head Tokyo, Japan",
+      description: "Cult-status heavy denim and biker-inspired Americana. Known for their Pioneer series and some of the thickest selvedge denim you'll find anywhere.",
+      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageAlt: "The Flat Head heavy selvedge denim display",
+      tabelogUrl: ""
     },
     {
       id: "pure-blue-japan",
@@ -294,7 +322,11 @@ window.JAPAN_DATA = {
       themes: ["denim-trail"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Pure Blue Japan Tokyo, Japan"
+      gmapsQuery: "Pure Blue Japan Tokyo, Japan",
+      description: "Deep, rich indigo dyes and slubby textured fabrics are PBJ's signature. Their XX series produces some of the most distinctive fading patterns in the denim world.",
+      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageAlt: "Pure Blue Japan indigo denim close-up",
+      tabelogUrl: ""
     },
     {
       id: "edwin-tokyo-harajuku",
@@ -309,7 +341,11 @@ window.JAPAN_DATA = {
       themes: ["denim-trail"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "EDWIN TOKYO HARAJUKU, Tokyo, Japan"
+      gmapsQuery: "EDWIN TOKYO HARAJUKU, Tokyo, Japan",
+      description: "Japan's largest denim brand. EDWIN invented the process of washing raw denim to soften it. The Harajuku flagship is the definitive place to see the full range.",
+      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageAlt: "EDWIN Tokyo Harajuku flagship denim store",
+      tabelogUrl: ""
     },
     {
       id: "japan-blue-jeans-shibuya",
@@ -324,7 +360,11 @@ window.JAPAN_DATA = {
       themes: ["denim-trail"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "JAPAN BLUE JEANS Shibuya, Tokyo, Japan"
+      gmapsQuery: "JAPAN BLUE JEANS Shibuya, Tokyo, Japan",
+      description: "Collect Textiles' retail brand, woven on vintage shuttle looms in Okayama. Excellent value for genuine selvedge denim with interesting fabric innovations.",
+      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageAlt: "Japan Blue Jeans store with selvedge denim",
+      tabelogUrl: ""
     },
 
     // =========================================================================
@@ -340,10 +380,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "shibuya",
       city: "tokyo",
-      themes: ["vinyl-wax", "tokyo-explore"],
+      themes: ["vinyl-wax", "city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Tower Records Shibuya, Tokyo, Japan"
+      gmapsQuery: "Tower Records Shibuya, Tokyo, Japan",
+      description: "Nine floors of music in the world's largest Tower Records. The chain died everywhere else but Japan kept it alive, and the Shibuya flagship is a pilgrimage site.",
+      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageAlt: "Tower Records Shibuya multi-floor music store",
+      tabelogUrl: ""
     },
     {
       id: "disk-union-shinjuku",
@@ -358,7 +402,11 @@ window.JAPAN_DATA = {
       themes: ["vinyl-wax"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Disk Union Shinjuku, Tokyo, Japan"
+      gmapsQuery: "Disk Union Shinjuku, Tokyo, Japan",
+      description: "Genre-specific floors across multiple buildings. Jazz in one, punk in another, classical in a third. The crate-digging possibilities are endless.",
+      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageAlt: "Vinyl record bins at Disk Union Shinjuku",
+      tabelogUrl: ""
     },
     {
       id: "ginza-records-audio",
@@ -373,7 +421,11 @@ window.JAPAN_DATA = {
       themes: ["vinyl-wax"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "GINZA RECORDS & AUDIO, Tokyo, Japan"
+      gmapsQuery: "GINZA RECORDS & AUDIO, Tokyo, Japan",
+      description: "Upscale vinyl shop in Ginza with a focus on jazz, classical, and audiophile pressings. The staff knowledge is encyclopaedic.",
+      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageAlt: "Curated vinyl records in an upscale Ginza shop",
+      tabelogUrl: ""
     },
     {
       id: "tower-vinyl-umeda",
@@ -388,7 +440,11 @@ window.JAPAN_DATA = {
       themes: ["vinyl-wax"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "TOWER VINYL UMEDA, Osaka, Japan"
+      gmapsQuery: "TOWER VINYL UMEDA, Osaka, Japan",
+      description: "Tower Records' vinyl-only concept store. Beautifully curated with listening stations, a warm atmosphere, and one of the best selections in Kansai.",
+      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageAlt: "TOWER VINYL UMEDA record store interior",
+      tabelogUrl: ""
     },
     {
       id: "tower-records-namba-parks",
@@ -403,7 +459,11 @@ window.JAPAN_DATA = {
       themes: ["vinyl-wax"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Tower Records Namba Parks, Osaka, Japan"
+      gmapsQuery: "Tower Records Namba Parks, Osaka, Japan",
+      description: "Solid Tower Records inside the architecturally striking Namba Parks mall. Good J-pop and idol sections alongside mainstream international releases.",
+      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageAlt: "Tower Records inside Namba Parks shopping complex",
+      tabelogUrl: ""
     },
     {
       id: "hmv-books-shinsaibashi",
@@ -418,7 +478,11 @@ window.JAPAN_DATA = {
       themes: ["vinyl-wax"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "HMV&BOOKS SHINSAIBASHI, Osaka, Japan"
+      gmapsQuery: "HMV&BOOKS SHINSAIBASHI, Osaka, Japan",
+      description: "HMV merged with a bookshop concept in Japan. Vinyl, CDs, books, and magazines in a browseable space that rewards wandering.",
+      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageAlt: "HMV&BOOKS Shinsaibashi music and book store",
+      tabelogUrl: ""
     },
     {
       id: "record-shop-rare-groove",
@@ -433,7 +497,11 @@ window.JAPAN_DATA = {
       themes: ["vinyl-wax"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "RECORD SHOP rare groove, Osaka, Japan"
+      gmapsQuery: "RECORD SHOP rare groove, Osaka, Japan",
+      description: "Tiny, passion-project vinyl shop specialising in soul, funk, and rare groove. The owner hand-picks every record and can talk for hours about each one.",
+      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageAlt: "Rare groove vinyl record shop in Osaka",
+      tabelogUrl: ""
     },
     {
       id: "tower-records-mini-osaka",
@@ -448,7 +516,11 @@ window.JAPAN_DATA = {
       themes: ["vinyl-wax"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Tower Records Mini, Osaka, Japan"
+      gmapsQuery: "Tower Records Mini, Osaka, Japan",
+      description: "Compact Tower Records format focusing on new releases and J-pop. Small but well-stocked if you know what you're looking for.",
+      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageAlt: "Small Tower Records Mini store in Osaka",
+      tabelogUrl: ""
     },
     {
       id: "time-bomb-records",
@@ -463,7 +535,11 @@ window.JAPAN_DATA = {
       themes: ["vinyl-wax"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Time Bomb Records, Osaka, Japan"
+      gmapsQuery: "Time Bomb Records, Osaka, Japan",
+      description: "Punk, hardcore, and underground music vinyl shop. The kind of place where the staff are in bands and the recommendations are gold.",
+      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageAlt: "Time Bomb Records punk and hardcore vinyl",
+      tabelogUrl: ""
     },
     {
       id: "voxmusic",
@@ -478,7 +554,11 @@ window.JAPAN_DATA = {
       themes: ["vinyl-wax"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Voxmusic, Osaka, Japan"
+      gmapsQuery: "Voxmusic, Osaka, Japan",
+      description: "Eclectic vinyl shop with a good mix of electronic, ambient, and world music. Relaxed vibe and fair prices.",
+      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageAlt: "Voxmusic record store in Osaka",
+      tabelogUrl: ""
     },
     {
       id: "grind-records",
@@ -493,7 +573,11 @@ window.JAPAN_DATA = {
       themes: ["vinyl-wax"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Grind Records, Osaka, Japan"
+      gmapsQuery: "Grind Records, Osaka, Japan",
+      description: "Small independent shop focused on hip-hop, R&B, and club music on vinyl. Serious diggers will find gems in the bargain bins.",
+      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageAlt: "Grind Records hip-hop vinyl shop",
+      tabelogUrl: ""
     },
     {
       id: "tower-records-kyoto",
@@ -508,7 +592,11 @@ window.JAPAN_DATA = {
       themes: ["vinyl-wax"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Tower Records Kyoto, Japan"
+      gmapsQuery: "Tower Records Kyoto, Japan",
+      description: "Kyoto's main Tower Records. Good for J-pop, anime soundtracks, and regional Kansai artists you won't find in Tokyo stores.",
+      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageAlt: "Tower Records Kyoto music store",
+      tabelogUrl: ""
     },
 
     // =========================================================================
@@ -527,7 +615,11 @@ window.JAPAN_DATA = {
       themes: ["tea-path"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Yamadashiya Tea shop Nishiki markets, Kyoto, Japan"
+      gmapsQuery: "Yamadashiya Tea shop Nishiki markets, Kyoto, Japan",
+      description: "Tea shop right in the Nishiki Market arcade. Sample different grades of matcha and hojicha before buying. The roasted teas are particularly fragrant.",
+      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageAlt: "Japanese tea shop with matcha and hojicha samples",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Yamadashiya%20Tea%20shop%20Nishiki%20markets%20kyoto"
     },
     {
       id: "saryo-tsujiri-gion",
@@ -542,7 +634,11 @@ window.JAPAN_DATA = {
       themes: ["tea-path"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Saryo Tsujiri Tea House Gion Main Store, Kyoto, Japan"
+      gmapsQuery: "Saryo Tsujiri Tea House Gion Main Store, Kyoto, Japan",
+      description: "Historic tea house from 1860 serving Uji matcha in every form: whisked, as parfait, as soft serve. The Gion location drips with atmosphere.",
+      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageAlt: "Traditional Kyoto tea house with matcha parfait",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Saryo%20Tsujiri%20Tea%20House%20Gion%20kyoto"
     },
     {
       id: "marukyu-koyamaen-kyoto",
@@ -557,7 +653,11 @@ window.JAPAN_DATA = {
       themes: ["tea-path"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Marukyu Koyamaen JR Kyoto Isetan Store, Kyoto, Japan"
+      gmapsQuery: "Marukyu Koyamaen JR Kyoto Isetan Store, Kyoto, Japan",
+      description: "Branch of the legendary Uji tea producer founded in 1688. Their ceremonial-grade matcha is considered among the finest in the world.",
+      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageAlt: "Premium matcha tea products at Marukyu Koyamaen",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Marukyu%20Koyamaen%20kyoto"
     },
     {
       id: "baikoan-tea-stall",
@@ -572,7 +672,11 @@ window.JAPAN_DATA = {
       themes: ["tea-path"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Baikoan Tea Stall, Kyoto, Japan"
+      gmapsQuery: "Baikoan Tea Stall, Kyoto, Japan",
+      description: "Tiny Nishiki Market stall with near-perfect reviews. They grind matcha fresh in front of you and serve it with traditional sweets.",
+      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageAlt: "Freshly ground matcha at a Kyoto tea stall",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Baikoan%20Tea%20Stall%20kyoto"
     },
     {
       id: "horaido-tea-stall",
@@ -587,22 +691,11 @@ window.JAPAN_DATA = {
       themes: ["tea-path"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Horaido Tea Stall, Kyoto, Japan"
-    },
-    {
-      id: "kanson-an",
-      name: "Kanson-An",
-      nameJp: "",
-      category: "Tea house",
-      rating: 4.3,
-      reviews: 42,
-      priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["tea-path", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Kanson-An, Kanazawa, Japan"
+      gmapsQuery: "Horaido Tea Stall, Kyoto, Japan",
+      description: "Another Nishiki Market gem. Known for their hojicha lattes and matcha soft serve. The toasted tea aroma pulls you in from the arcade.",
+      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageAlt: "Hojicha latte and matcha treats at Horaido",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Horaido%20Tea%20Stall%20kyoto"
     },
     {
       id: "dan-dan-cafe",
@@ -617,7 +710,11 @@ window.JAPAN_DATA = {
       themes: ["tea-path", "eat-local"],
       nikoNote: "Delicious Matcha with view of the Tea Fields",
       status: "open",
-      gmapsQuery: "dan dan cafe, Kyoto, Japan"
+      gmapsQuery: "dan dan cafe, Kyoto, Japan",
+      description: "Matcha cafe with a stunning view of Kyoto's tea fields. The setting elevates an already excellent matcha experience into something memorable.",
+      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageAlt: "Matcha drinks overlooking tea fields",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=dan%20dan%20cafe%20kyoto"
     },
     {
       id: "wazuka",
@@ -629,10 +726,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "kyoto-central",
       city: "kyoto",
-      themes: ["tea-path", "day-trips"],
+      themes: ["tea-path"],
       nikoNote: "Scenic Tea Field Town (where Uji and Uji Matcha is made)",
       status: "open",
-      gmapsQuery: "Wazuka, Kyoto, Japan"
+      gmapsQuery: "Wazuka, Kyoto, Japan",
+      description: "The rolling tea fields of Wazuka produce much of Japan's finest Uji matcha. A quiet, beautiful town where tea farming is life itself.",
+      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageAlt: "Rolling green tea fields in Wazuka, Kyoto",
+      tabelogUrl: ""
     },
     {
       id: "ten-cafe",
@@ -647,7 +748,11 @@ window.JAPAN_DATA = {
       themes: ["tea-path", "eat-local"],
       nikoNote: "great Matcha cafe in Kyoto",
       status: "open",
-      gmapsQuery: "Ten Cafe, Kiyomizu, Kyoto, Japan"
+      gmapsQuery: "Ten Cafe, Kiyomizu, Kyoto, Japan",
+      description: "Cosy matcha cafe tucked in the Kiyomizu area. A perfect stop to rest your legs after climbing the temple hill.",
+      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageAlt: "Matcha latte at Ten Cafe near Kiyomizu",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Ten%20Cafe%20Kiyomizu%20kyoto"
     },
     {
       id: "maccha-house-kyoto",
@@ -662,7 +767,11 @@ window.JAPAN_DATA = {
       themes: ["tea-path", "eat-local"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "MACCHA HOUSE Kyoto, Japan"
+      gmapsQuery: "MACCHA HOUSE Kyoto, Japan",
+      description: "Famous for their wobbling matcha tiramisu served in a wooden box. Instagram-famous but the matcha quality is genuinely good.",
+      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageAlt: "Matcha tiramisu dessert at MACCHA HOUSE",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=MACCHA%20HOUSE%20kyoto"
     },
     {
       id: "uji-town",
@@ -674,25 +783,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "kyoto-central",
       city: "kyoto",
-      themes: ["tea-path", "day-trips"],
+      themes: ["tea-path"],
       nikoNote: "Famous matcha town",
       status: "open",
-      gmapsQuery: "Uji, Kyoto, Japan"
-    },
-    {
-      id: "salon-de-the-kaikaro",
-      name: "Salon de th\u00e9 Kaikaro",
-      nameJp: "",
-      category: "Cafe in a geisha house",
-      rating: 4.3,
-      reviews: 284,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["tea-path", "eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Salon de the Kaikaro, Kanazawa, Japan"
+      gmapsQuery: "Uji, Kyoto, Japan",
+      description: "The most famous matcha-producing town in Japan. Walk along the river, visit Byodoin Temple, and taste matcha at the source where it's been grown for centuries.",
+      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageAlt: "Uji town famous for matcha tea production",
+      tabelogUrl: ""
     },
 
     // =========================================================================
@@ -711,7 +809,11 @@ window.JAPAN_DATA = {
       themes: ["pottery-road"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Kotouen, Kyoto, Japan"
+      gmapsQuery: "Kotouen, Kyoto, Japan",
+      description: "Exquisite Kiyomizu-yaki pottery with an emphasis on tea ceremony ware. The glazes here have a depth you won't find in tourist shops.",
+      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageAlt: "Kiyomizu-yaki pottery at Kotouen",
+      tabelogUrl: ""
     },
     {
       id: "maeken",
@@ -726,7 +828,11 @@ window.JAPAN_DATA = {
       themes: ["pottery-road"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Maeken pottery, Kyoto, Japan"
+      gmapsQuery: "Maeken pottery, Kyoto, Japan",
+      description: "Perfect-rated pottery shop on the Kiyomizu slopes. Handmade pieces by local artisans, each one unique. Worth the visit just to hold the cups.",
+      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageAlt: "Handmade pottery on display at Maeken",
+      tabelogUrl: ""
     },
     {
       id: "mitsuo-tomonoshi",
@@ -741,7 +847,11 @@ window.JAPAN_DATA = {
       themes: ["pottery-road"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Mitsuo pottery Kyoto, Japan"
+      gmapsQuery: "Mitsuo pottery Kyoto, Japan",
+      description: "Another perfect-rated ceramics shop. The potter works on-site and each piece shows the hand that made it. Wabi-sabi in physical form.",
+      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageAlt: "Artisan pottery by Mitsuo in Kyoto",
+      tabelogUrl: ""
     },
     {
       id: "kyoto-ceramic-center",
@@ -756,7 +866,11 @@ window.JAPAN_DATA = {
       themes: ["pottery-road"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Kyoto Ceramic Center, Kyoto, Japan"
+      gmapsQuery: "Kyoto Ceramic Center, Kyoto, Japan",
+      description: "Gallery-style ceramics centre showcasing work from across Kyoto's pottery traditions. Good for understanding the range of styles before you buy.",
+      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageAlt: "Kyoto ceramics gallery with various pottery styles",
+      tabelogUrl: ""
     },
     {
       id: "asahi-touan-craft-shop",
@@ -771,7 +885,11 @@ window.JAPAN_DATA = {
       themes: ["pottery-road"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "ASAHI Tou'an Craft Shop, Kyoto, Japan"
+      gmapsQuery: "ASAHI Tou'an Craft Shop, Kyoto, Japan",
+      description: "Small craft shop with a carefully selected range of Kyoto ceramics. The owner knows every potter personally and can tell you each piece's story.",
+      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageAlt: "Curated Kyoto ceramics at ASAHI Tou'an",
+      tabelogUrl: ""
     },
     {
       id: "tohgoro",
@@ -786,7 +904,11 @@ window.JAPAN_DATA = {
       themes: ["pottery-road"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Tohgoro chinaware, Kyoto, Japan"
+      gmapsQuery: "Tohgoro chinaware, Kyoto, Japan",
+      description: "Traditional chinaware shop with a vast selection of everyday ceramics. Great for finding beautiful, functional pieces that become your daily rice bowl or tea cup.",
+      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageAlt: "Traditional Japanese chinaware at Tohgoro",
+      tabelogUrl: ""
     },
     {
       id: "chawanzaka",
@@ -801,7 +923,11 @@ window.JAPAN_DATA = {
       themes: ["pottery-road", "temple-run"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Chawanzaka, Kyoto, Japan"
+      gmapsQuery: "Chawanzaka, Kyoto, Japan",
+      description: "The 'Teapot Lane' leading up to Kiyomizu-dera. Lined with pottery shops on both sides, this steep lane has been selling ceramics for centuries.",
+      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageAlt: "Chawanzaka pottery street leading to Kiyomizu-dera",
+      tabelogUrl: ""
     },
 
     // =========================================================================
@@ -820,7 +946,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "2nd Street Shimokitazawa, Tokyo, Japan"
+      gmapsQuery: "2nd Street Shimokitazawa, Tokyo, Japan",
+      description: "Chain secondhand store with a huge selection. Not as curated as the independent shops, but the volume means you can find hidden gems at rock-bottom prices.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Racks of secondhand clothing at 2nd Street",
+      tabelogUrl: ""
     },
     {
       id: "new-york-joe-shimokitazawa",
@@ -835,7 +965,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "New York Joe Shimokitazawa, Tokyo, Japan"
+      gmapsQuery: "New York Joe Shimokitazawa, Tokyo, Japan",
+      description: "Housed in a converted public bathhouse, which gives it a unique open-floor layout. American vintage, Hawaiian shirts, and 90s streetwear at fair prices.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Vintage clothing in a converted bathhouse",
+      tabelogUrl: ""
     },
     {
       id: "shimokita-market",
@@ -850,7 +984,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Shimokita Market, Shimokitazawa, Tokyo, Japan"
+      gmapsQuery: "Shimokita Market, Shimokitazawa, Tokyo, Japan",
+      description: "Small local market tucked away from the main strip. The kind of place regulars don't want you to know about.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Shimokita Market vintage clothing stall",
+      tabelogUrl: ""
     },
     {
       id: "bazzstore",
@@ -865,7 +1003,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "BAZZSTORE Shimokitazawa, Tokyo, Japan"
+      gmapsQuery: "BAZZSTORE Shimokitazawa, Tokyo, Japan",
+      description: "Multiple locations around Shimokitazawa, each with a slightly different focus. Well-organised racks and surprisingly good designer pieces mixed in with the vintage.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "BAZZSTORE vintage and designer clothing",
+      tabelogUrl: ""
     },
     {
       id: "flamingo-shimokitazawa",
@@ -880,7 +1022,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Flamingo Shimokitazawa, Tokyo, Japan"
+      gmapsQuery: "Flamingo Shimokitazawa, Tokyo, Japan",
+      description: "Well-curated vintage with a focus on 60s-80s Americana. Leather jackets, band tees, and denim in good condition and fairly priced.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Vintage Americana clothing at Flamingo",
+      tabelogUrl: ""
     },
     {
       id: "kinji-shimokitazawa",
@@ -895,7 +1041,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "KINJI Shimokitazawa, Tokyo, Japan"
+      gmapsQuery: "KINJI Shimokitazawa, Tokyo, Japan",
+      description: "Budget-friendly vintage chain. Huge bins of clothing sorted by colour and type. Takes patience to dig through, but the prices can't be beaten.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "KINJI vintage clothing bins sorted by colour",
+      tabelogUrl: ""
     },
     {
       id: "ragtag-shimokitazawa",
@@ -910,7 +1060,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "RAGTAG Shimokitazawa, Tokyo, Japan"
+      gmapsQuery: "RAGTAG Shimokitazawa, Tokyo, Japan",
+      description: "Premium secondhand chain focusing on designer brands. Everything is authenticated, cleaned, and priced fairly. Like a luxury consignment shop.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "RAGTAG premium secondhand designer clothing",
+      tabelogUrl: ""
     },
     {
       id: "flamingo-harajuku",
@@ -925,7 +1079,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Flamingo Harajuku, Tokyo, Japan"
+      gmapsQuery: "Flamingo Harajuku, Tokyo, Japan",
+      description: "Harajuku outpost of the Flamingo vintage chain. More fashion-forward curation than the Shimokitazawa branch, reflecting the neighbourhood's style.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Flamingo vintage clothing store in Harajuku",
+      tabelogUrl: ""
     },
     {
       id: "ragtag-shibuya",
@@ -940,7 +1098,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "RAGTAG Shibuya, Tokyo, Japan"
+      gmapsQuery: "RAGTAG Shibuya, Tokyo, Japan",
+      description: "Larger RAGTAG location with more floor space than Shimokitazawa. The Shibuya spot tends to get higher-end consignments due to the neighbourhood.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "RAGTAG Shibuya secondhand designer fashion",
+      tabelogUrl: ""
     },
     {
       id: "komehyo-shibuya",
@@ -955,7 +1117,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "KOMEHYO Shibuya, Tokyo, Japan"
+      gmapsQuery: "KOMEHYO Shibuya, Tokyo, Japan",
+      description: "Luxury resale powerhouse. Authenticated Louis Vuitton, Chanel, Hermes at significant discounts. The watch floor alone is worth a visit.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Luxury brand items at KOMEHYO Shibuya",
+      tabelogUrl: ""
     },
     {
       id: "hard-off-hobby-off-ueno",
@@ -970,7 +1136,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Hard Off Hobby Off Ueno Okachimachi, Tokyo, Japan"
+      gmapsQuery: "Hard Off Hobby Off Ueno Okachimachi, Tokyo, Japan",
+      description: "Electronics, instruments, hobby supplies, and random treasures. Hard Off is Japan's answer to Goodwill but with better quality control and wilder finds.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Hard Off thrift store electronics and hobby items",
+      tabelogUrl: ""
     },
     {
       id: "hard-off-akihabara",
@@ -985,7 +1155,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "HARD OFF Akihabara, Tokyo, Japan"
+      gmapsQuery: "HARD OFF Akihabara, Tokyo, Japan",
+      description: "The Akihabara branch leans heavily into retro tech: vintage game consoles, audio equipment, cameras, and electronics from every era.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Retro electronics at HARD OFF Akihabara",
+      tabelogUrl: ""
     },
     {
       id: "bookoff-akihabara",
@@ -1000,7 +1174,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "BOOKOFF Akihabara, Tokyo, Japan"
+      gmapsQuery: "BOOKOFF Akihabara, Tokyo, Japan",
+      description: "Multi-floor used media empire. Manga, CDs, DVDs, games, and books. The 100-yen manga bins are dangerous if you have space in your luggage.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Shelves of used manga and books at BOOKOFF",
+      tabelogUrl: ""
     },
     {
       id: "bookoff-shinjuku",
@@ -1015,7 +1193,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Book-Off Shinjuku, Tokyo, Japan"
+      gmapsQuery: "Book-Off Shinjuku, Tokyo, Japan",
+      description: "Large Shinjuku branch of the Book Off chain. Good for late-night browsing since it stays open late. Solid manga and gaming sections.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Book-Off Shinjuku used media store",
+      tabelogUrl: ""
     },
     {
       id: "bookoff-higashinakano",
@@ -1030,7 +1212,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "BOOKOFF Higashinakano, Tokyo, Japan"
+      gmapsQuery: "BOOKOFF Higashinakano, Tokyo, Japan",
+      description: "Quieter neighbourhood BOOKOFF with less competition from tourists. Better chances of finding rare volumes at standard chain prices.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Used books at BOOKOFF Higashinakano",
+      tabelogUrl: ""
     },
     {
       id: "bookoff-generic",
@@ -1045,7 +1231,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Book Off, Tokyo, Japan"
+      gmapsQuery: "Book Off, Tokyo, Japan",
+      description: "The Shibuya general Book Off. A good all-rounder for used clothing, books, games, and random finds between shopping other Shibuya spots.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Book Off thrift store in Shibuya",
+      tabelogUrl: ""
     },
     {
       id: "rare-item-studio",
@@ -1060,7 +1250,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Rare Item Studio, Tokyo, Japan"
+      gmapsQuery: "Rare Item Studio, Tokyo, Japan",
+      description: "Near-perfect rating for a reason. Rare designer pieces, vintage Chanel, Hermes scarves, and accessories you'd pay triple for in Paris or New York.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Rare luxury vintage items at Rare Item Studio",
+      tabelogUrl: ""
     },
     {
       id: "green-pepe",
@@ -1075,7 +1269,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "green pepe, Shimokitazawa, Tokyo, Japan"
+      gmapsQuery: "green pepe, Shimokitazawa, Tokyo, Japan",
+      description: "Tiny, colourful clothing store in a Shimokitazawa side street. A mix of vintage and indie Japanese brands with a playful, maximalist aesthetic.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Colourful vintage clothing at green pepe",
+      tabelogUrl: ""
     },
     {
       id: "krool",
@@ -1090,7 +1288,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "KROOL Shimokitazawa, Tokyo, Japan"
+      gmapsQuery: "KROOL Shimokitazawa, Tokyo, Japan",
+      description: "Almost perfect rating and fiercely loyal customers. Carefully curated vintage with a sharp eye for quality. Everything here has been hand-picked.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Curated vintage clothing at KROOL",
+      tabelogUrl: ""
     },
     {
       id: "lanp",
@@ -1105,7 +1307,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Lanp Shimokitazawa, Tokyo, Japan"
+      gmapsQuery: "Lanp Shimokitazawa, Tokyo, Japan",
+      description: "Hole-in-the-wall Shimokitazawa shop with a perfect rating from its small but devoted following. Japanese indie brands and one-off pieces.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Small curated clothing shop Lanp in Shimokitazawa",
+      tabelogUrl: ""
     },
     // Osaka vintage
     {
@@ -1121,7 +1327,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "BOOKOFF Osaka Shinsaibashi, Japan"
+      gmapsQuery: "BOOKOFF Osaka Shinsaibashi, Japan",
+      description: "Shinsaibashi's main BOOKOFF. Multiple floors of used manga, CDs, games, and clothing. The location means it gets a constant churn of inventory.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "BOOKOFF Osaka Shinsaibashi used media",
+      tabelogUrl: ""
     },
     {
       id: "bookoff-plus-namba",
@@ -1136,7 +1346,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "BOOKOFF PLUS Namba Ebisubashi, Osaka, Japan"
+      gmapsQuery: "BOOKOFF PLUS Namba Ebisubashi, Osaka, Japan",
+      description: "The 'PLUS' format is Book Off's expanded concept: more floor space, better curation, and a dedicated luxury brand section alongside the usual used goods.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "BOOKOFF PLUS Namba expanded thrift store",
+      tabelogUrl: ""
     },
     {
       id: "wego-shinsaibashi-3",
@@ -1151,7 +1365,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Wego Shinsaibashi no.3, Osaka, Japan"
+      gmapsQuery: "Wego Shinsaibashi no.3, Osaka, Japan",
+      description: "Affordable youth fashion chain popular with teenagers. A mix of new fast-fashion and vintage-inspired pieces at pocket-money prices.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Wego youth clothing store in Shinsaibashi",
+      tabelogUrl: ""
     },
     {
       id: "wego-shinsaibashi",
@@ -1166,7 +1384,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Wego Shinsaibashi, Osaka, Japan"
+      gmapsQuery: "Wego Shinsaibashi, Osaka, Japan",
+      description: "Larger Wego location with a better vintage section upstairs. Popular with Osaka's young fashion crowd.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Wego Shinsaibashi main store",
+      tabelogUrl: ""
     },
     {
       id: "wego-vintage-americamura",
@@ -1181,7 +1403,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "WEGO VINTAGE Americamura, Osaka, Japan"
+      gmapsQuery: "WEGO VINTAGE Americamura, Osaka, Japan",
+      description: "Wego's vintage-only format in Americamura, Osaka's answer to Harajuku. American vintage, 90s streetwear, and the occasional gem.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "WEGO VINTAGE Americamura used clothing",
+      tabelogUrl: ""
     },
     // Kyoto vintage
     {
@@ -1197,7 +1423,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "Thrift spot!",
       status: "closed",
-      gmapsQuery: "Three Star Kyoto, Japan"
+      gmapsQuery: "Three Star Kyoto, Japan",
+      description: "Well-known Kyoto thrift store. Currently closed, but worth checking if it reopens. Was a favourite for affordable vintage finds.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Three Star Kyoto thrift store",
+      tabelogUrl: ""
     },
     {
       id: "harajuku-chicago-kyoto",
@@ -1212,7 +1442,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Harajuku Chicago Kyoto, Japan"
+      gmapsQuery: "Harajuku Chicago Kyoto, Japan",
+      description: "Tokyo vintage chain's Kyoto branch. American vintage, kimono remakes, and 80s-90s Japanese fashion. Good for finding wearable vintage at fair prices.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Vintage American and Japanese clothing at Harajuku Chicago",
+      tabelogUrl: ""
     },
     {
       id: "vintage-jam-kyoto",
@@ -1227,7 +1461,11 @@ window.JAPAN_DATA = {
       themes: ["vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Vintage clothing store JAM Kyoto, Japan"
+      gmapsQuery: "Vintage clothing store JAM Kyoto, Japan",
+      description: "Warehouse-style vintage shop with a massive selection. JAM buys in bulk from the US and curates it with a Japanese eye. Great for leather and denim.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Warehouse-style vintage clothing at JAM Kyoto",
+      tabelogUrl: ""
     },
 
     // =========================================================================
@@ -1247,7 +1485,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Sushi Roman, Tokyo, Japan"
+      gmapsQuery: "Sushi Roman, Tokyo, Japan",
+      description: "Neo-izakaya vibes with creative sushi and inventive small plates. The kind of place where the menu changes with the chef's mood.",
+      imageUrl: "https://images.unsplash.com/photo-1554797589-7241bb691973?w=600&h=400&fit=crop",
+      imageAlt: "Creative sushi and izakaya dishes at Sushi Roman",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Sushi%20Roman%20tokyo"
     },
     {
       id: "ramen-goku",
@@ -1262,7 +1504,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Ramen goku, Tokyo, Japan"
+      gmapsQuery: "Ramen goku, Tokyo, Japan",
+      description: "Popular Shinjuku ramen spot with a rich, flavourful broth. The ticket machine ordering system is a classic Japanese ramen experience.",
+      imageUrl: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&h=400&fit=crop",
+      imageAlt: "Steaming bowl of ramen at Ramen goku",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Ramen%20goku%20tokyo"
     },
     {
       id: "d47-shokudo",
@@ -1277,7 +1523,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "d47 SHOKUDO, Shibuya, Tokyo, Japan"
+      gmapsQuery: "d47 SHOKUDO, Shibuya, Tokyo, Japan",
+      description: "Each set meal represents a different Japanese prefecture. The menu rotates to showcase regional specialities you'd normally need a train ride to taste.",
+      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageAlt: "Regional Japanese set meal at d47 SHOKUDO",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=d47%20SHOKUDO%20tokyo"
     },
     {
       id: "tsukiji-outer-market",
@@ -1289,10 +1539,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "ginza",
       city: "tokyo",
-      themes: ["eat-local", "tokyo-explore"],
+      themes: ["eat-local", "city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Tsukiji Outer Market, Tokyo, Japan"
+      gmapsQuery: "Tsukiji Outer Market, Tokyo, Japan",
+      description: "The inner market moved to Toyosu, but the outer market is still the place to eat. Street food stalls, fresh seafood, tamagoyaki, and the energy of a working market.",
+      imageUrl: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
+      imageAlt: "Tsukiji Outer Market fresh seafood stalls",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Tsukiji%20Outer%20Market%20tokyo"
     },
     {
       id: "sake-market-shinjuku",
@@ -1307,7 +1561,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "Amazing sake selection",
       status: "open",
-      gmapsQuery: "SAKE MARKET Shinjuku, Tokyo, Japan"
+      gmapsQuery: "SAKE MARKET Shinjuku, Tokyo, Japan",
+      description: "Over 100 varieties of sake from across Japan, served in a lively market-style setting. The staff will guide you through regional styles if you ask.",
+      imageUrl: "https://images.unsplash.com/photo-1554797589-7241bb691973?w=600&h=400&fit=crop",
+      imageAlt: "Sake selection at SAKE MARKET Shinjuku",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=SAKE%20MARKET%20Shinjuku%20tokyo"
     },
     {
       id: "tatsuro-sushi",
@@ -1322,7 +1580,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "Best Sushi (Potentially) in Japan",
       status: "open",
-      gmapsQuery: "Tatsuro Sushi, Tokyo, Japan"
+      gmapsQuery: "Tatsuro Sushi, Tokyo, Japan",
+      description: "Counter-only sushi spot where the chef selects and prepares each piece right in front of you. Omakase-style dining at a fraction of Ginza prices.",
+      imageUrl: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=600&h=400&fit=crop",
+      imageAlt: "Fresh sushi prepared at the counter at Tatsuro",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Tatsuro%20Sushi%20tokyo"
     },
     {
       id: "yakiniku-jumbo-shirokane",
@@ -1337,7 +1599,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "Jumbo Yakiniku - need I say more?",
       status: "open",
-      gmapsQuery: "Yakiniku Jumbo Shirokane, Tokyo, Japan"
+      gmapsQuery: "Yakiniku Jumbo Shirokane, Tokyo, Japan",
+      description: "Premium yakiniku with beef so marbled it practically melts on the grill. The name 'Jumbo' refers to the generous cut sizes, not the restaurant.",
+      imageUrl: "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop",
+      imageAlt: "Premium marbled beef grilling at Yakiniku Jumbo",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Yakiniku%20Jumbo%20Shirokane%20tokyo"
     },
     {
       id: "halal-ramen-honolu",
@@ -1352,7 +1618,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "Halal Ramen in Tokyo (try the spicy fried chicken ramen)",
       status: "open",
-      gmapsQuery: "Halal Ramen Honolu, Tokyo, Japan"
+      gmapsQuery: "Halal Ramen Honolu, Tokyo, Japan",
+      description: "Halal-certified ramen in Shinjuku, which is rarer than you'd think. The broth is rich, the noodles are firm, and the spicy fried chicken ramen is the move.",
+      imageUrl: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&h=400&fit=crop",
+      imageAlt: "Halal ramen bowl with fried chicken at Honolu",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Halal%20Ramen%20Honolu%20tokyo"
     },
     {
       id: "nihonbashi-tsujihan",
@@ -1367,7 +1637,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "Seafood Donburi restaurant \u2014 delicious!",
       status: "open",
-      gmapsQuery: "Nihonbashi Kaisen Donburi Tsujihan, Tokyo, Japan"
+      gmapsQuery: "Nihonbashi Kaisen Donburi Tsujihan, Tokyo, Japan",
+      description: "Famous for their two-stage seafood donburi: eat half as-is, then pour dashi broth over the rest for an ochazuke finish. The queue is worth it.",
+      imageUrl: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=600&h=400&fit=crop",
+      imageAlt: "Seafood donburi at Tsujihan",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Nihonbashi%20Kaisen%20Donburi%20Tsujihan%20tokyo"
     },
     {
       id: "harajuku-gyozarou",
@@ -1382,7 +1656,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "Yummy Gyoza",
       status: "open",
-      gmapsQuery: "Harajuku Gyozarou, Tokyo, Japan"
+      gmapsQuery: "Harajuku Gyozarou, Tokyo, Japan",
+      description: "Counter-only gyoza specialist that's been doing one thing perfectly for decades. Crispy, juicy, and gone in seconds. Cash only.",
+      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageAlt: "Pan-fried gyoza at Harajuku Gyozarou",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Harajuku%20Gyozarou%20tokyo"
     },
     {
       id: "nikuya-no-daidokoro",
@@ -1397,7 +1675,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "Premium BBQ Wagyu Buffet for only 6000 yen in Shibuya (3rd floor of old building) \u2014 get the Premium Buffet",
       status: "open",
-      gmapsQuery: "Nikuya no Daidokoro Dogenzaka, Shibuya, Tokyo, Japan"
+      gmapsQuery: "Nikuya no Daidokoro Dogenzaka, Shibuya, Tokyo, Japan",
+      description: "All-you-can-eat wagyu for 6,000 yen. Hidden on the third floor of a nondescript building. The premium buffet tier is the one you want.",
+      imageUrl: "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop",
+      imageAlt: "Wagyu beef buffet at Nikuya no Daidokoro",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Nikuya%20no%20Daidokoro%20Dogenzaka%20tokyo"
     },
     {
       id: "tsurugyu",
@@ -1412,7 +1694,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "Secret Sneaky Kobe Beef",
       status: "closed",
-      gmapsQuery: "Tsurugyu, Tokyo, Japan"
+      gmapsQuery: "Tsurugyu, Tokyo, Japan",
+      description: "Underground Kobe beef spot that locals don't want tourists to find. Currently closed, but if it reopens, the quality-to-price ratio was unbeatable.",
+      imageUrl: "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop",
+      imageAlt: "Kobe beef at Tsurugyu",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Tsurugyu%20tokyo"
     },
     {
       id: "tartaru-numa",
@@ -1427,7 +1713,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "Delicious Tonkatsu Sets",
       status: "closed",
-      gmapsQuery: "TarutaruNUMA, Tokyo, Japan"
+      gmapsQuery: "TarutaruNUMA, Tokyo, Japan",
+      description: "Tonkatsu specialist with tartar sauce as the star. Thick, crispy cutlets with a unique tartare twist. Currently closed.",
+      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageAlt: "Tonkatsu set meal at TarutaruNUMA",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=%E3%82%BF%E3%83%AB%E3%82%BF%E3%83%ABNUMA%20tokyo"
     },
     {
       id: "syurakuya-kingyo",
@@ -1442,7 +1732,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "Eat here! Authentic Japanese washoku",
       status: "open",
-      gmapsQuery: "Syurakuya Kingyo, Tokyo, Japan"
+      gmapsQuery: "Syurakuya Kingyo, Tokyo, Japan",
+      description: "Authentic washoku izakaya where every dish is prepared with care. The kind of place where regulars sit at the counter and the chef knows their order.",
+      imageUrl: "https://images.unsplash.com/photo-1554797589-7241bb691973?w=600&h=400&fit=crop",
+      imageAlt: "Traditional washoku dishes at Syurakuya Kingyo",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Syurakuya%20Kingyo%20tokyo"
     },
     {
       id: "asakusa-unana",
@@ -1457,7 +1751,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "Unagi Onigiri",
       status: "open",
-      gmapsQuery: "Asakusa Unana, Tokyo, Japan"
+      gmapsQuery: "Asakusa Unana, Tokyo, Japan",
+      description: "Unagi (eel) specialist near Sensoji. Their unagi onigiri is the perfect grab-and-go snack after temple visiting. Smoky, sweet, and perfectly grilled.",
+      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageAlt: "Grilled unagi eel at Asakusa Unana",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Asakusa%20Unana%20tokyo"
     },
     {
       id: "tsukishima-monja-bakuten",
@@ -1472,7 +1770,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Tsukishima Monja Bakuten, Tokyo, Japan"
+      gmapsQuery: "Tsukishima Monja Bakuten, Tokyo, Japan",
+      description: "Monjayaki is Tokyo's messy, delicious answer to okonomiyaki. Batter cooked on a hotplate into a crispy, gooey puddle. Looks strange, tastes incredible.",
+      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageAlt: "Monjayaki cooking on a hotplate at Bakuten",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Tsukishima%20Monja%20Bakuten%20tokyo"
     },
     {
       id: "kura-sushi-oshiage",
@@ -1487,7 +1789,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Kura Sushi Global Flagship Oshiage, Tokyo, Japan"
+      gmapsQuery: "Kura Sushi Global Flagship Oshiage, Tokyo, Japan",
+      description: "High-tech conveyor belt sushi with touch-screen ordering and a gacha prize game for every five plates. Fun, affordable, and surprisingly good quality.",
+      imageUrl: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=600&h=400&fit=crop",
+      imageAlt: "Conveyor belt sushi at Kura Sushi flagship",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Kura%20Sushi%20Global%20Flagship%20Oshiage%20tokyo"
     },
     {
       id: "yakitori-omino",
@@ -1502,7 +1808,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Yakitori Omino, Tokyo, Japan"
+      gmapsQuery: "Yakitori Omino, Tokyo, Japan",
+      description: "High-end yakitori omakase. Every skewer is a revelation: the chicken is sourced from specific farms, and each cut is grilled to a different specification.",
+      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageAlt: "Premium yakitori skewers at Omino",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Yakitori%20Omino%20tokyo"
     },
     {
       id: "katsuo-shokudo",
@@ -1517,7 +1827,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Katsuo Shokudo, Tokyo, Japan"
+      gmapsQuery: "Katsuo Shokudo, Tokyo, Japan",
+      description: "Bonito-focused breakfast and lunch sets. Fresh katsuobushi shaved over rice with miso soup. A proper Japanese morning meal.",
+      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageAlt: "Japanese breakfast set at Katsuo Shokudo",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Katsuo%20Shokudo%20tokyo"
     },
     {
       id: "yakiniku-like",
@@ -1532,7 +1846,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Yakiniku LIKE, Tokyo, Japan"
+      gmapsQuery: "Yakiniku LIKE, Tokyo, Japan",
+      description: "Solo yakiniku concept: individual grills at every seat. No awkwardness about eating BBQ alone. Fast, affordable, and perfectly portioned for one.",
+      imageUrl: "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop",
+      imageAlt: "Individual grill at Yakiniku LIKE solo BBQ",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Yakiniku%20LIKE%20tokyo"
     },
     {
       id: "a-to-z-cafe",
@@ -1547,7 +1865,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "A To Z Cafe, Harajuku, Tokyo, Japan"
+      gmapsQuery: "A To Z Cafe, Harajuku, Tokyo, Japan",
+      description: "Yoshitomo Nara-themed cafe in Omotesando. Cosy, art-filled interior with decent coffee and light meals. Great for a creative pause between shopping.",
+      imageUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop",
+      imageAlt: "Art-filled interior of A To Z Cafe",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=A%20To%20Z%20Cafe%20tokyo"
     },
     {
       id: "sunnyhills-minamiaoyama",
@@ -1562,7 +1884,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "SunnyHills minamiaoyama, Tokyo, Japan"
+      gmapsQuery: "SunnyHills minamiaoyama, Tokyo, Japan",
+      description: "Taiwanese pineapple cake shop in a stunning Kengo Kuma-designed building made of interlocking wooden sticks. Free tea and cake tasting when you visit.",
+      imageUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop",
+      imageAlt: "SunnyHills architectural building and pineapple cakes",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=SunnyHills%20minamiaoyama%20tokyo"
     },
 
     // Kyoto eating
@@ -1579,7 +1905,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "Must try Ramen in Kyoto!",
       status: "open",
-      gmapsQuery: "Honke Daiichi Asahi Honten, Kyoto, Japan"
+      gmapsQuery: "Honke Daiichi Asahi Honten, Kyoto, Japan",
+      description: "The ramen shop right outside Kyoto Station with a permanent queue. Rich shoyu broth, straight noodles, and generous chashu. Open since 1947.",
+      imageUrl: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&h=400&fit=crop",
+      imageAlt: "Shoyu ramen at Honke Daiichi Asahi",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Honke%20Daiichi%20Asahi%20Honten%20kyoto"
     },
     {
       id: "hekkelun",
@@ -1594,7 +1924,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "90 y/o guy running a Giant Pudding cafe!",
       status: "open",
-      gmapsQuery: "Hekkelun, Kyoto, Japan"
+      gmapsQuery: "Hekkelun, Kyoto, Japan",
+      description: "A 90-year-old man runs this cafe famous for its massive custard puddings. Utterly charming, and the pudding is genuinely excellent.",
+      imageUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop",
+      imageAlt: "Giant custard pudding at Hekkelun cafe",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Hekkelun%20kyoto"
     },
     {
       id: "gyukatsu-katsugyu",
@@ -1609,7 +1943,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "GYUKATSU Kyoto Katsugyu, Kyoto, Japan"
+      gmapsQuery: "GYUKATSU Kyoto Katsugyu, Kyoto, Japan",
+      description: "Deep-fried beef cutlet served rare with a hot stone to cook it further at your table. The concept is brilliant and the execution is even better.",
+      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageAlt: "Gyukatsu beef cutlet with hot stone at Katsugyu",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=GYUKATSU%20Kyoto%20Katsugyu%20kyoto"
     },
     {
       id: "en-en-kyoto",
@@ -1624,7 +1962,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "EN-EN, Kyoto, Japan"
+      gmapsQuery: "EN-EN, Kyoto, Japan",
+      description: "Chinese food filtered through a Kyoto sensibility. Lighter, more refined, and served in a cosy machiya-style interior.",
+      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageAlt: "Chinese-Kyoto fusion dishes at EN-EN",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=EN-EN%20kyoto"
     },
     {
       id: "starbucks-nineizaka",
@@ -1639,7 +1981,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local", "temple-run"],
       nikoNote: "Beautiful traditional machiya Starbucks",
       status: "open",
-      gmapsQuery: "Starbucks Kyoto Nineizaka, Kyoto, Japan"
+      gmapsQuery: "Starbucks Kyoto Nineizaka, Kyoto, Japan",
+      description: "Starbucks in a 100-year-old machiya townhouse on the approach to Kiyomizu-dera. Tatami seating in the back garden. The most beautiful Starbucks in the world.",
+      imageUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop",
+      imageAlt: "Traditional machiya Starbucks in Kyoto",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Starbucks%20Kyoto%20Nineizaka%20kyoto"
     },
     {
       id: "funahashiya",
@@ -1654,7 +2000,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local", "tea-path"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Funahashiya, Kyoto, Japan"
+      gmapsQuery: "Funahashiya, Kyoto, Japan",
+      description: "Historic wagashi (Japanese sweets) shop by the Kamo River. Their seasonal mochi and warabi mochi are exquisite, paired with matcha of course.",
+      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageAlt: "Traditional wagashi Japanese sweets at Funahashiya",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Funahashiya%20kyoto"
     },
     {
       id: "barcode-kyoto",
@@ -1669,7 +2019,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "Great drinking and party spot",
       status: "open",
-      gmapsQuery: "Barcode, Kyoto, Japan"
+      gmapsQuery: "Barcode, Kyoto, Japan",
+      description: "Kyoto's go-to party bar. Karaoke, cheap drinks, and a mix of locals and travellers. The vibe picks up around 10pm.",
+      imageUrl: "https://images.unsplash.com/photo-1554797589-7241bb691973?w=600&h=400&fit=crop",
+      imageAlt: "Lively karaoke bar atmosphere at Barcode Kyoto",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Barcode%20kyoto"
     },
     {
       id: "nishiki-market",
@@ -1684,7 +2038,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local", "tea-path"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Nishiki Market, Kyoto, Japan"
+      gmapsQuery: "Nishiki Market, Kyoto, Japan",
+      description: "Five blocks of covered market known as 'Kyoto's Kitchen'. Fresh tofu, pickles, knife shops, tea stalls, and street food. Come hungry, leave heavy.",
+      imageUrl: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
+      imageAlt: "Nishiki Market food stalls in Kyoto",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Nishiki%20Market%20kyoto"
     },
     {
       id: "kamo-river",
@@ -1699,7 +2057,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local", "temple-run"],
       nikoNote: "Drink here and vibe in the evening",
       status: "open",
-      gmapsQuery: "Kamo River, Kyoto, Japan"
+      gmapsQuery: "Kamo River, Kyoto, Japan",
+      description: "Kyoto's social backbone. Grab drinks from a konbini and sit on the riverbank at sunset with everyone else. Couples sit exactly one metre apart. It's a thing.",
+      imageUrl: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&h=400&fit=crop",
+      imageAlt: "People relaxing along the Kamo River at sunset",
+      tabelogUrl: ""
     },
 
     // Osaka eating
@@ -1716,7 +2078,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "Flamethrower Street Food Izakaya",
       status: "open",
-      gmapsQuery: "Toyo Izakaya, Osaka, Japan"
+      gmapsQuery: "Toyo Izakaya, Osaka, Japan",
+      description: "The chef uses a literal flamethrower to sear tuna and wagyu right in front of you on the street. Part cooking, part performance art. Quintessentially Osaka.",
+      imageUrl: "https://images.unsplash.com/photo-1554797589-7241bb691973?w=600&h=400&fit=crop",
+      imageAlt: "Chef using flamethrower at Toyo street food izakaya",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Toyo%20Izakaya%20osaka"
     },
     {
       id: "meat-sukiyaki-kitamura",
@@ -1731,7 +2097,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Meat sukiyaki restaurant Kitamura, Osaka, Japan"
+      gmapsQuery: "Meat sukiyaki restaurant Kitamura, Osaka, Japan",
+      description: "Premium sukiyaki in a traditional setting. The beef is swirled in sweet soy broth and dipped in raw egg. Rich, indulgent, and deeply satisfying.",
+      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageAlt: "Premium sukiyaki beef at Kitamura",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Meat%20sukiyaki%20restaurant%20Kitamura%20osaka"
     },
     {
       id: "robatayaki-mizukakechaya",
@@ -1746,7 +2116,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Robatayaki Mizukakechaya, Osaka, Japan"
+      gmapsQuery: "Robatayaki Mizukakechaya, Osaka, Japan",
+      description: "Robatayaki-style grilling with ingredients passed to you on a long wooden paddle. Theatrical, fun, and the grilled seafood is excellent.",
+      imageUrl: "https://images.unsplash.com/photo-1554797589-7241bb691973?w=600&h=400&fit=crop",
+      imageAlt: "Robatayaki grilling at Mizukakechaya",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Robatayaki%20Mizukakechaya%20osaka"
     },
     {
       id: "fukutaro-honten",
@@ -1761,553 +2135,11 @@ window.JAPAN_DATA = {
       themes: ["eat-local"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Fukutaro Honten Okonomiyaki, Osaka, Japan"
-    },
-
-    // Kanazawa eating
-    {
-      id: "omicho-market",
-      name: "Omicho Market",
-      nameJp: "",
-      category: "Fresh food market",
-      rating: 4.0,
-      reviews: 18743,
-      priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Omicho Market, Kanazawa, Japan"
-    },
-    {
-      id: "chikuwa-kanazawa",
-      name: "Chikuwa",
-      nameJp: "",
-      category: "Izakaya",
-      rating: 4.2,
-      reviews: 163,
-      priceRange: "\u00a53,000\u20134,000",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Chikuwa Izakaya, Kanazawa, Japan"
-    },
-    {
-      id: "akadama-honten",
-      name: "Akadama Honten",
-      nameJp: "",
-      category: "Oden restaurant",
-      rating: 3.4,
-      reviews: 1416,
-      priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Akadama Honten, Kanazawa, Japan"
-    },
-    {
-      id: "miyuki-kanazawa",
-      name: "Miyuki",
-      nameJp: "",
-      category: "Oden restaurant",
-      rating: 4.4,
-      reviews: 1006,
-      priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Miyuki Oden, Kanazawa, Japan"
-    },
-    {
-      id: "grill-otsuka",
-      name: "Grill Otsuka",
-      nameJp: "",
-      category: "Japanised western food",
-      rating: 4.0,
-      reviews: 1983,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Grill Otsuka, Kanazawa, Japan"
-    },
-    {
-      id: "geckos-cave",
-      name: "Gecko's Cave",
-      nameJp: "",
-      category: "Japanese curry",
-      rating: 4.6,
-      reviews: 138,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Gecko's Cave, Kanazawa, Japan"
-    },
-    {
-      id: "uchuken-syokudo",
-      name: "Uchuken Syokudo",
-      nameJp: "",
-      category: "Teishoku",
-      rating: 4.1,
-      reviews: 1362,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Uchuken Syokudo, Kanazawa, Japan"
-    },
-    {
-      id: "higashide-coffee",
-      name: "Higashide Coffee",
-      nameJp: "",
-      category: "Coffee shop",
-      rating: 4.4,
-      reviews: 746,
-      priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Higashide Coffee, Kanazawa, Japan"
-    },
-    {
-      id: "kintsuba-nakataya",
-      name: "Kintsuba Nakataya",
-      nameJp: "",
-      category: "Japanese confectionery",
-      rating: 4.3,
-      reviews: 254,
-      priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Kintsuba Nakataya, Kanazawa, Japan"
-    },
-    {
-      id: "takamiya-kanazawa",
-      name: "\u591a\u83ef\u5473\u5c4b TAKAMIYA",
-      nameJp: "\u591a\u83ef\u5473\u5c4b",
-      category: "Cafe",
-      rating: 4.6,
-      reviews: 176,
-      priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "TAKAMIYA cafe, Kanazawa, Japan"
-    },
-    {
-      id: "sabo-issho",
-      name: "Sabo Issho",
-      nameJp: "",
-      category: "Cafe",
-      rating: 4.7,
-      reviews: 177,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "tea-path", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Sabo Issho, Kanazawa, Japan"
-    },
-    {
-      id: "kazu-nakashima",
-      name: "Kazu Nakashima",
-      nameJp: "",
-      category: "Japanese sweets",
-      rating: 3.7,
-      reviews: 325,
-      priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Kazu Nakashima, Kanazawa, Japan"
-    },
-    {
-      id: "cafe-tamon",
-      name: "Cafe Tamon",
-      nameJp: "",
-      category: "Cafe",
-      rating: 4.1,
-      reviews: 1160,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Cafe Tamon, Kanazawa, Japan"
-    },
-    {
-      id: "mamezuki",
-      name: "Mamezuki",
-      nameJp: "",
-      category: "Cafe",
-      rating: 4.7,
-      reviews: 51,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Mamezuki, Kanazawa, Japan"
-    },
-    {
-      id: "hirami-pan",
-      name: "Hirami Pan",
-      nameJp: "",
-      category: "French / bakery",
-      rating: 4.1,
-      reviews: 1136,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Hirami Pan, Kanazawa, Japan"
-    },
-    {
-      id: "moron-cafe",
-      name: "MORON CAFE",
-      nameJp: "",
-      category: "Cafe",
-      rating: 4.5,
-      reviews: 387,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "MORON CAFE, Kanazawa, Japan"
-    },
-    {
-      id: "machiya-cafe-kurinoki",
-      name: "Machiya Cafe Kurinoki",
-      nameJp: "",
-      category: "Cafe",
-      rating: 4.5,
-      reviews: 45,
-      priceRange: "\u00a52,000\u20133,000",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Machiya Cafe Kurinoki, Kanazawa, Japan"
-    },
-    {
-      id: "le-musee-de-h",
-      name: "Le Mus\u00e9e de H Kanazawa",
-      nameJp: "",
-      category: "Pastries / patisserie",
-      rating: 4.3,
-      reviews: 909,
-      priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Le Musee de H Kanazawa, Japan"
-    },
-    {
-      id: "tsubomi-kanazawa",
-      name: "Tsubomi",
-      nameJp: "",
-      category: "Cafe",
-      rating: 4.3,
-      reviews: 459,
-      priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Tsubomi cafe, Kanazawa, Japan"
-    },
-    {
-      id: "kakurezato-coffee",
-      name: "kakurezato coffee",
-      nameJp: "",
-      category: "Coffee shop",
-      rating: 4.8,
-      reviews: 300,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "kakurezato coffee, Kanazawa, Japan"
-    },
-    {
-      id: "monet-sandwicherie",
-      name: "MONET Sandwicherie",
-      nameJp: "",
-      category: "Bistro / sandwiches",
-      rating: 4.1,
-      reviews: 117,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "MONET Sandwicherie, Kanazawa, Japan"
-    },
-    {
-      id: "espresso-bar-kesaran",
-      name: "Espresso Bar Kesaran Pasaran",
-      nameJp: "",
-      category: "Cafe",
-      rating: 4.5,
-      reviews: 289,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Espresso Bar Kesaran Pasaran, Kanazawa, Japan"
-    },
-    {
-      id: "pessoa-kanazawa",
-      name: "Pessoa",
-      nameJp: "",
-      category: "Coffee shop",
-      rating: 4.7,
-      reviews: 85,
-      priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Pessoa coffee, Kanazawa, Japan"
-    },
-    {
-      id: "parlour-kofuku",
-      name: "parlour KOFUKU",
-      nameJp: "",
-      category: "Restaurant",
-      rating: 4.6,
-      reviews: 77,
-      priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "parlour KOFUKU, Kanazawa, Japan"
-    },
-    {
-      id: "nishimura-kanazawa",
-      name: "\u306b\u3057\u3080\u3089",
-      nameJp: "\u306b\u3057\u3080\u3089",
-      category: "Steak",
-      rating: 4.5,
-      reviews: 212,
-      priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Nishimura steak, Kanazawa, Japan"
-    },
-    {
-      id: "ogawanoshodaimonten",
-      name: "Ogawanoshodaimonten",
-      nameJp: "",
-      category: "Regional food",
-      rating: 4.5,
-      reviews: 448,
-      priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Ogawanoshodaimonten, Kanazawa, Japan"
-    },
-
-    // Nikko eating
-    {
-      id: "nagomi-chaya",
-      name: "Nagomi Cha-ya",
-      nameJp: "",
-      category: "Kaiseki",
-      rating: 4.3,
-      reviews: 312,
-      priceRange: "\u00a52,000\u20133,000",
-      neighborhood: "nikko",
-      city: "nikko",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Nagomi Cha-ya, Nikko, Japan"
-    },
-    {
-      id: "bar-de-nikko",
-      name: "Bar de Nikko",
-      nameJp: "",
-      category: "Restaurant / bar",
-      rating: 4.5,
-      reviews: 320,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "nikko",
-      city: "nikko",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Bar de Nikko, Japan"
-    },
-    {
-      id: "goyoutei-saryou",
-      name: "Goyoutei Saryou",
-      nameJp: "",
-      category: "Cafe",
-      rating: 4.4,
-      reviews: 48,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "nikko",
-      city: "nikko",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Goyoutei Saryou, Nikko, Japan"
-    },
-    {
-      id: "asaya-resthouse",
-      name: "Asaya Resthouse",
-      nameJp: "",
-      category: "Restaurant",
-      rating: 3.7,
-      reviews: 470,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "nikko",
-      city: "nikko",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Asaya Resthouse, Nikko, Japan"
-    },
-    {
-      id: "nikko-gurumans-wagyu",
-      name: "Nikko Guruman's Wagyu",
-      nameJp: "",
-      category: "Wagyu steak",
-      rating: 4.7,
-      reviews: 783,
-      priceRange: "\u00a510,000+",
-      neighborhood: "nikko",
-      city: "nikko",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Nikko Guruman's Wagyu, Japan"
-    },
-    {
-      id: "hippari-dako",
-      name: "Hippari-Dako",
-      nameJp: "",
-      category: "Teishoku",
-      rating: 4.5,
-      reviews: 501,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "nikko",
-      city: "nikko",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Hippari-Dako, Nikko, Japan"
-    },
-    {
-      id: "kariman-kourindo",
-      name: "Kariman Kourind\u014d",
-      nameJp: "",
-      category: "Japanese sweets",
-      rating: 4.6,
-      reviews: 185,
-      priceRange: "",
-      neighborhood: "nikko",
-      city: "nikko",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Kariman Kourindo, Nikko, Japan"
-    },
-    {
-      id: "komekichi-kouzushi",
-      name: "\u7c73\u5409 \u6643\u5bff\u53f8 komekichi kouzushi",
-      nameJp: "\u7c73\u5409 \u6643\u5bff\u53f8",
-      category: "Sushi",
-      rating: 4.6,
-      reviews: 640,
-      priceRange: "",
-      neighborhood: "nikko",
-      city: "nikko",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "komekichi kouzushi, Nikko, Japan"
-    },
-    {
-      id: "nikko-yuba-tsuruya",
-      name: "Nikko yuba Tsuruya Imaichi",
-      nameJp: "",
-      category: "Yuba (tofu skin)",
-      rating: 3.4,
-      reviews: 251,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "nikko",
-      city: "nikko",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Nikko yuba Tsuruya Imaichi, Japan"
-    },
-
-    // Nagano eating
-    {
-      id: "nagano-meijitei",
-      name: "Nagano Meijitei",
-      nameJp: "",
-      category: "Katsudon",
-      rating: 4.1,
-      reviews: 1238,
-      priceRange: "\u00a51,000\u20132,000",
-      neighborhood: "nagano",
-      city: "nagano",
-      themes: ["eat-local", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Nagano Meijitei, Japan"
+      gmapsQuery: "Fukutaro Honten Okonomiyaki, Osaka, Japan",
+      description: "Old-school Osaka okonomiyaki done right. Thick, fluffy, covered in sauce, mayo, bonito flakes, and seaweed. The staff cook it on the hotplate in front of you.",
+      imageUrl: "https://images.unsplash.com/photo-1639024471283-03518883512d?w=600&h=400&fit=crop",
+      imageAlt: "Osaka-style okonomiyaki at Fukutaro Honten",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=%E7%A6%8F%E5%A4%AA%E9%83%8E%20%E6%9C%AC%E5%BA%97%20osaka"
     },
 
     // =========================================================================
@@ -2324,10 +2156,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "harajuku",
       city: "tokyo",
-      themes: ["temple-run", "tokyo-explore"],
+      themes: ["temple-run", "city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Meiji Jingu, Tokyo, Japan"
+      gmapsQuery: "Meiji Jingu, Tokyo, Japan",
+      description: "Tokyo's most majestic shrine, set in a 170-acre forest that was planted specifically for it. The towering torii gate and gravel paths make the city disappear.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Meiji_Shrine_2012.JPG/400px-Meiji_Shrine_2012.JPG",
+      imageAlt: "Meiji Jingu shrine torii gate surrounded by forest",
+      tabelogUrl: ""
     },
     {
       id: "sensoji",
@@ -2339,10 +2175,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "asakusa",
       city: "tokyo",
-      themes: ["temple-run", "tokyo-explore"],
+      themes: ["temple-run", "city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Sensoji Temple, Asakusa, Tokyo, Japan"
+      gmapsQuery: "Sensoji Temple, Asakusa, Tokyo, Japan",
+      description: "Tokyo's oldest temple, founded in 645 AD. The Kaminarimon gate, Nakamise shopping street, and incense-filled main hall are iconic for good reason.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Cloudy_evening_at_Sensoji_Temple%2C_Asakusa%2C_Tokyo.jpg/400px-Cloudy_evening_at_Sensoji_Temple%2C_Asakusa%2C_Tokyo.jpg",
+      imageAlt: "Sensoji temple illuminated at night in Asakusa",
+      tabelogUrl: ""
     },
     {
       id: "araiyakushi-baishouin",
@@ -2357,7 +2197,11 @@ window.JAPAN_DATA = {
       themes: ["temple-run"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Araiyakushi Baishouin, Tokyo, Japan"
+      gmapsQuery: "Araiyakushi Baishouin, Tokyo, Japan",
+      description: "Off the tourist trail in Nakano. Known for healing prayers related to eyesight. The peaceful grounds are a welcome contrast to nearby Nakano Broadway.",
+      imageUrl: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=600&h=400&fit=crop",
+      imageAlt: "Peaceful temple grounds at Araiyakushi Baishouin",
+      tabelogUrl: ""
     },
 
     // Kyoto temples/shrines
@@ -2374,7 +2218,11 @@ window.JAPAN_DATA = {
       themes: ["temple-run"],
       nikoNote: "The iconic thousand torii gates",
       status: "open",
-      gmapsQuery: "Fushimi Inari Taisha, Kyoto, Japan"
+      gmapsQuery: "Fushimi Inari Taisha, Kyoto, Japan",
+      description: "Thousands of vermilion torii gates winding up a mountain. Start early to beat the crowds, and keep going past the halfway point where most people turn back.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Fushimi_Inari-taisha_in_Kyoto-2.jpg/400px-Fushimi_Inari-taisha_in_Kyoto-2.jpg",
+      imageAlt: "Thousands of red torii gates at Fushimi Inari Taisha",
+      tabelogUrl: ""
     },
     {
       id: "kiyomizu-dera",
@@ -2389,7 +2237,11 @@ window.JAPAN_DATA = {
       themes: ["temple-run"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Kiyomizu-dera, Kyoto, Japan"
+      gmapsQuery: "Kiyomizu-dera, Kyoto, Japan",
+      description: "A wooden terrace jutting out over a hillside with no nails holding it together. The view across Kyoto from the stage is worth every step of the climb.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg/400px-Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg",
+      imageAlt: "Kiyomizu-dera wooden terrace overlooking Kyoto",
+      tabelogUrl: ""
     },
     {
       id: "kinkakuji",
@@ -2404,7 +2256,11 @@ window.JAPAN_DATA = {
       themes: ["temple-run"],
       nikoNote: "The Golden Pavilion",
       status: "open",
-      gmapsQuery: "Kinkaku-ji, Kyoto, Japan"
+      gmapsQuery: "Kinkaku-ji, Kyoto, Japan",
+      description: "A pavilion covered in actual gold leaf, reflected in a mirror-still pond. It's as spectacular in person as every photo suggests. Go on a clear day.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Kinkaku-ji_the_Golden_Pavilion_in_Kyoto_overlooking_the_lake_-_high_res.JPG/400px-Kinkaku-ji_the_Golden_Pavilion_in_Kyoto_overlooking_the_lake_-_high_res.JPG",
+      imageAlt: "Golden Pavilion Kinkaku-ji reflected in pond",
+      tabelogUrl: ""
     },
     {
       id: "nijo-castle",
@@ -2419,7 +2275,11 @@ window.JAPAN_DATA = {
       themes: ["temple-run"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Nijo Castle, Kyoto, Japan"
+      gmapsQuery: "Nijo Castle, Kyoto, Japan",
+      description: "Shogunate-era castle with 'nightingale floors' that chirp when walked on to detect intruders. The painted sliding doors inside are museum-grade.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Nij%C5%8D_Castle_-_01.jpg/400px-Nij%C5%8D_Castle_-_01.jpg",
+      imageAlt: "Nijo Castle entrance gate in Kyoto",
+      tabelogUrl: ""
     },
     {
       id: "otagi-nenbutsuji",
@@ -2434,7 +2294,11 @@ window.JAPAN_DATA = {
       themes: ["temple-run"],
       nikoNote: "1200 unique stone Buddhist statues",
       status: "open",
-      gmapsQuery: "Otagi Nenbutsuji Temple, Kyoto, Japan"
+      gmapsQuery: "Otagi Nenbutsuji Temple, Kyoto, Japan",
+      description: "1,200 unique stone rakan statues, each with a different expression. Some laughing, some meditating, some drinking. Hidden at the far end of Arashiyama.",
+      imageUrl: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=600&h=400&fit=crop",
+      imageAlt: "Unique stone Buddhist statues at Otagi Nenbutsuji",
+      tabelogUrl: ""
     },
     {
       id: "gion-district",
@@ -2449,7 +2313,11 @@ window.JAPAN_DATA = {
       themes: ["temple-run"],
       nikoNote: "Geisha district",
       status: "open",
-      gmapsQuery: "Gion, Kyoto, Japan"
+      gmapsQuery: "Gion, Kyoto, Japan",
+      description: "Kyoto's famous geisha district. Wooden machiya teahouses, stone-paved lanes, and if you're lucky, a glimpse of a maiko hurrying to an appointment at dusk.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Traditional wooden buildings in Gion geisha district",
+      tabelogUrl: ""
     },
     {
       id: "nidec-kyoto-tower",
@@ -2464,7 +2332,11 @@ window.JAPAN_DATA = {
       themes: ["temple-run"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Nidec Kyoto Tower, Japan"
+      gmapsQuery: "Nidec Kyoto Tower, Japan",
+      description: "The first thing you see exiting Kyoto Station. The observation deck gives 360-degree views and helps you orient yourself for temple-hopping.",
+      imageUrl: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600&h=400&fit=crop",
+      imageAlt: "Kyoto Tower observation deck view",
+      tabelogUrl: ""
     },
     {
       id: "evangelion-kyoto-base",
@@ -2476,136 +2348,18 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "kyoto-central",
       city: "kyoto",
-      themes: ["temple-run", "tokyo-explore"],
+      themes: ["temple-run", "city-explore"],
       nikoNote: "do it, you fucking weeb",
       status: "open",
-      gmapsQuery: "Evangelion Kyoto Base, Kyoto, Japan"
-    },
-
-    // Day trip temples
-    {
-      id: "myouryuji-ninja-temple",
-      name: "Myouryuji (Ninja Temple)",
-      nameJp: "",
-      category: "Buddhist temple",
-      rating: 4.2,
-      reviews: 4399,
-      priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["temple-run", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Myouryuji Ninja Temple, Kanazawa, Japan"
-    },
-    {
-      id: "zenkoji",
-      name: "Zenk\u014dji temple",
-      nameJp: "",
-      category: "Buddhist temple",
-      rating: 4.5,
-      reviews: 26089,
-      priceRange: "",
-      neighborhood: "nagano",
-      city: "nagano",
-      themes: ["temple-run", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Zenkoji temple, Nagano, Japan"
-    },
-    {
-      id: "nikkozan-onsenji",
-      name: "Nikkozan Onsen-ji Temple",
-      nameJp: "",
-      category: "Buddhist temple",
-      rating: 4.4,
-      reviews: 661,
-      priceRange: "",
-      neighborhood: "nikko",
-      city: "nikko",
-      themes: ["temple-run", "day-trips"],
-      nikoNote: "",
-      status: "temp-closed",
-      gmapsQuery: "Nikkozan Onsen-ji Temple, Nikko, Japan"
-    },
-    {
-      id: "togakushi-jinja-chusha",
-      name: "Togakushi-Jinja Chusha",
-      nameJp: "",
-      category: "Shinto shrine",
-      rating: 4.4,
-      reviews: 6185,
-      priceRange: "",
-      neighborhood: "nagano",
-      city: "nagano",
-      themes: ["temple-run", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Togakushi-Jinja Chusha, Nagano, Japan"
-    },
-    {
-      id: "dazaifu-tenmangu",
-      name: "Dazaifu Tenmangu Shrine",
-      nameJp: "",
-      category: "Shinto shrine",
-      rating: 4.4,
-      reviews: 42160,
-      priceRange: "",
-      neighborhood: "fukuoka",
-      city: "fukuoka",
-      themes: ["temple-run", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Dazaifu Tenmangu Shrine, Fukuoka, Japan"
-    },
-    {
-      id: "sumiyoshi-shrine-fukuoka",
-      name: "Sumiyoshi Shrine",
-      nameJp: "",
-      category: "Shinto shrine",
-      rating: 4.3,
-      reviews: 5717,
-      priceRange: "",
-      neighborhood: "fukuoka",
-      city: "fukuoka",
-      themes: ["temple-run", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Sumiyoshi Shrine, Fukuoka, Japan"
-    },
-    {
-      id: "nanzo-in-temple",
-      name: "Nanzo-in Temple",
-      nameJp: "",
-      category: "Buddhist temple",
-      rating: 4.5,
-      reviews: 5777,
-      priceRange: "",
-      neighborhood: "fukuoka",
-      city: "fukuoka",
-      themes: ["temple-run", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Nanzo-in Temple, Fukuoka, Japan"
-    },
-    {
-      id: "kushida-shrine",
-      name: "Kushida Shrine",
-      nameJp: "",
-      category: "Shinto shrine",
-      rating: 4.3,
-      reviews: 13597,
-      priceRange: "",
-      neighborhood: "fukuoka",
-      city: "fukuoka",
-      themes: ["temple-run", "day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Kushida Shrine, Fukuoka, Japan"
+      gmapsQuery: "Evangelion Kyoto Base, Kyoto, Japan",
+      description: "Full-scale Evangelion statue and interactive experience. Surprisingly well-done for a franchise attraction, and the Kyoto location gives it a weird cultural contrast.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Evangelion statue at Kyoto Base attraction",
+      tabelogUrl: ""
     },
 
     // =========================================================================
-    // TOKYO ESSENTIALS
+    // CITY ESSENTIALS
     // =========================================================================
     {
       id: "tokyo-metro-govt",
@@ -2617,10 +2371,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "shinjuku",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Tokyo Metropolitan Government Building, Shinjuku, Tokyo, Japan"
+      gmapsQuery: "Tokyo Metropolitan Government Building, Shinjuku, Tokyo, Japan",
+      description: "Free observation deck on the 45th floor with views stretching to Mt Fuji on clear days. Two towers, north and south. The north one is open at night.",
+      imageUrl: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600&h=400&fit=crop",
+      imageAlt: "Tokyo skyline from Metropolitan Government Building",
+      tabelogUrl: ""
     },
     {
       id: "unicorn-gundam",
@@ -2632,10 +2390,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "odaiba",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Unicorn Gundam, Odaiba, Tokyo, Japan"
+      gmapsQuery: "Unicorn Gundam, Odaiba, Tokyo, Japan",
+      description: "Full-scale Unicorn Gundam statue that transforms on a schedule. 20 metres tall, backlit at night, and completely free to see. Even non-anime fans are impressed.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Life-size Unicorn Gundam statue in Odaiba",
+      tabelogUrl: ""
     },
     {
       id: "small-worlds",
@@ -2647,10 +2409,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "odaiba",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "small worlds Tokyo, Odaiba, Japan"
+      gmapsQuery: "small worlds Tokyo, Odaiba, Japan",
+      description: "Staggeringly detailed miniature worlds: a working airport, Sailor Moon and Evangelion dioramas, and a space centre. The craftsmanship is mesmerising.",
+      imageUrl: "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=600&h=400&fit=crop",
+      imageAlt: "Miniature world diorama at small worlds Tokyo",
+      tabelogUrl: ""
     },
     {
       id: "nezu-museum",
@@ -2662,10 +2428,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "harajuku",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "temp-closed",
-      gmapsQuery: "Nezu Museum, Tokyo, Japan"
+      gmapsQuery: "Nezu Museum, Tokyo, Japan",
+      description: "Kengo Kuma-designed museum housing pre-modern Japanese and Asian art. The bamboo-lined entrance and the garden are as beautiful as the collection.",
+      imageUrl: "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=600&h=400&fit=crop",
+      imageAlt: "Nezu Museum bamboo-lined entrance",
+      tabelogUrl: ""
     },
     {
       id: "thermae-yu",
@@ -2677,10 +2447,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "shinjuku",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Thermae-Yu, Shinjuku, Tokyo, Japan"
+      gmapsQuery: "Thermae-Yu, Shinjuku, Tokyo, Japan",
+      description: "Natural hot spring onsen right in Kabukicho, Shinjuku. Multiple baths, saunas, and a rest area. The perfect reset after a long day of walking.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Thermae-Yu onsen bath house in Shinjuku",
+      tabelogUrl: ""
     },
     {
       id: "shibuya-sky",
@@ -2692,10 +2466,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "shibuya",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Shibuya Sky, Tokyo, Japan"
+      gmapsQuery: "Shibuya Sky, Tokyo, Japan",
+      description: "Open-air rooftop observation deck on the 47th floor. Lie on the mirrored floor and watch the sky, or look down at the famous Shibuya crossing. Sunset slot is best.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Shibuya_Scramble_Square_2019.jpg/400px-Shibuya_Scramble_Square_2019.jpg",
+      imageAlt: "Shibuya Sky observation deck with city panorama",
+      tabelogUrl: ""
     },
     {
       id: "mori-art-museum",
@@ -2707,10 +2485,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "roppongi",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Mori Art Museum, Roppongi, Tokyo, Japan"
+      gmapsQuery: "Mori Art Museum, Roppongi, Tokyo, Japan",
+      description: "Contemporary art museum on the 53rd floor of Roppongi Hills. The exhibitions rotate and are consistently excellent. The city view from the gallery is a bonus.",
+      imageUrl: "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=600&h=400&fit=crop",
+      imageAlt: "Contemporary art exhibition at Mori Art Museum",
+      tabelogUrl: ""
     },
     {
       id: "21-21-design-sight",
@@ -2722,10 +2504,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "roppongi",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "21_21 Design Sight, Roppongi, Tokyo, Japan"
+      gmapsQuery: "21_21 Design Sight, Roppongi, Tokyo, Japan",
+      description: "Tadao Ando-designed design gallery. The exhibitions explore the intersection of design and daily life. The building itself, mostly underground, is the first exhibit.",
+      imageUrl: "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=600&h=400&fit=crop",
+      imageAlt: "21_21 Design Sight museum architecture",
+      tabelogUrl: ""
     },
     {
       id: "taito-station-akihabara",
@@ -2737,10 +2523,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "akihabara",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "TAITO Station Akihabara, Tokyo, Japan"
+      gmapsQuery: "TAITO Station Akihabara, Tokyo, Japan",
+      description: "Multi-floor arcade packed with crane games, rhythm games, fighting games, and purikura booths. The noise and neon are an experience in themselves.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Neon-lit arcade floor at TAITO Station Akihabara",
+      tabelogUrl: ""
     },
     {
       id: "yodobashi-akiba",
@@ -2752,10 +2542,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "akihabara",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Yodobashi Akiba, Akihabara, Tokyo, Japan"
+      gmapsQuery: "Yodobashi Akiba, Akihabara, Tokyo, Japan",
+      description: "Nine floors of electronics, cameras, toys, and gadgets. Tax-free shopping for tourists. The camera floor alone could absorb an entire afternoon.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Yodobashi Akiba electronics mega-store",
+      tabelogUrl: ""
     },
     {
       id: "nakano-broadway",
@@ -2767,10 +2561,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "nakano",
       city: "tokyo",
-      themes: ["tokyo-explore", "vintage-hunt"],
+      themes: ["city-explore", "vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Nakano Broadway, Tokyo, Japan"
+      gmapsQuery: "Nakano Broadway, Tokyo, Japan",
+      description: "The otaku alternative to Akihabara. Less tourist-oriented, more serious collector energy. Mandarake shops, vintage toys, and obscure subculture finds.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Nakano Broadway shopping mall with otaku shops",
+      tabelogUrl: ""
     },
     {
       id: "mandarake-complex",
@@ -2782,10 +2580,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "akihabara",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Mandarake Complex, Akihabara, Tokyo, Japan"
+      gmapsQuery: "Mandarake Complex, Akihabara, Tokyo, Japan",
+      description: "Eight floors of manga, anime cels, vintage toys, cosplay supplies, and rare collectibles. The basement rare-book section has items worth thousands.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Manga and collectibles at Mandarake Complex",
+      tabelogUrl: ""
     },
     {
       id: "nintendo-tokyo",
@@ -2797,10 +2599,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "shibuya",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Nintendo Tokyo, Shibuya, Japan"
+      gmapsQuery: "Nintendo Tokyo, Shibuya, Japan",
+      description: "Official Nintendo store with exclusive merchandise you can't get online. The display areas are themed by franchise. Even non-gamers get pulled in.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Nintendo Tokyo official store displays",
+      tabelogUrl: ""
     },
     {
       id: "laforet-harajuku",
@@ -2812,10 +2618,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "harajuku",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Laforet Harajuku, Tokyo, Japan"
+      gmapsQuery: "Laforet Harajuku, Tokyo, Japan",
+      description: "Six floors of Japanese fashion brands, from gothic lolita to minimalist streetwear. The ground-floor rotation of pop-up shops is always worth checking.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Laforet Harajuku fashion shopping mall",
+      tabelogUrl: ""
     },
     {
       id: "nihombashi-mitsukoshi",
@@ -2827,10 +2637,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "nihonbashi",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Nihombashi Mitsukoshi, Tokyo, Japan"
+      gmapsQuery: "Nihombashi Mitsukoshi, Tokyo, Japan",
+      description: "Japan's oldest department store, founded in 1673. The basement food hall (depachika) is a destination in itself. Immaculate packaging on everything.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Grand interior of Nihombashi Mitsukoshi department store",
+      tabelogUrl: ""
     },
     {
       id: "uniqlo-ginza",
@@ -2842,10 +2656,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "ginza",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Uniqlo Ginza Flagship, Tokyo, Japan"
+      gmapsQuery: "Uniqlo Ginza Flagship, Tokyo, Japan",
+      description: "12-floor Uniqlo flagship. Japan-exclusive lines, collaborations that never reach overseas, and the UT graphic tee floor is worth a visit alone.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Uniqlo Ginza flagship multi-floor store",
+      tabelogUrl: ""
     },
     {
       id: "animate-shinjuku",
@@ -2857,10 +2675,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "shinjuku",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Animate Shinjuku, Tokyo, Japan"
+      gmapsQuery: "Animate Shinjuku, Tokyo, Japan",
+      description: "Japan's biggest anime merchandise chain. Multiple floors of figures, manga, CDs, and character goods. Good for finding gifts for anime fans back home.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Anime merchandise at Animate Shinjuku",
+      tabelogUrl: ""
     },
     {
       id: "mokuhankan",
@@ -2872,10 +2694,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "asakusa",
       city: "tokyo",
-      themes: ["tokyo-explore", "stationery-craft"],
+      themes: ["city-explore", "stationery-craft"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Mokuhankan Woodblock Print Shop, Asakusa, Tokyo, Japan"
+      gmapsQuery: "Mokuhankan Woodblock Print Shop, Asakusa, Tokyo, Japan",
+      description: "Watch traditional woodblock prints being carved and printed by hand. You can make your own print in a workshop. Run by a Canadian who's kept the craft alive.",
+      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageAlt: "Traditional woodblock printing at Mokuhankan",
+      tabelogUrl: ""
     },
     {
       id: "edo-tokyo-open-air-museum",
@@ -2887,10 +2713,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "shinjuku",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "Museum showing what its like to live in Edo era Japan!",
       status: "open",
-      gmapsQuery: "Edo-Tokyo Open Air Architectural Museum, Tokyo, Japan"
+      gmapsQuery: "Edo-Tokyo Open Air Architectural Museum, Tokyo, Japan",
+      description: "Relocated historic buildings from the Edo period onwards, reassembled in a park. Walk through merchant houses, a bathhouse, and a police box from the 1800s.",
+      imageUrl: "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=600&h=400&fit=crop",
+      imageAlt: "Historic Edo-era buildings at open air museum",
+      tabelogUrl: ""
     },
     {
       id: "arashio-beya",
@@ -2902,10 +2732,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "asakusa",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Arashio-beya Sumo Stable, Tokyo, Japan"
+      gmapsQuery: "Arashio-beya Sumo Stable, Tokyo, Japan",
+      description: "One of the few sumo stables that allows public viewing of morning practice through a window. Arrive by 7:30am. Watching sumo wrestlers train is hypnotic.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Sumo wrestlers training at Arashio-beya stable",
+      tabelogUrl: ""
     },
     {
       id: "hosei-university",
@@ -2917,10 +2751,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "shinjuku",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Hosei University, Tokyo, Japan"
+      gmapsQuery: "Hosei University, Tokyo, Japan",
+      description: "One of Tokyo's prestigious private universities. The campus is open to walk through and the student cafeteria serves cheap, decent meals.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Hosei University campus in Tokyo",
+      tabelogUrl: ""
     },
     {
       id: "shimokitazawa-area",
@@ -2932,13 +2770,17 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "shimokitazawa",
       city: "tokyo",
-      themes: ["tokyo-explore", "vintage-hunt"],
+      themes: ["city-explore", "vintage-hunt"],
       nikoNote: "Vibes place in Tokyo",
       status: "open",
-      gmapsQuery: "Shimokitazawa, Tokyo, Japan"
+      gmapsQuery: "Shimokitazawa, Tokyo, Japan",
+      description: "Tokyo's bohemian neighbourhood. Narrow streets packed with vintage shops, live music venues, independent cafes, and small theatres. The anti-Shibuya.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Shimokitazawa neighbourhood street scene",
+      tabelogUrl: ""
     },
 
-    // Shoes & fashion (Tokyo Explore adjacent)
+    // Shoes & fashion
     {
       id: "onitsuka-tiger-ginza-red",
       name: "Onitsuka Tiger Ginza Red",
@@ -2949,10 +2791,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "ginza",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Onitsuka Tiger Ginza Red, Tokyo, Japan"
+      gmapsQuery: "Onitsuka Tiger Ginza Red, Tokyo, Japan",
+      description: "Red-themed Onitsuka Tiger concept store in Ginza. Japan-exclusive colourways and the Nippon Made premium line you can't get abroad.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Onitsuka Tiger Ginza Red concept store",
+      tabelogUrl: ""
     },
     {
       id: "onitsuka-tiger-yellow",
@@ -2964,10 +2810,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "ginza",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Onitsuka Tiger Yellow, Ginza, Tokyo, Japan"
+      gmapsQuery: "Onitsuka Tiger Yellow, Ginza, Tokyo, Japan",
+      description: "Yellow-themed counterpart to the Red store. More casual and streetwear-oriented. The two stores together cover the full Onitsuka Tiger range.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Onitsuka Tiger Yellow concept store Ginza",
+      tabelogUrl: ""
     },
     {
       id: "onitsuka-tiger-marunouchi",
@@ -2979,10 +2829,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "nihonbashi",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Onitsuka Tiger Marunouchi, Tokyo, Japan"
+      gmapsQuery: "Onitsuka Tiger Marunouchi, Tokyo, Japan",
+      description: "The Marunouchi flagship is more upscale, focusing on the fashion-forward side of the brand. Good stock of collaborative and limited releases.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Onitsuka Tiger Marunouchi flagship store",
+      tabelogUrl: ""
     },
     {
       id: "onitsuka-tiger-nippon-made",
@@ -2994,10 +2848,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "nihonbashi",
       city: "tokyo",
-      themes: ["tokyo-explore", "denim-trail"],
+      themes: ["city-explore", "denim-trail"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Onitsuka Tiger NIPPON MADE Tokyo Midtown Yaesu, Japan"
+      gmapsQuery: "Onitsuka Tiger NIPPON MADE Tokyo Midtown Yaesu, Japan",
+      description: "The Nippon Made line uses traditional Japanese leather-working techniques. Handmade in Japanese factories, these are sneakers treated as craft objects.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Premium Nippon Made sneakers at Onitsuka Tiger",
+      tabelogUrl: ""
     },
     {
       id: "marugo-tokyo",
@@ -3009,10 +2867,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "shibuya",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Marugo Tokyo, Japan"
+      gmapsQuery: "Marugo Tokyo, Japan",
+      description: "Traditional Japanese tabi shoes reimagined for modern wear. Split-toe designs that look avant-garde but have centuries of history behind them.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Modern tabi shoes at Marugo Tokyo",
+      tabelogUrl: ""
     },
     {
       id: "watch-cti-vintage-seiko",
@@ -3024,10 +2886,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "ginza",
       city: "tokyo",
-      themes: ["tokyo-explore", "vintage-hunt"],
+      themes: ["city-explore", "vintage-hunt"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Watch CTI Vintage Seiko Watch, Ginza, Tokyo, Japan"
+      gmapsQuery: "Watch CTI Vintage Seiko Watch, Ginza, Tokyo, Japan",
+      description: "Specialist in vintage Seiko watches from the 60s and 70s. Grand Seiko, King Seiko, and rare divers at prices that would make overseas collectors weep.",
+      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageAlt: "Vintage Seiko watches at Watch CTI Ginza",
+      tabelogUrl: ""
     },
     {
       id: "fujiya-camera",
@@ -3039,10 +2905,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "shinjuku",
       city: "tokyo",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Fujiya Camera, Shinjuku, Tokyo, Japan"
+      gmapsQuery: "Fujiya Camera, Shinjuku, Tokyo, Japan",
+      description: "Used camera paradise. Nikon, Canon, Leica, and Hasselblad at prices significantly below international markets. Everything is graded honestly.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Used cameras and lenses at Fujiya Camera",
+      tabelogUrl: ""
     },
     {
       id: "naniwa-camera",
@@ -3054,10 +2924,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "osaka-shinsaibashi",
       city: "osaka",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Naniwa Camera Shinsaibashi, Osaka, Japan"
+      gmapsQuery: "Naniwa Camera Shinsaibashi, Osaka, Japan",
+      description: "Osaka's best used camera shop. Phenomenal film camera selection and vintage lenses. The staff test everything before it hits the shelf.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Vintage cameras at Naniwa Camera Shinsaibashi",
+      tabelogUrl: ""
     },
 
     // Osaka shopping
@@ -3071,10 +2945,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "osaka-shinsaibashi",
       city: "osaka",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Onitsuka Tiger Osaka Shinsaibashi, Japan"
+      gmapsQuery: "Onitsuka Tiger Osaka Shinsaibashi, Japan",
+      description: "Osaka's main Onitsuka Tiger store on the Shinsaibashi shopping strip. Same Japan-exclusive range as Tokyo but with less competition for limited sizes.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Onitsuka Tiger store in Osaka Shinsaibashi",
+      tabelogUrl: ""
     },
     {
       id: "shinsaibashi-parco",
@@ -3086,10 +2964,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "osaka-shinsaibashi",
       city: "osaka",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Shinsaibashi PARCO, Osaka, Japan"
+      gmapsQuery: "Shinsaibashi PARCO, Osaka, Japan",
+      description: "Multi-floor fashion and lifestyle complex. A good mix of international brands, Japanese designers, and a top-floor food court with a view.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Shinsaibashi PARCO shopping complex",
+      tabelogUrl: ""
     },
 
     // Osaka misc
@@ -3106,7 +2988,11 @@ window.JAPAN_DATA = {
       themes: ["stationery-craft"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "999+1 sewing shop, Osaka, Japan"
+      gmapsQuery: "999+1 sewing shop, Osaka, Japan",
+      description: "Tiny sewing and fabric shop in Namba. Japanese textiles, sewing notions, and handmade accessories. A crafter's treasure chest.",
+      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageAlt: "Sewing supplies and Japanese fabrics at 999+1",
+      tabelogUrl: ""
     },
     {
       id: "nippon-chuko",
@@ -3121,7 +3007,11 @@ window.JAPAN_DATA = {
       themes: ["stationery-craft"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Nippon Chuko sewing, Osaka, Japan"
+      gmapsQuery: "Nippon Chuko sewing, Osaka, Japan",
+      description: "Established fabric and sewing supply store in Namba's Den Den Town area. Multiple floors of Japanese fabrics, from traditional prints to modern textiles.",
+      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageAlt: "Japanese fabrics at Nippon Chuko sewing shop",
+      tabelogUrl: ""
     },
     {
       id: "jins-ekimo-nanba",
@@ -3133,10 +3023,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "osaka-namba",
       city: "osaka",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "JINS ekimo Nanba, Osaka, Japan"
+      gmapsQuery: "JINS ekimo Nanba, Osaka, Japan",
+      description: "Japanese eyewear chain with frames starting at 5,000 yen including lenses. Pick frames, get lenses fitted, and walk out in 30 minutes.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "JINS eyewear store in Namba",
+      tabelogUrl: ""
     },
 
     // Kyoto misc
@@ -3153,7 +3047,11 @@ window.JAPAN_DATA = {
       themes: ["stationery-craft"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Muji Kyoto Porta, Kyoto, Japan"
+      gmapsQuery: "Muji Kyoto Porta, Kyoto, Japan",
+      description: "Muji in the Kyoto Porta underground mall. Japan's Muji stores carry items the overseas branches don't, especially stationery and snacks.",
+      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageAlt: "Muji Kyoto store with stationery and home goods",
+      tabelogUrl: ""
     },
     {
       id: "toho-cinemas-nijo",
@@ -3165,10 +3063,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "kyoto-central",
       city: "kyoto",
-      themes: ["tokyo-explore"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "TOHO Cinemas Nijo, Kyoto, Japan"
+      gmapsQuery: "TOHO Cinemas Nijo, Kyoto, Japan",
+      description: "Catch a Japanese movie in a Japanese cinema. Some screenings have English subtitles. The snack selection (including beer) is better than Western cinemas.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "TOHO Cinemas Nijo movie theatre",
+      tabelogUrl: ""
     },
 
     // =========================================================================
@@ -3184,10 +3086,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "kappabashi",
       city: "tokyo",
-      themes: ["stationery-craft", "tokyo-explore"],
+      themes: ["stationery-craft", "city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Kappabashi Kitchen Supply Town, Tokyo, Japan"
+      gmapsQuery: "Kappabashi Kitchen Supply Town, Tokyo, Japan",
+      description: "An entire street dedicated to kitchen supplies. Professional knives, ceramics, plastic food samples, and restaurant equipment. The knife shops are extraordinary.",
+      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageAlt: "Kappabashi Kitchen Supply Town street view",
+      tabelogUrl: ""
     },
     {
       id: "ganso-food-sample",
@@ -3202,7 +3108,11 @@ window.JAPAN_DATA = {
       themes: ["stationery-craft"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Ganso Food Sample Shop Kappabashi, Tokyo, Japan"
+      gmapsQuery: "Ganso Food Sample Shop Kappabashi, Tokyo, Japan",
+      description: "Make your own plastic food sample in a workshop. The hyper-realistic fake food that sits in every Japanese restaurant window started here in Kappabashi.",
+      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageAlt: "Realistic plastic food samples at Ganso",
+      tabelogUrl: ""
     },
     {
       id: "manryo",
@@ -3217,7 +3127,11 @@ window.JAPAN_DATA = {
       themes: ["stationery-craft"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Manryo, Kappabashi, Tokyo, Japan"
+      gmapsQuery: "Manryo, Kappabashi, Tokyo, Japan",
+      description: "Home goods and kitchen supplies at wholesale prices. Chopsticks, bowls, lacquerware, and everyday items that make great practical souvenirs.",
+      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageAlt: "Japanese home goods and kitchenware at Manryo",
+      tabelogUrl: ""
     },
     {
       id: "komatsuya",
@@ -3232,7 +3146,11 @@ window.JAPAN_DATA = {
       themes: ["stationery-craft"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Komatsuya, Kappabashi, Tokyo, Japan"
+      gmapsQuery: "Komatsuya, Kappabashi, Tokyo, Japan",
+      description: "Ceramics and pottery sourced from kilns across Japan. Good for finding authentic Japanese tableware at reasonable prices without the tourist markup.",
+      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageAlt: "Japanese ceramics and pottery at Komatsuya",
+      tabelogUrl: ""
     },
     {
       id: "yokoyama",
@@ -3247,7 +3165,11 @@ window.JAPAN_DATA = {
       themes: ["stationery-craft"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Yokoyama, Kappabashi, Tokyo, Japan"
+      gmapsQuery: "Yokoyama, Kappabashi, Tokyo, Japan",
+      description: "Small specialist kitchen shop. The kind of place where the owner has been selling the same type of grater for 40 years and knows everything about it.",
+      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageAlt: "Specialist kitchen supplies at Yokoyama",
+      tabelogUrl: ""
     },
     {
       id: "tokyo-biken",
@@ -3262,7 +3184,11 @@ window.JAPAN_DATA = {
       themes: ["stationery-craft"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Tokyo Biken, Kappabashi, Tokyo, Japan"
+      gmapsQuery: "Tokyo Biken, Kappabashi, Tokyo, Japan",
+      description: "Another food sample specialist. Their keychain-sized food replicas make perfect souvenirs: tiny bowls of ramen, sushi, and tempura you can hang from your bag.",
+      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageAlt: "Miniature food sample keychains at Tokyo Biken",
+      tabelogUrl: ""
     },
     {
       id: "kama-asa",
@@ -3277,7 +3203,11 @@ window.JAPAN_DATA = {
       themes: ["stationery-craft"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Kama-Asa, Kappabashi, Tokyo, Japan"
+      gmapsQuery: "Kama-Asa, Kappabashi, Tokyo, Japan",
+      description: "Founded in 1908. Japanese kitchen knives forged by master blacksmiths, with staff who will help you choose the right blade for your cooking style.",
+      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageAlt: "Japanese kitchen knives at Kama-Asa",
+      tabelogUrl: ""
     },
     {
       id: "dengama",
@@ -3292,7 +3222,11 @@ window.JAPAN_DATA = {
       themes: ["stationery-craft"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Dengama, Kappabashi, Tokyo, Japan"
+      gmapsQuery: "Dengama, Kappabashi, Tokyo, Japan",
+      description: "Massive ceramics shop in Kappabashi with pieces from all major Japanese pottery regions. The sheer variety means you'll find something regardless of taste.",
+      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageAlt: "Japanese ceramics from multiple regions at Dengama",
+      tabelogUrl: ""
     },
     {
       id: "mt-lab",
@@ -3307,7 +3241,11 @@ window.JAPAN_DATA = {
       themes: ["stationery-craft"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "mt lab stationery, Tokyo, Japan"
+      gmapsQuery: "mt lab stationery, Tokyo, Japan",
+      description: "The official mt masking tape store. Hundreds of washi tape patterns, limited editions, and a custom cutting station. Stationery lovers will lose track of time.",
+      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageAlt: "Colourful washi tape display at mt lab",
+      tabelogUrl: ""
     },
     {
       id: "kakimori",
@@ -3322,7 +3260,11 @@ window.JAPAN_DATA = {
       themes: ["stationery-craft"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "kakimori, Asakusa, Tokyo, Japan"
+      gmapsQuery: "kakimori, Asakusa, Tokyo, Japan",
+      description: "Build a custom notebook from scratch: choose cover, paper, binding, and closure. They also sell beautiful fountain pen inks mixed in-house.",
+      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageAlt: "Custom notebooks and inks at kakimori",
+      tabelogUrl: ""
     },
     {
       id: "ks-paperie",
@@ -3337,127 +3279,16 @@ window.JAPAN_DATA = {
       themes: ["stationery-craft"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "K's paperie Asakusa, Tokyo, Japan"
+      gmapsQuery: "K's paperie Asakusa, Tokyo, Japan",
+      description: "Japanese paper goods and stationery near Sensoji. Beautiful letter sets, envelopes, and washi paper products that showcase traditional Japanese paper-making.",
+      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageAlt: "Japanese paper goods and stationery at K's paperie",
+      tabelogUrl: ""
     },
 
     // =========================================================================
-    // DAY TRIPS & BEYOND
+    // OSAKA PARKS & ATTRACTIONS
     // =========================================================================
-    // Kanazawa (places not already listed above)
-    // (Most Kanazawa places are already in eat-local + day-trips above)
-
-    // Nikko scenic
-    {
-      id: "kanmangafuchi-abyss",
-      name: "Kanmangafuchi Abyss",
-      nameJp: "",
-      category: "Scenic gorge",
-      rating: 4.6,
-      reviews: 1024,
-      priceRange: "",
-      neighborhood: "nikko",
-      city: "nikko",
-      themes: ["day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Kanmangafuchi Abyss, Nikko, Japan"
-    },
-
-    // Nagano
-    {
-      id: "senjugahama-beach",
-      name: "Senjugahama beach",
-      nameJp: "",
-      category: "Scenic beach",
-      rating: 4.6,
-      reviews: 292,
-      priceRange: "",
-      neighborhood: "nagano",
-      city: "nagano",
-      themes: ["day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Senjugahama beach, Nagano, Japan"
-    },
-    {
-      id: "jigokudani-monkey-park",
-      name: "Jigokudani Monkey Park",
-      nameJp: "",
-      category: "Wildlife park",
-      rating: 4.5,
-      reviews: 11102,
-      priceRange: "",
-      neighborhood: "nagano",
-      city: "nagano",
-      themes: ["day-trips"],
-      nikoNote: "Snow monkeys bathing in hot springs",
-      status: "open",
-      gmapsQuery: "Jigokudani Monkey Park, Nagano, Japan"
-    },
-
-    // Fukuoka
-    {
-      id: "uminonakamichi-park",
-      name: "Uminonakamichi Seaside Park",
-      nameJp: "",
-      category: "Seaside park",
-      rating: 4.5,
-      reviews: 5056,
-      priceRange: "",
-      neighborhood: "fukuoka",
-      city: "fukuoka",
-      themes: ["day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Uminonakamichi Seaside Park, Fukuoka, Japan"
-    },
-    {
-      id: "fukuoka-science-museum",
-      name: "Fukuoka City Science Museum",
-      nameJp: "",
-      category: "Science museum",
-      rating: 4.2,
-      reviews: 3350,
-      priceRange: "",
-      neighborhood: "fukuoka",
-      city: "fukuoka",
-      themes: ["day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Fukuoka City Science Museum, Japan"
-    },
-    {
-      id: "hakata-machiya-museum",
-      name: "Hakata Machiya Hometown Museum",
-      nameJp: "",
-      category: "Local history museum",
-      rating: 4.1,
-      reviews: 828,
-      priceRange: "",
-      neighborhood: "fukuoka",
-      city: "fukuoka",
-      themes: ["day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Hakata Machiya Hometown Museum, Fukuoka, Japan"
-    },
-    {
-      id: "yanagibashi-market",
-      name: "Yanagibashi Rengo Market",
-      nameJp: "",
-      category: "Market",
-      rating: 3.8,
-      reviews: 3221,
-      priceRange: "",
-      neighborhood: "fukuoka",
-      city: "fukuoka",
-      themes: ["day-trips", "eat-local"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Yanagibashi Rengo Market, Fukuoka, Japan"
-    },
-
-    // Osaka parks/attractions
     {
       id: "minoh-park",
       name: "Minoh Park",
@@ -3468,10 +3299,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "osaka-umeda",
       city: "osaka",
-      themes: ["day-trips"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "Minoh Park, Osaka, Japan"
+      gmapsQuery: "Minoh Park, Osaka, Japan",
+      description: "A 33-metre waterfall just 30 minutes from Umeda. The forest trail is gentle, and in autumn the maple leaves are spectacular. Try the maple leaf tempura.",
+      imageUrl: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&h=400&fit=crop",
+      imageAlt: "Minoh waterfall surrounded by forest",
+      tabelogUrl: ""
     },
     {
       id: "teamlab-botanical-osaka",
@@ -3483,81 +3318,19 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "osaka-namba",
       city: "osaka",
-      themes: ["day-trips"],
+      themes: ["city-explore"],
       nikoNote: "",
       status: "open",
-      gmapsQuery: "teamLab Botanical Garden Osaka, Japan"
+      gmapsQuery: "teamLab Botanical Garden Osaka, Japan",
+      description: "teamLab's outdoor installation that transforms a botanical garden with projected light art after dark. Wander through illuminated trees and interactive pathways.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "teamLab digital art installation in botanical garden",
+      tabelogUrl: ""
     },
 
-    // Yokohama
-    {
-      id: "ramen-museum-yokohama",
-      name: "Shin-Yokohama Ramen Museum",
-      nameJp: "",
-      category: "Ramen museum",
-      rating: 4.0,
-      reviews: 16404,
-      priceRange: "",
-      neighborhood: "yokohama",
-      city: "yokohama",
-      themes: ["day-trips", "eat-local"],
-      nikoNote: "Dope Yokohama Ramen Museum \u2014 ramen from all over!",
-      status: "open",
-      gmapsQuery: "Shin-Yokohama Ramen Museum, Japan"
-    },
-
-    // Mt Takao
-    {
-      id: "mount-takao",
-      name: "Mount Takao",
-      nameJp: "",
-      category: "Mountain / hiking",
-      rating: 4.5,
-      reviews: 5025,
-      priceRange: "",
-      neighborhood: "mt-takao",
-      city: "tokyo",
-      themes: ["day-trips"],
-      nikoNote: "Beautiful hike near Tokyo",
-      status: "open",
-      gmapsQuery: "Mount Takao, Tokyo, Japan"
-    },
-
-    // Fujiyoshida
-    {
-      id: "chureito-pagoda",
-      name: "Chureit\u014d Pagoda",
-      nameJp: "",
-      category: "Memorial / Mt Fuji viewpoint",
-      rating: 4.7,
-      reviews: 5678,
-      priceRange: "",
-      neighborhood: "fujiyoshida",
-      city: "fujiyoshida",
-      themes: ["day-trips", "temple-run"],
-      nikoNote: "You know it boooooi",
-      status: "open",
-      gmapsQuery: "Chureito Pagoda, Fujiyoshida, Japan"
-    },
-
-    // Hakone
-    {
-      id: "hakone-area",
-      name: "Hakone",
-      nameJp: "",
-      category: "Hot springs area",
-      rating: null,
-      reviews: 0,
-      priceRange: "",
-      neighborhood: "hakone",
-      city: "hakone",
-      themes: ["day-trips"],
-      nikoNote: "Hot springs, Mt Fuji views",
-      status: "open",
-      gmapsQuery: "Hakone, Kanagawa, Japan"
-    },
-
-    // Kyoto hotels/special
+    // =========================================================================
+    // KYOTO DAY TRIP DESTINATIONS (kept as city: kyoto)
+    // =========================================================================
     {
       id: "suiran-hotel",
       name: "Suiran Luxury Collection Hotel",
@@ -3568,30 +3341,15 @@ window.JAPAN_DATA = {
       priceRange: "\u00a5\u00a5\u00a5\u00a5",
       neighborhood: "kyoto-arashiyama",
       city: "kyoto",
-      themes: ["day-trips"],
+      themes: ["city-explore"],
       nikoNote: "Luxury Hotel - probably expensive?",
       status: "open",
-      gmapsQuery: "Suiran Luxury Collection Hotel, Arashiyama, Kyoto, Japan"
+      gmapsQuery: "Suiran Luxury Collection Hotel, Arashiyama, Kyoto, Japan",
+      description: "Luxury ryokan-hotel hybrid on the Hozu River in Arashiyama. The onsen and the river views from the room justify the price tag if you're treating yourselves.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Suiran Luxury Collection Hotel by the Hozu River",
+      tabelogUrl: ""
     },
-
-    // Aichi / Ghibli
-    {
-      id: "expo-2005-aichi",
-      name: "Expo 2005 Aichi Commemorative Park",
-      nameJp: "",
-      category: "Park (Ghibli Park nearby)",
-      rating: 4.2,
-      reviews: 8093,
-      priceRange: "",
-      neighborhood: "nagano",
-      city: "nagano",
-      themes: ["day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Expo 2005 Aichi Commemorative Park, Japan"
-    },
-
-    // Small towns and destinations
     {
       id: "kinosaki-onsen",
       name: "Kinosaki Onsen",
@@ -3602,100 +3360,14 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "kyoto-central",
       city: "kyoto",
-      themes: ["day-trips"],
+      themes: ["city-explore"],
       nikoNote: "Incredible Onsen and Local Dining",
       status: "closed",
-      gmapsQuery: "Kinosaki Onsen, Japan"
-    },
-    {
-      id: "magome",
-      name: "Magome",
-      nameJp: "",
-      category: "Post town",
-      rating: null,
-      reviews: 0,
-      priceRange: "",
-      neighborhood: "nagano",
-      city: "nagano",
-      themes: ["day-trips"],
-      nikoNote: "Beautiful Hillside Town - peaceful ancient japan vibes",
-      status: "open",
-      gmapsQuery: "Magome, Gifu, Japan"
-    },
-    {
-      id: "takayama-town",
-      name: "Takayama",
-      nameJp: "",
-      category: "Traditional town",
-      rating: null,
-      reviews: 0,
-      priceRange: "",
-      neighborhood: "takayama",
-      city: "takayama",
-      themes: ["day-trips"],
-      nikoNote: "Beautiful traditional town",
-      status: "open",
-      gmapsQuery: "Takayama, Gifu, Japan"
-    },
-    {
-      id: "uda-town",
-      name: "Uda",
-      nameJp: "",
-      category: "Quiet town",
-      rating: null,
-      reviews: 0,
-      priceRange: "",
-      neighborhood: "nara",
-      city: "nara",
-      themes: ["day-trips"],
-      nikoNote: "Dope quiet place to visit",
-      status: "open",
-      gmapsQuery: "Uda, Nara, Japan"
-    },
-    {
-      id: "takehara",
-      name: "Takehara",
-      nameJp: "",
-      category: "Quiet town",
-      rating: null,
-      reviews: 0,
-      priceRange: "",
-      neighborhood: "fukuoka",
-      city: "fukuoka",
-      themes: ["day-trips"],
-      nikoNote: "Dope quiet place to visit",
-      status: "open",
-      gmapsQuery: "Takehara, Hiroshima, Japan"
-    },
-    {
-      id: "asuka-town",
-      name: "Asuka",
-      nameJp: "",
-      category: "Historic village",
-      rating: null,
-      reviews: 0,
-      priceRange: "",
-      neighborhood: "nara",
-      city: "nara",
-      themes: ["day-trips"],
-      nikoNote: "Dope quiet place to visit",
-      status: "open",
-      gmapsQuery: "Asuka, Nara, Japan"
-    },
-    {
-      id: "yoshino-town",
-      name: "Yoshino",
-      nameJp: "",
-      category: "Mountain town",
-      rating: null,
-      reviews: 0,
-      priceRange: "",
-      neighborhood: "nara",
-      city: "nara",
-      themes: ["day-trips"],
-      nikoNote: "",
-      status: "open",
-      gmapsQuery: "Yoshino, Nara, Japan"
+      gmapsQuery: "Kinosaki Onsen, Japan",
+      description: "Charming onsen town where you stroll between seven public bathhouses in a yukata. The crab season in winter is legendary.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Traditional onsen town Kinosaki",
+      tabelogUrl: ""
     },
     {
       id: "ine-town",
@@ -3707,40 +3379,525 @@ window.JAPAN_DATA = {
       priceRange: "",
       neighborhood: "kyoto-central",
       city: "kyoto",
-      themes: ["day-trips"],
+      themes: ["city-explore"],
       nikoNote: "Fishing village, Venice of Japan",
       status: "open",
-      gmapsQuery: "Ine, Kyoto, Japan"
+      gmapsQuery: "Ine, Kyoto, Japan",
+      description: "Fishing village with 230 funaya (boat houses) lining the bay. Called the 'Venice of Japan', though the vibe is more 'forgotten fishing hamlet, frozen in time'.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Ine fishing village boat houses on the bay",
+      tabelogUrl: ""
     },
+
+    // =========================================================================
+    // NARA
+    // =========================================================================
     {
-      id: "katsuyama-town",
-      name: "Katsuyama",
+      id: "uda-town",
+      name: "Uda",
       nameJp: "",
       category: "Quiet town",
       rating: null,
       reviews: 0,
       priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["day-trips"],
-      nikoNote: "Quiet place to visit",
+      neighborhood: "nara",
+      city: "nara",
+      themes: ["city-explore"],
+      nikoNote: "Dope quiet place to visit",
       status: "open",
-      gmapsQuery: "Katsuyama, Fukui, Japan"
+      gmapsQuery: "Uda, Nara, Japan",
+      description: "Sleepy town in the Nara mountains. Old merchant houses, barely any tourists, and a pace of life that's genuinely restorative.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Quiet historic streets of Uda, Nara",
+      tabelogUrl: ""
     },
     {
-      id: "gokayama",
-      name: "Gokayama Gassho no Sato",
+      id: "asuka-town",
+      name: "Asuka",
       nameJp: "",
-      category: "Thatched roof village",
-      rating: 4.1,
-      reviews: 729,
+      category: "Historic village",
+      rating: null,
+      reviews: 0,
       priceRange: "",
-      neighborhood: "kanazawa",
-      city: "kanazawa",
-      themes: ["day-trips"],
-      nikoNote: "Quiet place to visit",
+      neighborhood: "nara",
+      city: "nara",
+      themes: ["city-explore"],
+      nikoNote: "Dope quiet place to visit",
       status: "open",
-      gmapsQuery: "Gokayama Gassho no Sato, Toyama, Japan"
+      gmapsQuery: "Asuka, Nara, Japan",
+      description: "Japan's ancient capital before Nara. Rice paddies, burial mounds, mysterious stone carvings, and some of the oldest Buddhist art in the country.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Ancient Asuka village with rice paddies",
+      tabelogUrl: ""
+    },
+    {
+      id: "yoshino-town",
+      name: "Yoshino",
+      nameJp: "",
+      category: "Mountain town",
+      rating: null,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "nara",
+      city: "nara",
+      themes: ["city-explore"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Yoshino, Nara, Japan",
+      description: "Mountain covered in 30,000 cherry trees. During sakura season it's one of Japan's most spectacular sights. Off-season it's peacefully empty.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Cherry blossoms covering Mount Yoshino",
+      tabelogUrl: ""
+    },
+    // New Nara places
+    {
+      id: "todai-ji",
+      name: "Todai-ji",
+      nameJp: "",
+      category: "Buddhist temple",
+      rating: 4.7,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "nara",
+      city: "nara",
+      themes: ["temple-run"],
+      nikoNote: "The pillar with the hole you crawl through for good luck \u2014 do it.",
+      status: "open",
+      gmapsQuery: "Todai-ji, Nara, Japan",
+      description: "Houses the world's largest bronze Buddha. The scale is genuinely jaw-dropping.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Todaiji18s3200.jpg/400px-Todaiji18s3200.jpg",
+      imageAlt: "Todai-ji temple housing the Great Buddha of Nara",
+      tabelogUrl: ""
+    },
+    {
+      id: "nara-park",
+      name: "Nara Park",
+      nameJp: "",
+      category: "Park",
+      rating: 4.6,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "nara",
+      city: "nara",
+      themes: ["temple-run", "city-explore"],
+      nikoNote: "The deer bow if you bow first. Not kidding.",
+      status: "open",
+      gmapsQuery: "Nara Park, Nara, Japan",
+      description: "Over 1,000 free-roaming sacred deer. Buy shika senbei (deer crackers) and prepare to be mobbed.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Deer_in_Nara_02.jpg/400px-Deer_in_Nara_02.jpg",
+      imageAlt: "Sacred deer roaming freely in Nara Park",
+      tabelogUrl: ""
+    },
+    {
+      id: "kasuga-taisha",
+      name: "Kasuga Taisha",
+      nameJp: "",
+      category: "Shinto shrine",
+      rating: 4.6,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "nara",
+      city: "nara",
+      themes: ["temple-run"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Kasuga Taisha, Nara, Japan",
+      description: "3,000 stone and bronze lanterns line the paths. During Mantoro festival they're all lit. Otherworldly.",
+      imageUrl: "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=600&h=400&fit=crop",
+      imageAlt: "Stone lanterns lining the path to Kasuga Taisha",
+      tabelogUrl: ""
+    },
+    {
+      id: "naramachi",
+      name: "Naramachi",
+      nameJp: "",
+      category: "Historic district",
+      rating: 4.3,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "nara",
+      city: "nara",
+      themes: ["city-explore", "eat-local"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Naramachi, Nara, Japan",
+      description: "Old merchant quarter with machiya townhouses, small museums, and cute cafes.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Traditional machiya townhouses in Naramachi district",
+      tabelogUrl: ""
+    },
+    {
+      id: "yoshikien-garden",
+      name: "Yoshikien Garden",
+      nameJp: "",
+      category: "Japanese garden",
+      rating: 4.5,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "nara",
+      city: "nara",
+      themes: ["temple-run"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Yoshikien Garden, Nara, Japan",
+      description: "Three distinct garden styles in one. Free entry for foreign tourists.",
+      imageUrl: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&h=400&fit=crop",
+      imageAlt: "Peaceful Japanese garden at Yoshikien",
+      tabelogUrl: ""
+    },
+    {
+      id: "isuien-garden",
+      name: "Isuien Garden",
+      nameJp: "",
+      category: "Japanese garden",
+      rating: 4.6,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "nara",
+      city: "nara",
+      themes: ["temple-run"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Isuien Garden, Nara, Japan",
+      description: "Borrows the scenery of Todai-ji's roof. One of the most perfectly composed views in Japan.",
+      imageUrl: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&h=400&fit=crop",
+      imageAlt: "Isuien Garden with borrowed scenery of Todai-ji",
+      tabelogUrl: ""
+    },
+
+    // =========================================================================
+    // KOBE
+    // =========================================================================
+    {
+      id: "kobe-beef-kaiseki-511",
+      name: "Kobe Beef Kaiseki 511",
+      nameJp: "",
+      category: "Kaiseki restaurant",
+      rating: 4.6,
+      reviews: 0,
+      priceRange: "\u00a510,000+",
+      neighborhood: "kobe",
+      city: "kobe",
+      themes: ["eat-local"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Kobe Beef Kaiseki 511, Kobe, Japan",
+      description: "The real deal. Certified Kobe beef in a refined kaiseki setting.",
+      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageAlt: "Kobe beef kaiseki course at restaurant 511",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Kobe%20Beef%20Kaiseki%20511%20kobe"
+    },
+    {
+      id: "nankinmachi-kobe",
+      name: "Nankinmachi (Kobe Chinatown)",
+      nameJp: "",
+      category: "Chinatown district",
+      rating: 4.0,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "kobe",
+      city: "kobe",
+      themes: ["eat-local", "city-explore"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Nankinmachi Kobe Chinatown, Kobe, Japan",
+      description: "Japan's oldest Chinatown. Street food stalls, pork buns, and lantern-lit alleys.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Lantern-lit alleys of Nankinmachi Kobe Chinatown",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Nankinmachi%20Kobe%20Chinatown%20kobe"
+    },
+    {
+      id: "ikuta-shrine",
+      name: "Ikuta Shrine",
+      nameJp: "",
+      category: "Shinto shrine",
+      rating: 4.3,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "kobe",
+      city: "kobe",
+      themes: ["temple-run"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Ikuta Shrine, Kobe, Japan",
+      description: "One of Japan's oldest shrines, tucked right in the middle of downtown Kobe.",
+      imageUrl: "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=600&h=400&fit=crop",
+      imageAlt: "Ikuta Shrine in downtown Kobe",
+      tabelogUrl: ""
+    },
+    {
+      id: "kitano-ijinkan",
+      name: "Kitano Ijinkan",
+      nameJp: "",
+      category: "Historic district",
+      rating: 4.2,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "kobe",
+      city: "kobe",
+      themes: ["city-explore"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Kitano Ijinkan, Kobe, Japan",
+      description: "Former foreign settlement with beautifully preserved Victorian and colonial houses on the hillside.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Victorian-era foreign houses at Kitano Ijinkan",
+      tabelogUrl: ""
+    },
+    {
+      id: "nunobiki-herb-garden",
+      name: "Nunobiki Herb Garden",
+      nameJp: "",
+      category: "Garden",
+      rating: 4.4,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "kobe",
+      city: "kobe",
+      themes: ["city-explore"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Nunobiki Herb Garden, Kobe, Japan",
+      description: "Take the ropeway up for panoramic Kobe views and a stunning terraced herb garden.",
+      imageUrl: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&h=400&fit=crop",
+      imageAlt: "Panoramic Kobe views from Nunobiki Herb Garden",
+      tabelogUrl: ""
+    },
+    {
+      id: "meriken-park",
+      name: "Meriken Park",
+      nameJp: "",
+      category: "Park",
+      rating: 4.3,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "kobe",
+      city: "kobe",
+      themes: ["city-explore"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Meriken Park, Kobe, Japan",
+      description: "Waterfront park with the iconic Kobe Port Tower and the earthquake memorial.",
+      imageUrl: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&h=400&fit=crop",
+      imageAlt: "Kobe Port Tower at Meriken Park waterfront",
+      tabelogUrl: ""
+    },
+    {
+      id: "motomachi-shopping-street",
+      name: "Motomachi Shopping Street",
+      nameJp: "",
+      category: "Shopping street",
+      rating: 4.1,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "kobe",
+      city: "kobe",
+      themes: ["vintage-hunt", "city-explore"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Motomachi Shopping Street, Kobe, Japan",
+      description: "Covered arcade stretching 1.2km with everything from vintage to high-end.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Motomachi covered shopping arcade in Kobe",
+      tabelogUrl: ""
+    },
+    {
+      id: "tor-road",
+      name: "Tor Road",
+      nameJp: "",
+      category: "Shopping street",
+      rating: 4.0,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "kobe",
+      city: "kobe",
+      themes: ["city-explore"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Tor Road, Kobe, Japan",
+      description: "Steep hill connecting the port to Kitano. Boutiques, cafes, and a European feel unlike anywhere else in Japan.",
+      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageAlt: "Tor Road sloping street with boutiques in Kobe",
+      tabelogUrl: ""
+    },
+
+    // =========================================================================
+    // HIROSHIMA
+    // =========================================================================
+    {
+      id: "hiroshima-peace-memorial-museum",
+      name: "Hiroshima Peace Memorial Museum",
+      nameJp: "",
+      category: "Museum",
+      rating: 4.7,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "hiroshima",
+      city: "hiroshima",
+      themes: ["temple-run", "city-explore"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Hiroshima Peace Memorial Museum, Hiroshima, Japan",
+      description: "Devastating, essential, unforgettable. Go early and give yourself time.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hiroshima_Peace_Memorial_%28Genbaku_Dome%29.jpg/400px-Hiroshima_Peace_Memorial_%28Genbaku_Dome%29.jpg",
+      imageAlt: "Hiroshima Peace Memorial Atomic Bomb Dome",
+      tabelogUrl: ""
+    },
+    {
+      id: "itsukushima-shrine-miyajima",
+      name: "Itsukushima Shrine (Miyajima)",
+      nameJp: "",
+      category: "Shinto shrine",
+      rating: 4.7,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "hiroshima",
+      city: "hiroshima",
+      themes: ["temple-run"],
+      nikoNote: "The deer on Miyajima are way more aggressive than Nara's. Guard your food.",
+      status: "open",
+      gmapsQuery: "Itsukushima Shrine, Miyajima, Japan",
+      description: "The floating torii gate. Take the ferry from Hiroshima and spend the whole day on the island.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Itsukushima_torii_distance.jpg/400px-Itsukushima_torii_distance.jpg",
+      imageAlt: "Itsukushima floating torii gate at high tide",
+      tabelogUrl: ""
+    },
+    {
+      id: "okonomi-mura",
+      name: "Okonomi-mura",
+      nameJp: "",
+      category: "Food hall",
+      rating: 4.0,
+      reviews: 0,
+      priceRange: "\u00a51,000\u20132,000",
+      neighborhood: "hiroshima",
+      city: "hiroshima",
+      themes: ["eat-local"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Okonomi-mura, Hiroshima, Japan",
+      description: "Multi-floor okonomiyaki food court. Hiroshima-style means noodles layered in. Pick any stall.",
+      imageUrl: "https://images.unsplash.com/photo-1639024471283-03518883512d?w=600&h=400&fit=crop",
+      imageAlt: "Hiroshima-style okonomiyaki being prepared at Okonomi-mura",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Okonomi-mura%20hiroshima"
+    },
+    {
+      id: "shukkeien-garden",
+      name: "Shukkeien Garden",
+      nameJp: "",
+      category: "Japanese garden",
+      rating: 4.3,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "hiroshima",
+      city: "hiroshima",
+      themes: ["temple-run"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Shukkeien Garden, Hiroshima, Japan",
+      description: "Miniature landscape garden from 1620. Peaceful escape right in the city centre.",
+      imageUrl: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&h=400&fit=crop",
+      imageAlt: "Shukkeien Garden miniature landscape in Hiroshima",
+      tabelogUrl: ""
+    },
+    {
+      id: "hiroshima-castle",
+      name: "Hiroshima Castle",
+      nameJp: "",
+      category: "Castle",
+      rating: 4.1,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "hiroshima",
+      city: "hiroshima",
+      themes: ["temple-run"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Hiroshima Castle, Hiroshima, Japan",
+      description: "Reconstructed after the bombing. Small museum inside, but the surrounding park is lovely.",
+      imageUrl: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=600&h=400&fit=crop",
+      imageAlt: "Reconstructed Hiroshima Castle with moat",
+      tabelogUrl: ""
+    },
+    {
+      id: "orizuru-tower",
+      name: "Orizuru Tower",
+      nameJp: "",
+      category: "Observation deck",
+      rating: 4.1,
+      reviews: 0,
+      priceRange: "",
+      neighborhood: "hiroshima",
+      city: "hiroshima",
+      themes: ["city-explore"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Orizuru Tower, Hiroshima, Japan",
+      description: "Modern observation tower right next to the Peace Memorial. Fold a paper crane and add it to the cascade.",
+      imageUrl: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600&h=400&fit=crop",
+      imageAlt: "View from Orizuru Tower observation deck",
+      tabelogUrl: ""
+    },
+    {
+      id: "hassei",
+      name: "Hassei",
+      nameJp: "",
+      category: "Okonomiyaki",
+      rating: 4.3,
+      reviews: 0,
+      priceRange: "\u00a51,000\u20132,000",
+      neighborhood: "hiroshima",
+      city: "hiroshima",
+      themes: ["eat-local"],
+      nikoNote: "Get the Special with extra noodles. Trust me.",
+      status: "open",
+      gmapsQuery: "Hassei Okonomiyaki, Hiroshima, Japan",
+      description: "Legendary Hiroshima okonomiyaki. Queue expected but worth every minute.",
+      imageUrl: "https://images.unsplash.com/photo-1639024471283-03518883512d?w=600&h=400&fit=crop",
+      imageAlt: "Hiroshima okonomiyaki with noodles at Hassei",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Hassei%20Okonomiyaki%20hiroshima"
+    },
+    {
+      id: "nagataya",
+      name: "Nagataya",
+      nameJp: "",
+      category: "Okonomiyaki",
+      rating: 4.2,
+      reviews: 0,
+      priceRange: "\u00a51,000\u20132,000",
+      neighborhood: "hiroshima",
+      city: "hiroshima",
+      themes: ["eat-local"],
+      nikoNote: "",
+      status: "open",
+      gmapsQuery: "Nagataya Okonomiyaki, Hiroshima, Japan",
+      description: "Another top-tier Hiroshima okonomiyaki spot. Less queuing than Hassei.",
+      imageUrl: "https://images.unsplash.com/photo-1639024471283-03518883512d?w=600&h=400&fit=crop",
+      imageAlt: "Hiroshima-style okonomiyaki at Nagataya",
+      tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Nagataya%20Okonomiyaki%20hiroshima"
+    },
+
+    // =========================================================================
+    // TOKYO DAY TRIP (kept as city: tokyo)
+    // =========================================================================
+    {
+      id: "mount-takao",
+      name: "Mount Takao",
+      nameJp: "",
+      category: "Mountain / hiking",
+      rating: 4.5,
+      reviews: 5025,
+      priceRange: "",
+      neighborhood: "shimokitazawa",
+      city: "tokyo",
+      themes: ["city-explore"],
+      nikoNote: "Beautiful hike near Tokyo",
+      status: "open",
+      gmapsQuery: "Mount Takao, Tokyo, Japan",
+      description: "Sacred mountain just 50 minutes from Shinjuku. Multiple trail options, a temple halfway up, and panoramic views from the summit. Easy enough for anyone.",
+      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageAlt: "Hiking trail on Mount Takao near Tokyo",
+      tabelogUrl: ""
     }
   ]
 };

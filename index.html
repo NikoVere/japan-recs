@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>Juan & Pily's Japan — A Guide by Niko</title>
   <meta name="description" content="A personalised Japan travel guide curated by someone who lived there.">
   <meta name="theme-color" content="#0f0f1a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇯🇵</text></svg>">
 
   <!-- Fonts -->
@@ -21,27 +23,51 @@
 </head>
 <body>
 
+  <!-- ═══════════════ SCROLL PROGRESS ═══════════════ -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ═══════════════ SAKURA CANVAS ═══════════════ -->
+  <canvas id="sakura-canvas"></canvas>
+
   <!-- ═══════════════ LOADER ═══════════════ -->
   <div id="loader" class="loader">
-    <div class="loader-kanji">日本</div>
+    <div class="loader-kanji">桜</div>
     <div class="loader-text">Loading your guide...</div>
+  </div>
+
+  <!-- ═══════════════ GYRO PERMISSION PROMPT ═══════════════ -->
+  <div id="gyroPrompt" class="gyro-prompt">
+    <div class="gyro-prompt-content">
+      <div class="gyro-prompt-icon">📱</div>
+      <h3>Enable motion effects?</h3>
+      <p>Tilt your phone to interact with sakura petals, parallax layers, and more. It makes this guide come alive.</p>
+      <button class="gyro-btn gyro-btn-yes" id="gyroYes">Enable</button>
+      <button class="gyro-btn gyro-btn-no" id="gyroNo">Skip</button>
+    </div>
+  </div>
+
+  <!-- ═══════════════ SHAKE-TO-DISCOVER OVERLAY ═══════════════ -->
+  <div id="shakeOverlay" class="shake-overlay">
+    <div class="shake-title">How about this? 🌸</div>
+    <div id="shakeCard" class="shake-card"></div>
+    <button class="shake-dismiss" id="shakeDismiss">Tap to close</button>
   </div>
 
   <!-- ═══════════════ HERO ═══════════════ -->
   <header id="hero" class="hero">
     <div class="hero-bg">
-      <div class="hero-grain"></div>
-      <div class="hero-circles">
+      <div class="noise-overlay"></div>
+      <div class="hero-circles gyro-layer gyro-layer-1">
         <div class="circle circle-1"></div>
         <div class="circle circle-2"></div>
         <div class="circle circle-3"></div>
       </div>
     </div>
-    <div class="hero-content">
+    <div class="hero-content gyro-layer gyro-layer-2">
       <div class="hero-stamp">ニコ</div>
       <h1 class="hero-title">
         <span class="hero-title-top">Juan & Pily's</span>
-        <span class="hero-title-main">Japan</span>
+        <span class="hero-title-main gyro-layer gyro-layer-3">Japan</span>
         <span class="hero-title-jp">日本ガイド</span>
       </h1>
       <p class="hero-subtitle">A curated guide by <strong>Niko</strong></p>
@@ -52,11 +78,11 @@
           <span class="stat-label">Places</span>
         </div>
         <div class="stat">
-          <span class="stat-number" data-count="10">0</span>
+          <span class="stat-number" data-count="9">0</span>
           <span class="stat-label">Themes</span>
         </div>
         <div class="stat">
-          <span class="stat-number" data-count="8">0</span>
+          <span class="stat-number" data-count="6">0</span>
           <span class="stat-label">Cities</span>
         </div>
       </div>
@@ -70,46 +96,41 @@
   <!-- ═══════════════ STICKY NAV ═══════════════ -->
   <nav id="nav" class="nav">
     <div class="nav-inner">
-      <div class="nav-brand">🇯🇵 Niko's Japan</div>
-      <div class="nav-tabs" id="navTabs">
-        <!-- Populated by JS -->
-      </div>
-      <button class="nav-map-btn" id="navMapBtn" aria-label="Toggle map">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4z"/><path d="M8 2v16"/><path d="M16 6v16"/></svg>
-      </button>
+      <div class="nav-brand">🌸 Niko's Japan</div>
+      <div class="nav-tabs" id="navTabs"></div>
     </div>
   </nav>
 
   <!-- ═══════════════ INTRO ═══════════════ -->
-  <section class="intro reveal-section">
+  <section class="intro">
     <div class="container">
-      <div class="intro-note">
+      <div class="intro-note reveal-item">
         <div class="note-pin"></div>
-        <p class="handwritten">Hey Juan & Pily! I put this together from my years living in Japan and all the trips I've done. These are my actual favourite spots, not tourist-guide filler. Some are hidden gems, some are famous for good reason. Trust the ones with notes — those are the ones I genuinely love.</p>
+        <p class="handwritten">Hey Juan & Pily! I put this together from my years living in Japan and all the trips I've done. These are my actual favourite spots, not tourist-guide filler. Some are hidden gems, some are famous for good reason. Trust the ones with notes — those are the ones I genuinely love. Tap any card to expand it. Shake your phone for a random pick. Tilt to play with the petals. Have the best time.</p>
         <span class="note-signature">— Niko</span>
       </div>
       <div class="intro-how">
-        <h2>How to use this guide</h2>
+        <h2 class="reveal-item">How to use this guide</h2>
         <div class="how-grid">
-          <div class="how-card">
-            <span class="how-icon">🎯</span>
-            <h3>Browse by theme</h3>
-            <p>Curated collections: denim, vinyl, tea, temples, food, and more</p>
+          <div class="how-card reveal-item">
+            <span class="how-icon">👆</span>
+            <h3>Tap to explore</h3>
+            <p>Tap any card to expand it and see details, notes, and links</p>
           </div>
-          <div class="how-card">
-            <span class="how-icon">📍</span>
-            <h3>Explore the map</h3>
-            <p>See everything geographically, filter by area and category</p>
+          <div class="how-card reveal-item">
+            <span class="how-icon">📱</span>
+            <h3>Tilt & shake</h3>
+            <p>Tilt your phone for parallax. Shake for a random pick.</p>
           </div>
-          <div class="how-card">
+          <div class="how-card reveal-item">
             <span class="how-icon">✍️</span>
-            <h3>Read Niko's notes</h3>
+            <h3>Niko's notes</h3>
             <p>Handwritten tips on the places that matter most</p>
           </div>
-          <div class="how-card">
+          <div class="how-card reveal-item">
             <span class="how-icon">🗺️</span>
             <h3>Open in Maps</h3>
-            <p>Every place links to Google Maps for directions on the go</p>
+            <p>Every place links to Google Maps for navigation on the go</p>
           </div>
         </div>
       </div>
@@ -118,7 +139,7 @@
 
   <!-- ═══════════════ THEME SECTIONS ═══════════════ -->
   <main id="themes">
-    <!-- Populated by JS: one section per theme -->
+    <!-- Populated by JS -->
   </main>
 
   <!-- ═══════════════ MAP SECTION ═══════════════ -->
@@ -130,10 +151,8 @@
       </h2>
       <div class="map-filters" id="mapFilters">
         <button class="filter-btn active" data-filter="all">All</button>
-        <!-- Populated by JS -->
       </div>
       <div id="map" class="map-container"></div>
-      <div class="map-legend" id="mapLegend"></div>
     </div>
   </section>
 
@@ -142,9 +161,9 @@
     <div class="footer-wave"></div>
     <div class="container">
       <div class="footer-content">
-        <div class="footer-stamp">日本</div>
+        <div class="footer-stamp">桜</div>
         <p class="footer-message">Made with love for Juan & Pily</p>
-        <p class="footer-credit">Curated by Niko — who lived in Japan and misses it every day</p>
+        <p class="footer-credit">Curated by Niko, who lived in Japan and misses it every day</p>
         <div class="footer-links">
           <a href="https://maps.app.goo.gl/ytjj7C1CxcWrac3n8" target="_blank" rel="noopener">Shops List</a>
           <a href="https://maps.app.goo.gl/WNDbyqM2asRTcNLs7" target="_blank" rel="noopener">Museums List</a>
@@ -161,6 +180,7 @@
   </button>
 
   <script src="data.js"></script>
+  <script src="particles.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
