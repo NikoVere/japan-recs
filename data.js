@@ -518,7 +518,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Tower Records Mini, Osaka, Japan",
       description: "Compact Tower Records format focusing on new releases and J-pop. Small but well-stocked if you know what you're looking for.",
-      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerjxMHT1rbNCPg_RWBl_p4JDC6c5eUj8m7s9ypVUb-SKMVAbJScdKhRBdbrc0S-JNO4b6fUib7I73f2V3wR29TTV_DwExfz3JCHLqz9M7AVwUwzgYN3ePg3l5P9bzdYbBq-64A3Nw=w600-h400-k-no",
       imageAlt: "Small Tower Records Mini store in Osaka",
       tabelogUrl: ""
     },
@@ -617,7 +617,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Yamadashiya Tea shop Nishiki markets, Kyoto, Japan",
       description: "Tea shop right in the Nishiki Market arcade. Sample different grades of matcha and hojicha before buying. The roasted teas are particularly fragrant.",
-      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo2ctRxU8KpIT72Sj07X6DmwoiRDjiO0rfDDH9MPMyMDqx_DJU8-cPOT1zaZzp8Xkcdd3q17kfcwcExK45lOwx_gC_VFGF6k_NhQgyeJSYbbBLgy6jS7dN9XrBWPrlzJ9dywrZCZA=w600-h400-k-no",
       imageAlt: "Japanese tea shop with matcha and hojicha samples",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Yamadashiya%20Tea%20shop%20Nishiki%20markets%20kyoto"
     },
@@ -636,7 +636,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Saryo Tsujiri Tea House Gion Main Store, Kyoto, Japan",
       description: "Historic tea house from 1860 serving Uji matcha in every form: whisked, as parfait, as soft serve. The Gion location drips with atmosphere.",
-      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep5PYJ2dDdxiwg-p0_TlH1RPxl1lFZskrnvT1thfDL5pegs4qUV_-2GR5WVRyCheE_ZO2j1VdJZeaFqaj3FGoK4ul-zfl_NhUYAKphPwHQse9gv2gtQqr2aG9jz2p3bbDNPk3OBw-C-z_Ba=w600-h400-k-no",
       imageAlt: "Traditional Kyoto tea house with matcha parfait",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Saryo%20Tsujiri%20Tea%20House%20Gion%20kyoto"
     },
@@ -655,7 +655,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Marukyu Koyamaen JR Kyoto Isetan Store, Kyoto, Japan",
       description: "Branch of the legendary Uji tea producer founded in 1688. Their ceremonial-grade matcha is considered among the finest in the world.",
-      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepvCrWmn3lUjOnIEiI8kbprETJMIwKgJ-Punq_mPy8hQtIZPU_I5rZPc1gN42X4AVa-9yyjbn4nAW9AsGTXWoHV4IZEB8yDrQh5AhvQiFdI2oL-F5rvKfohXzVWsKkl_K6nyqxjBQ=w600-h400-k-no",
       imageAlt: "Premium matcha tea products at Marukyu Koyamaen",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Marukyu%20Koyamaen%20kyoto"
     },
@@ -674,7 +674,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Baikoan Tea Stall, Kyoto, Japan",
       description: "Tiny Nishiki Market stall with near-perfect reviews. They grind matcha fresh in front of you and serve it with traditional sweets.",
-      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerCG080wycfTT5HdVu0ZHbaKuc_HySfWI3cCNBf2f-pFq9iEF44Nn3RrAun0jyVIOjd40jwEycaQZHGjF0KLq7Hobd5Xw9J69WPyWaKkHNVGKjZ-dABW80eEU3TXC1yIhT7evy_OhdAMUYf=w600-h400-k-no",
       imageAlt: "Freshly ground matcha at a Kyoto tea stall",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Baikoan%20Tea%20Stall%20kyoto"
     },
@@ -693,7 +693,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Horaido Tea Stall, Kyoto, Japan",
       description: "Another Nishiki Market gem. Known for their hojicha lattes and matcha soft serve. The toasted tea aroma pulls you in from the arcade.",
-      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqtm8VwE3fxXGxaDxYEZdkyzPy1RF_LioDzsvQ8fUFJW3GM3tNfgnsxsz2mi5xBVRrspS8pVDMDsoHqdY8Qai0nsKnQau0wK8C0ZYs--1st78tKhq-pRHGsomknWFPkdGQmQpj_YSO8NaG5=w600-h400-k-no",
       imageAlt: "Hojicha latte and matcha treats at Horaido",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Horaido%20Tea%20Stall%20kyoto"
     },
@@ -712,7 +712,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "dan dan cafe, Kyoto, Japan",
       description: "Matcha cafe with a stunning view of Kyoto's tea fields. The setting elevates an already excellent matcha experience into something memorable.",
-      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoeIOv4Nyjiv_D6fNMBOH1Xo8BwMbGSQxhi5n__VUr3o0zBp4wkvz4kdkmIvoWurLCCOTW_86ZeHcNK-QVbquqazukHqHRLl0kVaoIvO4wtb7vdcYzhd65HlmAAr5cwZmNhUZvs=w600-h400-k-no",
       imageAlt: "Matcha drinks overlooking tea fields",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=dan%20dan%20cafe%20kyoto"
     },
@@ -731,7 +731,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Wazuka, Kyoto, Japan",
       description: "The rolling tea fields of Wazuka produce much of Japan's finest Uji matcha. A quiet, beautiful town where tea farming is life itself.",
-      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqOtO3xW64k7nYvAL8tyUjY6Ep0cqDknwCWKLn6PebQOFge7GCzrvYZc8dA74EcX0GZy9OdsELWDGvA4XBAojH049uomrcjrwMmvgFEeDM6_YTx2GMsaTuZg9eqqPXsrnWZeAGs=w600-h400-k-no",
       imageAlt: "Rolling green tea fields in Wazuka, Kyoto",
       tabelogUrl: ""
     },
@@ -750,7 +750,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Ten Cafe, Kiyomizu, Kyoto, Japan",
       description: "Cosy matcha cafe tucked in the Kiyomizu area. A perfect stop to rest your legs after climbing the temple hill.",
-      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo5tfoMSXgEys_vddINDHnsXw8bJyNPDFThG4ml5VziCDIVr8DgO5K_KB0IBCCZXm3cvJjJbRdeEl17jvqioH9O5IVOeAd-xN5gdxiGOyLOsPhgSBxFe9BLbrxSStLgkN7Ai2-zDfbg1vg=w600-h400-k-no",
       imageAlt: "Matcha latte at Ten Cafe near Kiyomizu",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Ten%20Cafe%20Kiyomizu%20kyoto"
     },
@@ -769,7 +769,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "MACCHA HOUSE Kyoto, Japan",
       description: "Famous for their wobbling matcha tiramisu served in a wooden box. Instagram-famous but the matcha quality is genuinely good.",
-      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo2Lh0uG_-BAt879_zUyWP-RYDqpenLsjEpdYoq1bUyXuclwffEgwBSgTTq3EkyLiGz9hrYPKsXVVtXIVKFy4zcuKGNap-yuM35SinjuDapMqL9iCNk7yTl8t4PJLOlOaihWmTCBcKNZCdy=w600-h400-k-no",
       imageAlt: "Matcha tiramisu dessert at MACCHA HOUSE",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=MACCHA%20HOUSE%20kyoto"
     },
@@ -849,7 +849,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Mitsuo pottery Kyoto, Japan",
       description: "Another perfect-rated ceramics shop. The potter works on-site and each piece shows the hand that made it. Wabi-sabi in physical form.",
-      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepSHzj8VnnjiBr_LeULbgWRBC_j2iWwIVZdq5NeTwcszUtkoauWtHxoiZNR9eLilpWi19v7jUIcogv3PtdQKutdx3oxZ_1I0IMtjSOqW--51EI9OZ5lEjl9EtV68U6CXo9Qq93QeGsjfMU=w600-h400-k-no",
       imageAlt: "Artisan pottery by Mitsuo in Kyoto",
       tabelogUrl: ""
     },
@@ -868,7 +868,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Kyoto Ceramic Center, Kyoto, Japan",
       description: "Gallery-style ceramics centre showcasing work from across Kyoto's pottery traditions. Good for understanding the range of styles before you buy.",
-      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerZixRKavq7b87E9dVVQw55w6DYWEOjKF29Yygt9ATZTnyETfO73_lYAHoVOMAwaxzT6GP0IjwHESZzp7rMCPhU-78taDn89xNuSZVDwb_7BQPrDJW94SL4XfVKZXawonnNxV67=w600-h400-k-no",
       imageAlt: "Kyoto ceramics gallery with various pottery styles",
       tabelogUrl: ""
     },
@@ -887,7 +887,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "ASAHI Tou'an Craft Shop, Kyoto, Japan",
       description: "Small craft shop with a carefully selected range of Kyoto ceramics. The owner knows every potter personally and can tell you each piece's story.",
-      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqXVqqeSfUvZ71nuRycx41qOgtl0m9Fsm8Q7N0o9OGwmUKYcAD-6KYCcXmSySsO_xx2m8xq7IYnQ8P9ZF-f5pmSSP5EkARkaGkAGpoQtzCS4XQSi7OqVVAFb9Owq5tHxTReI6uC7g=w600-h400-k-no",
       imageAlt: "Curated Kyoto ceramics at ASAHI Tou'an",
       tabelogUrl: ""
     },
@@ -906,7 +906,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Tohgoro chinaware, Kyoto, Japan",
       description: "Traditional chinaware shop with a vast selection of everyday ceramics. Great for finding beautiful, functional pieces that become your daily rice bowl or tea cup.",
-      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweof36qkQhJ9Hc0P6_gqjgz_udrVx8z1QVQ1HX1w3b704wwFF0h4QtBgxObTRYjdxo_yntPzNJ_FTCT9LuNMDcGXjOH4Bs4z_L6OAMQtWJS0m_8R1AmokLuzFd1VB4xffbta1uRcwrkwtJhZ=w600-h400-k-no",
       imageAlt: "Traditional Japanese chinaware at Tohgoro",
       tabelogUrl: ""
     },
@@ -925,7 +925,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Chawanzaka, Kyoto, Japan",
       description: "The 'Teapot Lane' leading up to Kiyomizu-dera. Lined with pottery shops on both sides, this steep lane has been selling ceramics for centuries.",
-      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweryKMKtxPbcU2DevY_5V39QVySNiklcsyzRYPiLpQvpBrRJyqsOmuftNS5gAOLVBPNmILFGajZU2MSlXIp-GK0CIQXkVnbc75odbHDwvDZ5Vc-hRtJmTgpVM2xn1Axkn4ZWxzuCJTXvIfCQ=w600-h400-k-no",
       imageAlt: "Chawanzaka pottery street leading to Kiyomizu-dera",
       tabelogUrl: ""
     },
@@ -948,7 +948,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "2nd Street Shimokitazawa, Tokyo, Japan",
       description: "Chain secondhand store with a huge selection. Not as curated as the independent shops, but the volume means you can find hidden gems at rock-bottom prices.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwers-LZA6iD_dJbHr6_3fPNX3uluqheeR-8JnlFwhbHHdGjsKTso4RdZzkvAmy1j8g7MUao3FeILmPcA7lkksYKP5jX0dom9HqwujxLzXlfocUQ3f2vNw9txhG55fSUU2tKfMzKBRYP-1wsn=w600-h400-k-no",
       imageAlt: "Racks of secondhand clothing at 2nd Street",
       tabelogUrl: ""
     },
@@ -967,7 +967,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "New York Joe Shimokitazawa, Tokyo, Japan",
       description: "Housed in a converted public bathhouse, which gives it a unique open-floor layout. American vintage, Hawaiian shirts, and 90s streetwear at fair prices.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerryBk0TtzkCTK151IL-4-Z6lEQt91HX4sq6-J9IUsej478NVjxBH6AjLprOBIxDPKRuKeiiJ-p8fnfYaXAdrTucUSG5c32BM0nt0BfPXBJvETjVDp6LlTrez-1Q_XUlvr73YUr=w600-h400-k-no",
       imageAlt: "Vintage clothing in a converted bathhouse",
       tabelogUrl: ""
     },
@@ -986,7 +986,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Shimokita Market, Shimokitazawa, Tokyo, Japan",
       description: "Small local market tucked away from the main strip. The kind of place regulars don't want you to know about.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepfyizYeMt1hhhAq8dwnPTwCzR59WitSRvhnBOm-rjAWb7fgf7sxzL6XwA7Lq4qmvv4bVeBUKoBibapX6Zd82KR39d7Wh8-ch7og4Yt-W_9GHEVQi-8UaAkeSK59DWphTBRtUyVcA=w600-h400-k-no",
       imageAlt: "Shimokita Market vintage clothing stall",
       tabelogUrl: ""
     },
@@ -1005,7 +1005,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "BAZZSTORE Shimokitazawa, Tokyo, Japan",
       description: "Multiple locations around Shimokitazawa, each with a slightly different focus. Well-organised racks and surprisingly good designer pieces mixed in with the vintage.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwequX1jjzPWor7Q7Ze6siSqxW1leTne8i5NhaxU_CDJEVn4uC-DjlXBclWAg6-iqkQMmJ8TKsRjVpRokI5w2rtovHLBgDueFEClwPxAkSoUuyCZ-m6xKgaNRKxeoeEZ3anvh5S8GbHfOAhWo=w600-h400-k-no",
       imageAlt: "BAZZSTORE vintage and designer clothing",
       tabelogUrl: ""
     },
@@ -1024,7 +1024,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Flamingo Shimokitazawa, Tokyo, Japan",
       description: "Well-curated vintage with a focus on 60s-80s Americana. Leather jackets, band tees, and denim in good condition and fairly priced.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoEvxYC_M0Q8vQ0xx6n-4CZr1TPuv8Sx7WE35JCxMkZM2kLyWPh9plUMYLPts0Qa4jEXKR7K2NzBhNcZ1f6yNr7gRTeiSK_4fZqrX_wb8t9siBqJGMaMHYHo_PuLUU_lmkDHrrA=w600-h400-k-no",
       imageAlt: "Vintage Americana clothing at Flamingo",
       tabelogUrl: ""
     },
@@ -1043,7 +1043,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "KINJI Shimokitazawa, Tokyo, Japan",
       description: "Budget-friendly vintage chain. Huge bins of clothing sorted by colour and type. Takes patience to dig through, but the prices can't be beaten.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepVN3RbY5QaHQDUVu5kYREtTEVSnzxzRZv16MBaRHgX86wbw7-SEeWyuBh24KlSdchQMdcEla8V4KhDGI6DZxYpUvP-41JnxCy4ac1gLVVEBQ48bTxmWGOiffWUVMXCap_vFnXWg-l6c4mr=w600-h400-k-no",
       imageAlt: "KINJI vintage clothing bins sorted by colour",
       tabelogUrl: ""
     },
@@ -1062,7 +1062,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "RAGTAG Shimokitazawa, Tokyo, Japan",
       description: "Premium secondhand chain focusing on designer brands. Everything is authenticated, cleaned, and priced fairly. Like a luxury consignment shop.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweot-j5zey3PPvR6uW15CszFqbATgYcnfKOcLjB_8lLPDh-qTQTUjLzu22ocJwpsQ4ept8jmUcouRgfZXOK6L1iBe80vkP8kMmgTUR4qHZeOiU10kEjPeOp-N17kIGlnIl0hEsFhlA=w600-h400-k-no",
       imageAlt: "RAGTAG premium secondhand designer clothing",
       tabelogUrl: ""
     },
@@ -1081,7 +1081,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Flamingo Harajuku, Tokyo, Japan",
       description: "Harajuku outpost of the Flamingo vintage chain. More fashion-forward curation than the Shimokitazawa branch, reflecting the neighbourhood's style.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo4Wnm6-lxXXsjwu0fW37bNCd-OTra9ZNLngKZ2P9Bc2iWuX1tVlzB90ySZ-u3PwRK56VkCYgJXGUFTGGyHi6m7zTeKANMAhN85tyN5bORRx-DKLnAxOEDAphdsbrclxcvG7SNbDsDJOdVW=w600-h400-k-no",
       imageAlt: "Flamingo vintage clothing store in Harajuku",
       tabelogUrl: ""
     },
@@ -1487,7 +1487,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Sushi Roman, Tokyo, Japan",
       description: "Neo-izakaya vibes with creative sushi and inventive small plates. The kind of place where the menu changes with the chef's mood.",
-      imageUrl: "https://images.unsplash.com/photo-1554797589-7241bb691973?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq9DnzVmJuuGD-SPwIPxb-wN5FtHNQddHRupPDEU0Q5u75IyjTlBfttD1c0kPCHe-mgtEj7db8o0TTKvNmnGpnYwnLmXd_a6KEzHw0m0k-HPQOUa97Vt4XCzVCRX2taSRlS1_2I3pbe9Hs=w600-h400-k-no",
       imageAlt: "Creative sushi and izakaya dishes at Sushi Roman",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Sushi%20Roman%20tokyo"
     },
@@ -1506,7 +1506,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Ramen goku, Tokyo, Japan",
       description: "Popular Shinjuku ramen spot with a rich, flavourful broth. The ticket machine ordering system is a classic Japanese ramen experience.",
-      imageUrl: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwephid5OqoUijN_lsWjcSP0h4eZDNTyXBEEvd-w8iVXwR-vSxlrIrhrutnomUl3SeLeDygqAecCDXifCPjWNupNLsuaQdUOxzkGfEqhKX9RoNrwVctEMKA6khyVk0TIuNpKMEUMICOCvdTwI=w600-h400-k-no",
       imageAlt: "Steaming bowl of ramen at Ramen goku",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Ramen%20goku%20tokyo"
     },
@@ -1525,7 +1525,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "d47 SHOKUDO, Shibuya, Tokyo, Japan",
       description: "Each set meal represents a different Japanese prefecture. The menu rotates to showcase regional specialities you'd normally need a train ride to taste.",
-      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqQg7lOpKoXN9fXopPsxC1Swgf0yPg-0SgwyuLesDkKgON5jEqU0-jRPb1lmdAKHvIttv88l_7H4DRmT5WY-DParHqfSEN9-GCWdk2zNAsDyAYL37K6I-ftsikko3fE48aDYeSr=w600-h400-k-no",
       imageAlt: "Regional Japanese set meal at d47 SHOKUDO",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=d47%20SHOKUDO%20tokyo"
     },
@@ -1544,7 +1544,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Tsukiji Outer Market, Tokyo, Japan",
       description: "The inner market moved to Toyosu, but the outer market is still the place to eat. Street food stalls, fresh seafood, tamagoyaki, and the energy of a working market.",
-      imageUrl: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqmQNcc_2aKPoAFrY7Emhrl7H7GlTRRAR8e5lwFgVmp4z2xy-I2vws7ggd86XNNhVxgn96-RQDIDQJ7pqYMb8-cQwm4lhFEohwHl19m698A_YmNFV1ijY1B7XmujVDwiPGzfsoi=w600-h400-k-no",
       imageAlt: "Tsukiji Outer Market fresh seafood stalls",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Tsukiji%20Outer%20Market%20tokyo"
     },
@@ -1563,7 +1563,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "SAKE MARKET Shinjuku, Tokyo, Japan",
       description: "Over 100 varieties of sake from across Japan, served in a lively market-style setting. The staff will guide you through regional styles if you ask.",
-      imageUrl: "https://images.unsplash.com/photo-1554797589-7241bb691973?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep_jahBf3cr8rnQrUw5hkXh5aU7ohD6xoFxFma6IY_2yoDuJxYpBgOMBfybZ2I2UNrTEpvl8DjIkjHTrnltsg8qx4N102PHlyKtxcdXewYGCwi0MMlMbt4WSzBhZ4CxdjqY9pB2=w600-h400-k-no",
       imageAlt: "Sake selection at SAKE MARKET Shinjuku",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=SAKE%20MARKET%20Shinjuku%20tokyo"
     },
@@ -1983,7 +1983,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Starbucks Kyoto Nineizaka, Kyoto, Japan",
       description: "Starbucks in a 100-year-old machiya townhouse on the approach to Kiyomizu-dera. Tatami seating in the back garden. The most beautiful Starbucks in the world.",
-      imageUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepoS2hUBbfRZStrhhealtObLKzOuURzZzQaT8o2LcrFLKiASQG9wquqpKKfGMk8u_3w6EFJBFAQ-h0tUyo8NUAiEhYxt2q1bHtGGxVoiHaiMH7jTlijF7SrBqrTEHjq5pMZWWjMI3s2vYGc=w600-h400-k-no",
       imageAlt: "Traditional machiya Starbucks in Kyoto",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Starbucks%20Kyoto%20Nineizaka%20kyoto"
     },
@@ -2059,7 +2059,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Kamo River, Kyoto, Japan",
       description: "Kyoto's social backbone. Grab drinks from a konbini and sit on the riverbank at sunset with everyone else. Couples sit exactly one metre apart. It's a thing.",
-      imageUrl: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepnRcZD7O8k76gzjjwKDBE2nxG7IlgPfb85L9uTrJqDJt0SF-pqGUcmiGtIccrBuzCK2KzZQtLxYO8SO6-fuMpDQKa-3xMA4DuvyJGbzCDWd1UwpNoTqMJMj2X36InoVg2d8mbj1g=w600-h400-k-no",
       imageAlt: "People relaxing along the Kamo River at sunset",
       tabelogUrl: ""
     },
@@ -2161,7 +2161,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Meiji Jingu, Tokyo, Japan",
       description: "Tokyo's most majestic shrine, set in a 170-acre forest that was planted specifically for it. The towering torii gate and gravel paths make the city disappear.",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Meiji_Shrine_2012.JPG/400px-Meiji_Shrine_2012.JPG",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqpNOYqoexKo9unsK-MBy8rHrO3LdKFhkf4YBUu2FApmMc3QN3wMX7XyGfmPI150H2InYvOeqiIEMrZ5wvihJ4uaK3_oFL9rf0rEE-3viU9hvuB05ZG4PoqUD0Z3j4nveNcpvMf-A=w600-h400-k-no",
       imageAlt: "Meiji Jingu shrine torii gate surrounded by forest",
       tabelogUrl: ""
     },
@@ -2180,7 +2180,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Sensoji Temple, Asakusa, Tokyo, Japan",
       description: "Tokyo's oldest temple, founded in 645 AD. The Kaminarimon gate, Nakamise shopping street, and incense-filled main hall are iconic for good reason.",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Cloudy_evening_at_Sensoji_Temple%2C_Asakusa%2C_Tokyo.jpg/400px-Cloudy_evening_at_Sensoji_Temple%2C_Asakusa%2C_Tokyo.jpg",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweruMAoWMxJDhOGaLctHY2qnYp-QAC9GGbEmQwAiKfFfYKaX0qUZn3KGK3bSaPx8hf0WWtGfH3RmhcGMFiDmhAT9R-DLUQhs8w5yNMY1XBFKdYqxV-W-eBCE4nC7qukg7iRPDIFS=w600-h400-k-no",
       imageAlt: "Sensoji temple illuminated at night in Asakusa",
       tabelogUrl: ""
     },
@@ -2199,7 +2199,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Araiyakushi Baishouin, Tokyo, Japan",
       description: "Off the tourist trail in Nakano. Known for healing prayers related to eyesight. The peaceful grounds are a welcome contrast to nearby Nakano Broadway.",
-      imageUrl: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepJAgOngImwZMX7jFlCkniejJnElzaYG5-ZRpdn0yZS2JYKKnGFXEcwVr2_-C3_ALwdBM4OCHawhFLL_yJW3z5c-XzxKMMgHM6LGCD4KUt_ZXLF8LhpG1vvywM3Vlvf9sLI4xW0=w600-h400-k-no",
       imageAlt: "Peaceful temple grounds at Araiyakushi Baishouin",
       tabelogUrl: ""
     },
@@ -2353,7 +2353,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Evangelion Kyoto Base, Kyoto, Japan",
       description: "Full-scale Evangelion statue and interactive experience. Surprisingly well-done for a franchise attraction, and the Kyoto location gives it a weird cultural contrast.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep4QWmkqo77nCqKXe9FuxHs760Iy06OnbQDfqlkk7etXDAom9iinGv3_NoOEQL5FVphNjpAoLSnHoarSa-Rcb44bhvJrEcB2mAT-V8ghOKNExDfa8pC5mLByhSj3lqJaKr1ia0X=w600-h400-k-no",
       imageAlt: "Evangelion statue at Kyoto Base attraction",
       tabelogUrl: ""
     },
@@ -2376,7 +2376,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Tokyo Metropolitan Government Building, Shinjuku, Tokyo, Japan",
       description: "Free observation deck on the 45th floor with views stretching to Mt Fuji on clear days. Two towers, north and south. The north one is open at night.",
-      imageUrl: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerH5y1ocv-ITT_EOWzPIrVT7t-ea87YpTV2SjXK3xW0Y2crDWArA1So3qUt7i7KxqR_EsXFBK2RrFipvMOUwULPZpCIQxVbHWQ0auGVoa84WlfyCXUJ7hOIy0o9bFXT18PyJulC=w600-h400-k-no",
       imageAlt: "Tokyo skyline from Metropolitan Government Building",
       tabelogUrl: ""
     },
@@ -2395,7 +2395,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Unicorn Gundam, Odaiba, Tokyo, Japan",
       description: "Full-scale Unicorn Gundam statue that transforms on a schedule. 20 metres tall, backlit at night, and completely free to see. Even non-anime fans are impressed.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepX4UI0xNSkz8dp7ovRRnNBhRTzXrdp1ueVIop4_bzIPN0eRkDLhsgOMkxEseX5PMpjssOAszusFmswYEBhzNjRZx2jg8Uvx7nIGrqIR5-vuFhbxjrKCVmuPExVC0wWwHGBIvFoWRrugqI=w600-h400-k-no",
       imageAlt: "Life-size Unicorn Gundam statue in Odaiba",
       tabelogUrl: ""
     },
@@ -2414,7 +2414,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "small worlds Tokyo, Odaiba, Japan",
       description: "Staggeringly detailed miniature worlds: a working airport, Sailor Moon and Evangelion dioramas, and a space centre. The craftsmanship is mesmerising.",
-      imageUrl: "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqCG_7AW3JTHIbVycAR45-utWjZzzulADBnRYvL0RrX0ulTk0qtulq5seMzWcZEP_gN0H1fKNvVydM2QPc0C3RPGgnc7lrM14IE9ZX8wOxvej2Kq86PuXOcQvjL_MN2W1gSIUE3=w600-h400-k-no",
       imageAlt: "Miniature world diorama at small worlds Tokyo",
       tabelogUrl: ""
     },
@@ -2699,7 +2699,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Mokuhankan Woodblock Print Shop, Asakusa, Tokyo, Japan",
       description: "Watch traditional woodblock prints being carved and printed by hand. You can make your own print in a workshop. Run by a Canadian who's kept the craft alive.",
-      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepbRCJBKt3K2r_kqI4vEDhtdeUT02a5FlVnYkHekJso5QNx09ykSHu5wakcys2zhetRyqjpFykt2W9c2tmaeMMNofqjlzBgqNzzS9HhuYwNO4etA3110mv7u-VXqjtToSDX-r8=w600-h400-k-no",
       imageAlt: "Traditional woodblock printing at Mokuhankan",
       tabelogUrl: ""
     },
@@ -2990,7 +2990,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "999+1 sewing shop, Osaka, Japan",
       description: "Tiny sewing and fabric shop in Namba. Japanese textiles, sewing notions, and handmade accessories. A crafter's treasure chest.",
-      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqNb_PtGQ0S047TFBQChs4JfOsvf55naggF0MLX7-nrVP4-JQeY95b7Pinz6kJboW3bvZ4c4qVjQ7eYAZzwFIQ-jEekdxWBmMWdEjbVFQbxuLXIYvXJXMB0uz591euRIMFJtZlJ=w600-h400-k-no",
       imageAlt: "Sewing supplies and Japanese fabrics at 999+1",
       tabelogUrl: ""
     },
@@ -3009,7 +3009,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Nippon Chuko sewing, Osaka, Japan",
       description: "Established fabric and sewing supply store in Namba's Den Den Town area. Multiple floors of Japanese fabrics, from traditional prints to modern textiles.",
-      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweonYjGFqYUCFIsjj6DEDVmj-4szhySDNljtK4NOIF-Gxgcy_hZ0X4SmvGTD4DyCvGBvG82M_sR-4SOAHiSomTn0G2db9oti6idmmvFCfkuDhr_hXnt4bW5RO3w_uUMxK7UqBIWpTg=w600-h400-k-no",
       imageAlt: "Japanese fabrics at Nippon Chuko sewing shop",
       tabelogUrl: ""
     },
@@ -3049,7 +3049,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Muji Kyoto Porta, Kyoto, Japan",
       description: "Muji in the Kyoto Porta underground mall. Japan's Muji stores carry items the overseas branches don't, especially stationery and snacks.",
-      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoMkgThvsBGHaDwKbZSc-o3nU_SZCjEkhKhJaCxY5rmRgU11HXBcJNulxHOgCFLW2TJfWrjMt3lw6K-5J0NJWJpSiQye9slJxfNn3OQs7Vzrp33_4qlfpQMDVCiDYLc1E6lE1oLBkQ0wOXL=w600-h400-k-no",
       imageAlt: "Muji Kyoto store with stationery and home goods",
       tabelogUrl: ""
     },
@@ -3091,7 +3091,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Kappabashi Kitchen Supply Town, Tokyo, Japan",
       description: "An entire street dedicated to kitchen supplies. Professional knives, ceramics, plastic food samples, and restaurant equipment. The knife shops are extraordinary.",
-      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepqIoEUIGo-emF07CsKKa1B8sHEIb_0omB7ZGDSr-7q6rZrlCeC9WULbDvd62PXu4iPMr-I8OJ1IVgmEEIQsi0Z9vkfWhdGi7axWpYVsuQP1aubdpfTq5GJU3xiZbUKKevkd7L5xQ=w600-h400-k-no",
       imageAlt: "Kappabashi Kitchen Supply Town street view",
       tabelogUrl: ""
     },
@@ -3110,7 +3110,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Ganso Food Sample Shop Kappabashi, Tokyo, Japan",
       description: "Make your own plastic food sample in a workshop. The hyper-realistic fake food that sits in every Japanese restaurant window started here in Kappabashi.",
-      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq1cVfmW0ThpCSQxOxPI3r4PWPgafMA1rDbtwfaOIT-x7O9ELVUdjU3_DR-dp499GxFHttK2ivuG-0PtXKtyB0WVJubmOR0ma9Vs76ODzPKyeP5BSHGM5o06Y8K8msXrPakYwWwY3er70w=w600-h400-k-no",
       imageAlt: "Realistic plastic food samples at Ganso",
       tabelogUrl: ""
     },
@@ -3129,7 +3129,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Manryo, Kappabashi, Tokyo, Japan",
       description: "Home goods and kitchen supplies at wholesale prices. Chopsticks, bowls, lacquerware, and everyday items that make great practical souvenirs.",
-      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerzzjvL71U63pktO-Odon8UVRmc-hDJ15wVjA7VmB0f_S_yv0oEV1icvKsoo8Og5UOVpiuslB4sVMCYZZpj4d9RoXAUb-eP1xrceHdA7g1UYJb_-iSy3Nv6Y1EvjXTFGoVvKAx4ZA=w600-h400-k-no",
       imageAlt: "Japanese home goods and kitchenware at Manryo",
       tabelogUrl: ""
     },
@@ -3148,7 +3148,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Komatsuya, Kappabashi, Tokyo, Japan",
       description: "Ceramics and pottery sourced from kilns across Japan. Good for finding authentic Japanese tableware at reasonable prices without the tourist markup.",
-      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqxoCzyS1WNnbLKfnwEpoIStDlR0Q0M0lxOf-Ng9XhgnXGJiwLJvrsQQ0T9QG50hnTdAKxkM4aATABQorbDuEsFHlWAwpes-i1Bq76E88UwF3XjFBhdRG6tt-vbMsXc2O57dsEuAw=w600-h400-k-no",
       imageAlt: "Japanese ceramics and pottery at Komatsuya",
       tabelogUrl: ""
     },
