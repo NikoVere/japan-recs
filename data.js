@@ -134,7 +134,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "MOMOTARO JEANS Aoyama, Tokyo, Japan",
       description: "Okayama-born denim brand known for its going-to-battle stripe and peach motifs. The Aoyama flagship carries the full range, including Japan-exclusive cuts.",
-      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq6QNWSRZXdKvuNJXwyIm-GjzscAcAds3aWvvfv6SWpKZeXpgiLKH6Zc4NTMhoTHQ6tihswjN2OyMy52vaKdbMEDV6Vb_g-NjnrHzqaoXOrFcm6wEc2WQEf9gJkcEjGhoR-fHm-UqHapzU=w600-h400-k-no",
       imageAlt: "Japanese denim jeans display in a boutique store",
       tabelogUrl: ""
     },
@@ -153,7 +153,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Studio D'artisan Tokyo, Japan",
       description: "One of Osaka's original five denim houses, producing selvedge since 1979. The pig mascot is iconic and the vintage-reproduction fabrics are phenomenal.",
-      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoViCLkq21P6Zkg4pPhYEsA3E-0iAceUYYJXzcObtMBeLym7Y2_mIq9w5zjS7KWaKwnIA-qVkDTZIELkcL14PHBb43KQfRwXTP1qcWWCwLN3o21mge2baa9HApk4Rr-FWg-2X80C5dwGEO6=w600-h400-k-no",
       imageAlt: "Japanese selvedge denim store interior",
       tabelogUrl: ""
     },
@@ -172,7 +172,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "WAREHOUSE DENIM TOKYO, Japan",
       description: "Obsessive American vintage reproductions. Warehouse deconstructs original garments stitch by stitch to recreate them with period-accurate detail.",
-      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-proxy/ALd4DhH1ONwGluzdSLeOkhk27F0-gyhnT4B8-KnNZWv0bQPhLOxTnkQTUPRwWW1uBFFN6MWcT4MV10zmKR6ZcX8wrtebtrF3GkxezYkx2OlxzmFjx0VS8LCtNYJT758HH0mol9qEveHqCo2Dg9Y8C9qnOQ6I_ZvzbPjFGpC7oR5ahyjgUPlpYjyAUglUV3qfuIz33ra2Fs4=w600-h400-k-no",
       imageAlt: "Vintage-inspired Japanese denim on display",
       tabelogUrl: ""
     },
@@ -191,7 +191,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "THE REAL McCOY'S Tokyo, Japan",
       description: "Military heritage and Americana reproduced with Japanese precision. Their leather jackets and flight suits are museum-quality pieces you can actually wear.",
-      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqQ_YE_k2rz0b_X-M9o3aC3N3qIZIU92JW-KMJUrE7YREF1ghrqWYwWdBVRx_EtmrtYKGsFuQ99xsBTi87P1vPTkv9ihS3pL3VC217gNFC55KeiHC-hMQu0OldYssyAyRMltCuLnOpVDWWb=w600-h400-k-no",
       imageAlt: "Heritage clothing and denim in a curated shop",
       tabelogUrl: ""
     },
@@ -385,7 +385,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Tower Records Shibuya, Tokyo, Japan",
       description: "Nine floors of music in the world's largest Tower Records. The chain died everywhere else but Japan kept it alive, and the Shibuya flagship is a pilgrimage site.",
-      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweroSZdkZPQniOXF4doKswM3wGNkSlPF_gJxbP29-0SLwtfgTzwYqQm5qWmyIwrxpmZsVu7SVbpd3QhLHJYymKWGluKGtziy4Etjv_PYWAwtSy7vjtPDijUEtlsPU6qQbc8jvGKVWBb6RS-X=w600-h400-k-no",
       imageAlt: "Tower Records Shibuya multi-floor music store",
       tabelogUrl: ""
     },
@@ -811,7 +811,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Kotouen, Kyoto, Japan",
       description: "Exquisite Kiyomizu-yaki pottery with an emphasis on tea ceremony ware. The glazes here have a depth you won't find in tourist shops.",
-      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqr152BHppYGuzt2VZaS8nsGi3zVJzOILfPAmvG9daHhyhGfFPR5QMh6dhc-UuF-5dW3o9IDXTSpBxSy1g5ynL9gDw5jhE4ksrzt0UIsSZ1gm9JZ2dIVARvddsXggQ0Jo9avKVeiovqlgRP=w600-h400-k-no",
       imageAlt: "Kiyomizu-yaki pottery at Kotouen",
       tabelogUrl: ""
     },
@@ -830,7 +830,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Maeken pottery, Kyoto, Japan",
       description: "Perfect-rated pottery shop on the Kiyomizu slopes. Handmade pieces by local artisans, each one unique. Worth the visit just to hold the cups.",
-      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerfQUhM9jyoARBmdtRoHhkTrkekIweHThmV1OLX-NQ7hRwzDeB3CzJFyJ694KKT5XmrtvZKv78iawGhAz5PTqYskHG_LiukxLqEUpflVYjDPZyPIWvxTjvx3ZORBWFJ8-xWZ9L4=w600-h400-k-no",
       imageAlt: "Handmade pottery on display at Maeken",
       tabelogUrl: ""
     },
@@ -2220,7 +2220,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Fushimi Inari Taisha, Kyoto, Japan",
       description: "Thousands of vermilion torii gates winding up a mountain. Start early to beat the crowds, and keep going past the halfway point where most people turn back.",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Fushimi_Inari-taisha_in_Kyoto-2.jpg/400px-Fushimi_Inari-taisha_in_Kyoto-2.jpg",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq5NxJtv6LSd4Q07jcQBGzesBhdsYpBY7F3yblyon6uU9xqw70s_A3wbythZ5w3DjaoyC_aPWBlJ64w_X-NRdmFYXvaUL5Yj--fzsgXqzyBxkjdP3sEqNT4w7D8JA_85UfHUnNa=w600-h400-k-no",
       imageAlt: "Thousands of red torii gates at Fushimi Inari Taisha",
       tabelogUrl: ""
     },
@@ -2239,7 +2239,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Kiyomizu-dera, Kyoto, Japan",
       description: "A wooden terrace jutting out over a hillside with no nails holding it together. The view across Kyoto from the stage is worth every step of the climb.",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg/400px-Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqzC7claLybPXfXwOFe7okRzWMioFl7PHukbM8n8fVrwhYquUkB2Ypf_F04DLQwtXyviasIyDLa-wPZ_tqLvn-jYJdYo9bydRwGi9KvzKBetGSII7jbasZ1Lyc5a5JmcEUw379yTsFnAQk=w600-h400-k-no",
       imageAlt: "Kiyomizu-dera wooden terrace overlooking Kyoto",
       tabelogUrl: ""
     },
@@ -2258,7 +2258,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Kinkaku-ji, Kyoto, Japan",
       description: "A pavilion covered in actual gold leaf, reflected in a mirror-still pond. It's as spectacular in person as every photo suggests. Go on a clear day.",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Kinkaku-ji_the_Golden_Pavilion_in_Kyoto_overlooking_the_lake_-_high_res.JPG/400px-Kinkaku-ji_the_Golden_Pavilion_in_Kyoto_overlooking_the_lake_-_high_res.JPG",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepIA6cCa0BsWwHewQOiezsKcO468FwyBjRubDsWlbxdVPEIUPKIbrM3CxfQ8W3hC-zrzNGPQJHJ5sy9JG5B1_5riMM9-8RdTPWGxO1ezdXVotoDgLjazjImlgxBPryvIZDZ9R-Q-A=w600-h400-k-no",
       imageAlt: "Golden Pavilion Kinkaku-ji reflected in pond",
       tabelogUrl: ""
     },
@@ -3465,7 +3465,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Todai-ji, Nara, Japan",
       description: "Houses the world's largest bronze Buddha. The scale is genuinely jaw-dropping.",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Todaiji18s3200.jpg/400px-Todaiji18s3200.jpg",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq4X0uaImYZkYf4tTtWL58rUHux5Uq4rrHpwhZ_bRcqxcUj6gCVGXswFGZTLFDs1pUbOnigFtOUlPWLC-SlSdAVLshqhJ0bupcZah45M98Ed29lG3E4ro0z4btaSdQthPxVo-gnSw=w600-h400-k-no",
       imageAlt: "Todai-ji temple housing the Great Buddha of Nara",
       tabelogUrl: ""
     },
@@ -3484,7 +3484,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Nara Park, Nara, Japan",
       description: "Over 1,000 free-roaming sacred deer. Buy shika senbei (deer crackers) and prepare to be mobbed.",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Deer_in_Nara_02.jpg/400px-Deer_in_Nara_02.jpg",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepwHoKKWf5vKz0C4ihtmIIwgwAdkTGvb-iP-FzcaaEzCFYMNRcfoVKGVCP2ssGGz-KOmaK9PLwN2J46DWLqIpZbGI3FFopdG2OB5K7UBGbY3K36T-DepYQRuwSAYjxNUDmugA1h0k3qOW0C=w600-h400-k-no",
       imageAlt: "Sacred deer roaming freely in Nara Park",
       tabelogUrl: ""
     },
@@ -3758,7 +3758,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Itsukushima Shrine, Miyajima, Japan",
       description: "The floating torii gate. Take the ferry from Hiroshima and spend the whole day on the island.",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Itsukushima_torii_distance.jpg/400px-Itsukushima_torii_distance.jpg",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepsTSuYcTVUtanA6vS5tA0vyP14osVreyZY7aoHHuvBiSHFigcxZ1YrLg0FaIubu7nUJ2eZB5ROhEXvGdEVwvM1IfZgAwjRiPloUZlsWmdLsk3tN29LN-WX8CPPN8mBDiUiWMsu=w600-h400-k-no",
       imageAlt: "Itsukushima floating torii gate at high tide",
       tabelogUrl: ""
     },
