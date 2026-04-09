@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Juan & Pily's Japan — A Guide by Niko</title>
+  <meta name="description" content="A personalised Japan travel guide curated by someone who lived there.">
+  <meta name="theme-color" content="#0f0f1a">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=Noto+Sans+JP:wght@300;400;500;700&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ═══════════════ LOADER ═══════════════ -->
+  <div id="loader" class="loader">
+    <div class="loader-kanji">日本</div>
+    <div class="loader-text">Loading your guide...</div>
+  </div>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <header id="hero" class="hero">
+    <div class="hero-bg">
+      <div class="hero-grain"></div>
+      <div class="hero-circles">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+      </div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-stamp">ニコ</div>
+      <h1 class="hero-title">
+        <span class="hero-title-top">Juan & Pily's</span>
+        <span class="hero-title-main">Japan</span>
+        <span class="hero-title-jp">日本ガイド</span>
+      </h1>
+      <p class="hero-subtitle">A curated guide by <strong>Niko</strong></p>
+      <p class="hero-meta">From someone who lived there. Every pin tested. Every note personal.</p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-count="0">0</span>
+          <span class="stat-label">Places</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="10">0</span>
+          <span class="stat-label">Themes</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="8">0</span>
+          <span class="stat-label">Cities</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </header>
+
+  <!-- ═══════════════ STICKY NAV ═══════════════ -->
+  <nav id="nav" class="nav">
+    <div class="nav-inner">
+      <div class="nav-brand">🇯🇵 Niko's Japan</div>
+      <div class="nav-tabs" id="navTabs">
+        <!-- Populated by JS -->
+      </div>
+      <button class="nav-map-btn" id="navMapBtn" aria-label="Toggle map">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4z"/><path d="M8 2v16"/><path d="M16 6v16"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ INTRO ═══════════════ -->
+  <section class="intro reveal-section">
+    <div class="container">
+      <div class="intro-note">
+        <div class="note-pin"></div>
+        <p class="handwritten">Hey Juan & Pily! I put this together from my years living in Japan and all the trips I've done. These are my actual favourite spots, not tourist-guide filler. Some are hidden gems, some are famous for good reason. Trust the ones with notes — those are the ones I genuinely love.</p>
+        <span class="note-signature">— Niko</span>
+      </div>
+      <div class="intro-how">
+        <h2>How to use this guide</h2>
+        <div class="how-grid">
+          <div class="how-card">
+            <span class="how-icon">🎯</span>
+            <h3>Browse by theme</h3>
+            <p>Curated collections: denim, vinyl, tea, temples, food, and more</p>
+          </div>
+          <div class="how-card">
+            <span class="how-icon">📍</span>
+            <h3>Explore the map</h3>
+            <p>See everything geographically, filter by area and category</p>
+          </div>
+          <div class="how-card">
+            <span class="how-icon">✍️</span>
+            <h3>Read Niko's notes</h3>
+            <p>Handwritten tips on the places that matter most</p>
+          </div>
+          <div class="how-card">
+            <span class="how-icon">🗺️</span>
+            <h3>Open in Maps</h3>
+            <p>Every place links to Google Maps for directions on the go</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ THEME SECTIONS ═══════════════ -->
+  <main id="themes">
+    <!-- Populated by JS: one section per theme -->
+  </main>
+
+  <!-- ═══════════════ MAP SECTION ═══════════════ -->
+  <section id="map-section" class="map-section">
+    <div class="container">
+      <h2 class="section-title reveal-item">
+        <span class="section-emoji">🗾</span>
+        <span>All Places</span>
+      </h2>
+      <div class="map-filters" id="mapFilters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <!-- Populated by JS -->
+      </div>
+      <div id="map" class="map-container"></div>
+      <div class="map-legend" id="mapLegend"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="footer-wave"></div>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-stamp">日本</div>
+        <p class="footer-message">Made with love for Juan & Pily</p>
+        <p class="footer-credit">Curated by Niko — who lived in Japan and misses it every day</p>
+        <div class="footer-links">
+          <a href="https://maps.app.goo.gl/ytjj7C1CxcWrac3n8" target="_blank" rel="noopener">Shops List</a>
+          <a href="https://maps.app.goo.gl/WNDbyqM2asRTcNLs7" target="_blank" rel="noopener">Museums List</a>
+          <a href="https://maps.app.goo.gl/RWjPPdL1pnyTogA1A" target="_blank" rel="noopener">2023 Trip List</a>
+        </div>
+        <p class="footer-copy">いってらっしゃい！🇯🇵</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════ BACK TO TOP ═══════════════ -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
