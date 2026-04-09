@@ -298,8 +298,8 @@
       actionsHtml += `<a class="card-btn card-btn-tabelog" href="${place.tabelogUrl}" target="_blank" rel="noopener">🍽️ Tabelog</a>`;
     }
 
-    // Hanko stamp for Niko's faves (places with personal notes)
-    const hankoHtml = place.nikoNote ? `<div class="hanko-stamp"><svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><circle cx="25" cy="25" r="23" fill="none" stroke="#c62828" stroke-width="2.5" opacity="0.9"/><circle cx="25" cy="25" r="19" fill="none" stroke="#c62828" stroke-width="1" opacity="0.5"/><text x="25" y="22" text-anchor="middle" font-size="10" font-weight="900" font-family="'Noto Serif JP',serif" fill="#c62828">ニコ</text><text x="25" y="33" text-anchor="middle" font-size="7" font-weight="700" font-family="'Noto Serif JP',serif" fill="#c62828">推薦</text></svg></div>` : '';
+    // Hanko badge for Niko's faves (places with personal notes)
+    const hankoHtml = place.nikoNote ? `<div class="hanko-badge"><span class="hanko-label">Niko's fave</span><div class="hanko-stamp"><svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><circle cx="25" cy="25" r="23" fill="#c62828" opacity="0.9"/><circle cx="25" cy="25" r="20" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/><text x="25" y="22" text-anchor="middle" font-size="11" font-weight="900" font-family="'Noto Serif JP',serif" fill="white">ニコ</text><text x="25" y="33" text-anchor="middle" font-size="7" font-weight="700" font-family="'Noto Serif JP',serif" fill="rgba(255,255,255,0.8)">推薦</text></svg></div></div>` : '';
 
     card.innerHTML = `
       <div class="card-image">
