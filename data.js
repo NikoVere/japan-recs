@@ -229,7 +229,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Kapital Harajuku Tokyo, Japan",
       description: "The Harajuku outpost of Kapital, spread across multiple floors. More curated than the Shibuya store, with a gallery-like atmosphere.",
-      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerolxUfiAGJXN9h5ewhs7_yg51UL38sgjsT3dgFyZKr3ivW5PyDZebygbfh8yze_sGqeocUMEIGIgIqfacglp2z0MlvsMvutMaGTMsEMfTiuonEyPkPgQzuTpxHrJ3q0TLUCQlG=w600-h400-k-no",
       imageAlt: "Kapital Harajuku store with Japanese denim",
       tabelogUrl: ""
     },
@@ -267,7 +267,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Evisu Omotesando, Tokyo, Japan",
       description: "The hand-painted seagull brand's flagship. Evisu started the Japanese premium denim movement in 1991, and the Omotesando store carries heritage pieces you won't find abroad.",
-      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwequJQa7wwOiJ4bz8NMnPVIfKbwEd7JuzPQF4xtXLwYmLu3wlJdWVAK4zKRsyRafBx2wAoM-S7dswR3T1BdJoV3R2knY-mzSi8pF2je3p2uknUpTnR9TaTo8KAJjjpwic2uBupU=w600-h400-k-no",
       imageAlt: "Evisu denim with hand-painted seagull logo",
       tabelogUrl: ""
     },
@@ -286,7 +286,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "EVISU Ginza, Tokyo, Japan",
       description: "Evisu's upscale Ginza location. More polished presentation than Omotesando, catering to the Ginza crowd with premium and limited-edition lines.",
-      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo_16jBf0fc7Mmlzn7X-WT5-DDjz5m7t_Cv5QCGG4ZUVLhfxB6Lw5PO2apkxDGvCkUTY3lI4u8bLvA2mY_DuDWuroU0wV6E7qiCZOkCUYheNhAWJOxGx1mVI4-U3OBUT17P2xpAxFyVidWn=w600-h400-k-no",
       imageAlt: "EVISU Ginza store front with premium denim",
       tabelogUrl: ""
     },
@@ -305,7 +305,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "The Flat Head Tokyo, Japan",
       description: "Cult-status heavy denim and biker-inspired Americana. Known for their Pioneer series and some of the thickest selvedge denim you'll find anywhere.",
-      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer5BE1sXp3Bcu6YqHjedfy1qczYoUzUUCi6K5D3ETrc0cBb37_CwWxTLG5bhbPaNNQ6LU8CoPfYABdMUt4RLTrhJmph03GhiVnUrB4b50nLpN7ogLQiYKOIzZOrFLiA4j4gHL72=w600-h400-k-no",
       imageAlt: "The Flat Head heavy selvedge denim display",
       tabelogUrl: ""
     },
@@ -324,7 +324,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Pure Blue Japan Tokyo, Japan",
       description: "Deep, rich indigo dyes and slubby textured fabrics are PBJ's signature. Their XX series produces some of the most distinctive fading patterns in the denim world.",
-      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoCyI1ZnS8QrvJsm4HHyxZzhdvU8LkV_nXyQolJKElHLsoQYW8U68u0NC1eZd5gx4Fo4cTlSxfv8p8Sk-4ZHOi0uItTn0jOlA924tMS4eza60IbiYxYn7lIG6M71MhpAO7f_usmVw=w600-h400-k-no",
       imageAlt: "Pure Blue Japan indigo denim close-up",
       tabelogUrl: ""
     },
@@ -343,7 +343,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "EDWIN TOKYO HARAJUKU, Tokyo, Japan",
       description: "Japan's largest denim brand. EDWIN invented the process of washing raw denim to soften it. The Harajuku flagship is the definitive place to see the full range.",
-      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo7IC9BYYUFeRwXVpzr-VuAapmCMmdvZMWmObOtTm4n_iebLV_E_gGA5pdGigNToRD_stHVQMUfLqJsSazg03lhBuA_GHPxuxpBigg0Eo82c-GegO-rd3vklgSK5Us16_Tdpdam3pM3MwE=w600-h400-k-no",
       imageAlt: "EDWIN Tokyo Harajuku flagship denim store",
       tabelogUrl: ""
     },
@@ -362,7 +362,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "JAPAN BLUE JEANS Shibuya, Tokyo, Japan",
       description: "Collect Textiles' retail brand, woven on vintage shuttle looms in Okayama. Excellent value for genuine selvedge denim with interesting fabric innovations.",
-      imageUrl: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqQqa9r3Y8g19n8FCvtTufniX-b1uvfAJOzc8NWSKGxUMEHM0_m_noxjBLqsYeeo26yksEr86pN-ZE4bsbpNSxQhCfl-9kt_s-Ql0IonzUoTtVwZFdLt_s4hyQnyjDRuR63zpfe=w600-h400-k-no",
       imageAlt: "Japan Blue Jeans store with selvedge denim",
       tabelogUrl: ""
     },
@@ -423,7 +423,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "GINZA RECORDS & AUDIO, Tokyo, Japan",
       description: "Upscale vinyl shop in Ginza with a focus on jazz, classical, and audiophile pressings. The staff knowledge is encyclopaedic.",
-      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepyn6JeInY-s40CcR2EQTpAPqjQajSgZwPaoFpAefrVEHSsE0IfAdFEkTp2z0f0CfkBLMQugUBy4BGj7yO7J9frEGbsj8KBxDD94wQ9XF4-nbNQL7gJ-tkiwaI0d6x_yFJfkQ8=w600-h400-k-no",
       imageAlt: "Curated vinyl records in an upscale Ginza shop",
       tabelogUrl: ""
     },
@@ -442,7 +442,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "TOWER VINYL UMEDA, Osaka, Japan",
       description: "Tower Records' vinyl-only concept store. Beautifully curated with listening stations, a warm atmosphere, and one of the best selections in Kansai.",
-      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqkbR3Qs60HM2M8CXRpQrhpl5I9p6oAHya5yyHwVeU5DN15f8SSqYAfs4jS3i0Sj4tCwybLkoXM1XSFKFu8TDHNZOnTmyFy_q10lJQjiRK5NHrvTfYrD-9GxPfVo6OgadJfJsESlWlC4ys=w600-h400-k-no",
       imageAlt: "TOWER VINYL UMEDA record store interior",
       tabelogUrl: ""
     },
@@ -461,7 +461,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Tower Records Namba Parks, Osaka, Japan",
       description: "Solid Tower Records inside the architecturally striking Namba Parks mall. Good J-pop and idol sections alongside mainstream international releases.",
-      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep3814EEnix7Q2Psr3eTtJ0p5-x6E1pBZlVbaguvZa8r8X5ZVV6_CQkUpm_PIjA9Zv_HOF9SBiBjniinQIdS6u9coZA0qol6akrM7SRKfsZZ_t4ZW_3IlQLTSlxb4suItXIPvexryRFiA91=w600-h400-k-no",
       imageAlt: "Tower Records inside Namba Parks shopping complex",
       tabelogUrl: ""
     },
@@ -480,7 +480,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "HMV&BOOKS SHINSAIBASHI, Osaka, Japan",
       description: "HMV merged with a bookshop concept in Japan. Vinyl, CDs, books, and magazines in a browseable space that rewards wandering.",
-      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqd4FXIfMR9bo18cA9cjLrafYGFZkRKzf7QFFmkFLUxbULGX31gT_mWSshEfkDPXsKQnJUBJj02sj46BPw7V1nb0bJ7pb4SstNQaPjA_MnCi6MUhVNLPZ5BkMS6Wniri-zxkwVYGvFh9xfF=w600-h400-k-no",
       imageAlt: "HMV&BOOKS Shinsaibashi music and book store",
       tabelogUrl: ""
     },
@@ -499,7 +499,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "RECORD SHOP rare groove, Osaka, Japan",
       description: "Tiny, passion-project vinyl shop specialising in soul, funk, and rare groove. The owner hand-picks every record and can talk for hours about each one.",
-      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerVpx0-fuA2XzKjkZhT1pws_RDfNpUl6QKtbhEF1Bo-umBS7nt2svz_oyEXuwfip5BY5aLG4lVLDGOWjU3-Bk1q-5dbOyVF6PbzXiJs9BI5YTNm9nTUHrDcMRbmdqcV-zD22QJt=w600-h400-k-no",
       imageAlt: "Rare groove vinyl record shop in Osaka",
       tabelogUrl: ""
     },
@@ -537,7 +537,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Time Bomb Records, Osaka, Japan",
       description: "Punk, hardcore, and underground music vinyl shop. The kind of place where the staff are in bands and the recommendations are gold.",
-      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep7oVcbSBhVp5YnkxZkjmTewMxqzywe-uXPYXrTIKLw8yoUbgt96R2OaGuuTMozEcc1P0Cg8aSpChcMyWIZpQYTVbY17yLpIQQZHcsgW6Z5cgw-k1TsnZrMLy2TUZMdrhUXW8aACw=w600-h400-k-no",
       imageAlt: "Time Bomb Records punk and hardcore vinyl",
       tabelogUrl: ""
     },
@@ -556,7 +556,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Voxmusic, Osaka, Japan",
       description: "Eclectic vinyl shop with a good mix of electronic, ambient, and world music. Relaxed vibe and fair prices.",
-      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoTqFaMjAduPVJIiEFEzqMLzXr0Z4D72SCTBG82omj8ywRf1_Awvv9aDAhnLTCrMHYJbCBZqEBE5oFIdm-vb9o8VNp9NUaA6YVfV239pyvaq05ydlpsr1r5OHTFgv4nLTtcjhs=w600-h400-k-no",
       imageAlt: "Voxmusic record store in Osaka",
       tabelogUrl: ""
     },
@@ -575,7 +575,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Grind Records, Osaka, Japan",
       description: "Small independent shop focused on hip-hop, R&B, and club music on vinyl. Serious diggers will find gems in the bargain bins.",
-      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwept25j7EC0sqqUZUwHQxEv3vq73OeDTV6yTtxlfdj8C-l2HNMKBxoMuXavD2hHl-NQ3jNEuk_mbEk0qmontNbCmbYCwAGQd497RCLpWI1JBAm8_IVFC-HNIEq2OtALKJ0HU7-ZsjaDnC3I=w600-h400-k-no",
       imageAlt: "Grind Records hip-hop vinyl shop",
       tabelogUrl: ""
     },
@@ -594,7 +594,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Tower Records Kyoto, Japan",
       description: "Kyoto's main Tower Records. Good for J-pop, anime soundtracks, and regional Kansai artists you won't find in Tokyo stores.",
-      imageUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweruAs6SbUJp2LlsK8AgNbsFFlRNlxpGkdWcxc-mgr0rsKKmE91_gkzfKfcZ-5uP8tWfysQNYFHXis3iAVmuW_i9I6qVYMeWRZhH9HNYq-gGvGuW7xZO11X4VMrFoP8XKJ1wC5oHpJb98y0=w600-h400-k-no",
       imageAlt: "Tower Records Kyoto music store",
       tabelogUrl: ""
     },
@@ -788,7 +788,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Uji, Kyoto, Japan",
       description: "The most famous matcha-producing town in Japan. Walk along the river, visit Byodoin Temple, and taste matcha at the source where it's been grown for centuries.",
-      imageUrl: "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoXVALyMaAi26KPDla4UiTWocjb6cZ2SJagfh1WWrlSL-77p7TPexEKimC-3YgJbFYvooZRLVcpcloUFhiIWwBrKZQ449mem1iAenk1V1kuZbld_DniObDhUpQvNgjPXVT8-6c=w600-h400-k-no",
       imageAlt: "Uji town famous for matcha tea production",
       tabelogUrl: ""
     },
@@ -1100,7 +1100,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "RAGTAG Shibuya, Tokyo, Japan",
       description: "Larger RAGTAG location with more floor space than Shimokitazawa. The Shibuya spot tends to get higher-end consignments due to the neighbourhood.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo3RI2up6C6LJ22P3OKVRF7GQ0v9HARE_2ehUU1v1aCIg4jv4wv6CstH1VXSoAMjedy-jc0M39c4rGhQIIXl52iifl1pI2ivuXSogyV2iOipFzVNxlpxwlfafIOgU184gu7PDLi=w600-h400-k-no",
       imageAlt: "RAGTAG Shibuya secondhand designer fashion",
       tabelogUrl: ""
     },
@@ -1119,7 +1119,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "KOMEHYO Shibuya, Tokyo, Japan",
       description: "Luxury resale powerhouse. Authenticated Louis Vuitton, Chanel, Hermes at significant discounts. The watch floor alone is worth a visit.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweovmnYQ8K9rNE9xioebD_Cx3tUR05wVR4rxPvalW6Os3EErrAmS4WOsoC8HrweRCoO4GZPmpUBZd-wItySSwlp6Cknv1sY8HYFNtNg5DeHMsWkZAfiDo90fd8QonVijj-Jq9jZU3S3VaEJl=w600-h400-k-no",
       imageAlt: "Luxury brand items at KOMEHYO Shibuya",
       tabelogUrl: ""
     },
@@ -1138,7 +1138,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Hard Off Hobby Off Ueno Okachimachi, Tokyo, Japan",
       description: "Electronics, instruments, hobby supplies, and random treasures. Hard Off is Japan's answer to Goodwill but with better quality control and wilder finds.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepw8bM-WJL9Q4KuH7qz2sCuT5DLA6emZfQQHvvFC848Z9RmFLcMbe5WetgzSCaIUXQJRTI9Z0cCXr9-q7RMu8xheD8bH9HPc9CDx3y7bZpPcH19IQv1-jkqU1BuEh-t_bixXAsQ4H_LTP3U=w600-h400-k-no",
       imageAlt: "Hard Off thrift store electronics and hobby items",
       tabelogUrl: ""
     },
@@ -1176,7 +1176,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "BOOKOFF Akihabara, Tokyo, Japan",
       description: "Multi-floor used media empire. Manga, CDs, DVDs, games, and books. The 100-yen manga bins are dangerous if you have space in your luggage.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqlSGKZ7Q3-dgM7tOhPzLhIJVGvL-jeY5LumRT5iiO9wQmhXelys2zwuDBsgoxmDa1VGYSsQ6dFoFR2H5B31iGDh2vJPhyyqXozbpRhfL3EtvuELTaokZerDGOHYsOPgRc71ihMSjUqruPD=w600-h400-k-no",
       imageAlt: "Shelves of used manga and books at BOOKOFF",
       tabelogUrl: ""
     },
@@ -1214,7 +1214,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "BOOKOFF Higashinakano, Tokyo, Japan",
       description: "Quieter neighbourhood BOOKOFF with less competition from tourists. Better chances of finding rare volumes at standard chain prices.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoDSMkW-QUfOrBJb6lot28uU-mkZf51P0kdyyjfVpp5hQcWc4ZPRQEUz5sEIBZBGoXMtAFw1L6pT4g1_-FrQVuqipDjy2VkrhwHhTEqqmuU7admA-lciQX57I7tXD2G4heQ8FDOGSJI-KGK=w600-h400-k-no",
       imageAlt: "Used books at BOOKOFF Higashinakano",
       tabelogUrl: ""
     },
@@ -1252,7 +1252,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Rare Item Studio, Tokyo, Japan",
       description: "Near-perfect rating for a reason. Rare designer pieces, vintage Chanel, Hermes scarves, and accessories you'd pay triple for in Paris or New York.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwergw0V0GR_g5T2WMDeU63Xtk2xElrO3urt2QutXk5GtzlJ37rzoFO7NZCO00LcRX3qR1ifMUVBGuEwrQ8hcdP5PYnKjQ4zRHWWPpZyzdXyy79o8b7Clf4cF1m3hUhbhIUfftIJpHwJe4MWT=w600-h400-k-no",
       imageAlt: "Rare luxury vintage items at Rare Item Studio",
       tabelogUrl: ""
     },
@@ -1271,7 +1271,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "green pepe, Shimokitazawa, Tokyo, Japan",
       description: "Tiny, colourful clothing store in a Shimokitazawa side street. A mix of vintage and indie Japanese brands with a playful, maximalist aesthetic.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepsZ7vOPpaL2bDw_0QO2ON8u8LWgJfbc2_rj4y96GBd9fBrBRPjKo_-5uJ6GZEdCpIE2lqSxVl54BD2oL-vMejbROae-J5S-GUHd0mgwl8Wu67b9vynANNXMC9vlGzUeOk3OcGfqD1PV_4a=w600-h400-k-no",
       imageAlt: "Colourful vintage clothing at green pepe",
       tabelogUrl: ""
     },
@@ -1309,7 +1309,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Lanp Shimokitazawa, Tokyo, Japan",
       description: "Hole-in-the-wall Shimokitazawa shop with a perfect rating from its small but devoted following. Japanese indie brands and one-off pieces.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerg3Hd8jo1CjpjxxJNLuG6vzB9mFA7HCinYKaSYtt0IHSnfTgvL550wRnqScUMJ-zOuYPGHZd5ST9d1VYKttU7tR-Qkn63cGwjS8dDkXP8TaR0TyT_zOz4E0EAQn_gSl-4dYa2i7vy2R6xe=w600-h400-k-no",
       imageAlt: "Small curated clothing shop Lanp in Shimokitazawa",
       tabelogUrl: ""
     },
@@ -1329,7 +1329,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "BOOKOFF Osaka Shinsaibashi, Japan",
       description: "Shinsaibashi's main BOOKOFF. Multiple floors of used manga, CDs, games, and clothing. The location means it gets a constant churn of inventory.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqoheDV-6aV_2WlvbSI8xR6grGXCpfjDXxok99Fl9k7MECdy2GpWxC0YpDE6kuNc4sriqOBdg8L1Eqyf9gZlSN9xBstGz28OezD3d_2TttdrCmIZzlkM2rxbKmzIvKThmQmvgRbqHbBQfI=w600-h400-k-no",
       imageAlt: "BOOKOFF Osaka Shinsaibashi used media",
       tabelogUrl: ""
     },
@@ -1348,7 +1348,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "BOOKOFF PLUS Namba Ebisubashi, Osaka, Japan",
       description: "The 'PLUS' format is Book Off's expanded concept: more floor space, better curation, and a dedicated luxury brand section alongside the usual used goods.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerFvbl5G-MPBjsa5TE1jG8xxi1LnrOIbHHO4-HUtFPbeLpwee6N_dbYwFEMeSltMy1IUULG4tCGk07v4_yGVqGG3xWoBOqYoXl_XPtoQx2vCcNKO2wHg4kqmvQe-NDcUVZO2njTqXJOBXjT=w600-h400-k-no",
       imageAlt: "BOOKOFF PLUS Namba expanded thrift store",
       tabelogUrl: ""
     },
@@ -1367,7 +1367,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Wego Shinsaibashi no.3, Osaka, Japan",
       description: "Affordable youth fashion chain popular with teenagers. A mix of new fast-fashion and vintage-inspired pieces at pocket-money prices.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer6HUNZJ1C_QSfPoT-tzYFznRmwpm2a_34zrAIJrRCwHowthgUq-FzXafg0zwNya5rMqiGiYj1nf-G1wJgzj4StrWvOZthIGBf1siPu7UBSTXQMZCgmaDXPyQjuwqoRra7MdwvAFQ=w600-h400-k-no",
       imageAlt: "Wego youth clothing store in Shinsaibashi",
       tabelogUrl: ""
     },
@@ -1405,7 +1405,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "WEGO VINTAGE Americamura, Osaka, Japan",
       description: "Wego's vintage-only format in Americamura, Osaka's answer to Harajuku. American vintage, 90s streetwear, and the occasional gem.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqJVrbcp_ESoeJGdFnElOp8OJzAww3ZCzgxK9DZ4vzPDrEpfg_ZhwrYO7KhtQGgaHCcgsv6M_3uSHJ_NPzZT0bvjcCgR8oNF_IB83UnpsKQ95hnTj9NbjDx46FzcjFtig8_O92bKiPO5YD2=w600-h400-k-no",
       imageAlt: "WEGO VINTAGE Americamura used clothing",
       tabelogUrl: ""
     },
@@ -1425,7 +1425,7 @@ window.JAPAN_DATA = {
       status: "closed",
       gmapsQuery: "Three Star Kyoto, Japan",
       description: "Well-known Kyoto thrift store. Currently closed, but worth checking if it reopens. Was a favourite for affordable vintage finds.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepMZSGHkS74oUelA_AxBKzemBVJJQ1cLRfr5LmjBW0B08RMgTZBPHFjUWEeoKv_L24eDCSyy_KnqqtLqbadPnCLcnO4GbWachmb2DRjKH2ds5Oh_asMiGtDR0AqJXUdWnp_a3iD=w600-h400-k-no",
       imageAlt: "Three Star Kyoto thrift store",
       tabelogUrl: ""
     },
@@ -1444,7 +1444,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Harajuku Chicago Kyoto, Japan",
       description: "Tokyo vintage chain's Kyoto branch. American vintage, kimono remakes, and 80s-90s Japanese fashion. Good for finding wearable vintage at fair prices.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqe260Z4tnYpTbX0-1Nkk3-E0heF-Q-LS_nBX4w8SLqsSwOY2ovzRHmdyq0fr8B7GqrR4AtA3HGNBSIWnuYJqnLYJ1Sxewkq8X8SQ9perSzZXwXfWt6yaUqLBFpCJNxoV-Hndgza5rlhDo=w600-h400-k-no",
       imageAlt: "Vintage American and Japanese clothing at Harajuku Chicago",
       tabelogUrl: ""
     },
@@ -1463,7 +1463,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Vintage clothing store JAM Kyoto, Japan",
       description: "Warehouse-style vintage shop with a massive selection. JAM buys in bulk from the US and curates it with a Japanese eye. Great for leather and denim.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo1Xoxtd2rVxs5-WpWtw0-CI1l9tEhLrxVxTYV71f4iJEQaTpfJAesWN57WLkfU_2rYZVlY-IiKZbGUQIqdq5v6BwtLviWL7fLfJlrzOUyUi65NWSohFbgRsZoHifND8Kd3h9AK=w600-h400-k-no",
       imageAlt: "Warehouse-style vintage clothing at JAM Kyoto",
       tabelogUrl: ""
     },
@@ -1582,7 +1582,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Tatsuro Sushi, Tokyo, Japan",
       description: "Counter-only sushi spot where the chef selects and prepares each piece right in front of you. Omakase-style dining at a fraction of Ginza prices.",
-      imageUrl: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer3UDLV46tjyIneL6_n-HIrvB8aZztvjFfZuDDJXqZwhK0gxUoe3fWKYS0L1E8ytwpuP5uYhvPNWEl4c6AYogXTL8b1blSDzX944D-mNyISmFabsQQG8vYeljduA8du4juhlLOUMA=w600-h400-k-no",
       imageAlt: "Fresh sushi prepared at the counter at Tatsuro",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Tatsuro%20Sushi%20tokyo"
     },
@@ -1601,7 +1601,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Yakiniku Jumbo Shirokane, Tokyo, Japan",
       description: "Premium yakiniku with beef so marbled it practically melts on the grill. The name 'Jumbo' refers to the generous cut sizes, not the restaurant.",
-      imageUrl: "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq5ATE7uM7fsJhWzu9-Kvi4Xt_INniptyQAy_dm9LYo1RMpenfJZxBXX_qTCt5s_j8eqZpZHBh4S4aQvMmoOBjaOBJblF-G-2SoeaB6hEqAE30dhAntDroms2Wp2aQRCSsIv_3K=w600-h400-k-no",
       imageAlt: "Premium marbled beef grilling at Yakiniku Jumbo",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Yakiniku%20Jumbo%20Shirokane%20tokyo"
     },
@@ -1620,7 +1620,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Halal Ramen Honolu, Tokyo, Japan",
       description: "Halal-certified ramen in Shinjuku, which is rarer than you'd think. The broth is rich, the noodles are firm, and the spicy fried chicken ramen is the move.",
-      imageUrl: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepbuLtpQTH-T2rlfqYog5eBJZZmt-sxLZ-kI1SUQ23vR-HbrcTDHMTEUsXjePWkFRxQ2lkQBTmDlfRukrwlCFCAr0BBt9YdiGTmTFi7I894IC4f7bRgGTIR7vpxrPM99j2qNnFk8g=w600-h400-k-no",
       imageAlt: "Halal ramen bowl with fried chicken at Honolu",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Halal%20Ramen%20Honolu%20tokyo"
     },
@@ -1639,7 +1639,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Nihonbashi Kaisen Donburi Tsujihan, Tokyo, Japan",
       description: "Famous for their two-stage seafood donburi: eat half as-is, then pour dashi broth over the rest for an ochazuke finish. The queue is worth it.",
-      imageUrl: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqtkw4BF_rswnBMDlMGyteR7zJgzlUg-PeI7swbjx5nvzCSBRuuSFbU4hHfZlAdm5caxD8HzzVa3CjWWk1zh54lw-5pg0zyVtuNqHFejtR3oEEdQP6c6CUmGb1DUt2aR7DtSciA=w600-h400-k-no",
       imageAlt: "Seafood donburi at Tsujihan",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Nihonbashi%20Kaisen%20Donburi%20Tsujihan%20tokyo"
     },
@@ -1658,7 +1658,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Harajuku Gyozarou, Tokyo, Japan",
       description: "Counter-only gyoza specialist that's been doing one thing perfectly for decades. Crispy, juicy, and gone in seconds. Cash only.",
-      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweptsNnWowTyKDvwJd0v04RJaEGprG39R9nDKJIEha1YnkyCuGiTlFNjUSEELn0T07Ap_AIET4XfCHhgE8l5J0lpASLDWcpBJSIveYEv9XSUkWXHjWiPRrVdaGDa_BfBCg9Y0ZaNwfmpMYwD=w600-h400-k-no",
       imageAlt: "Pan-fried gyoza at Harajuku Gyozarou",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Harajuku%20Gyozarou%20tokyo"
     },
@@ -1677,7 +1677,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Nikuya no Daidokoro Dogenzaka, Shibuya, Tokyo, Japan",
       description: "All-you-can-eat wagyu for 6,000 yen. Hidden on the third floor of a nondescript building. The premium buffet tier is the one you want.",
-      imageUrl: "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweotQJuuaNjKD5L0bGvF5hmVYIugNl6vYr4MCt9V9KDfnnYi5On6-SlBwU4PulNgKWCFvRATdLC4VJN7-b-y14VntzC7pWUUWS5n-zCMek73z6piSCS3doEBKvIE9s7QqOn9wGpU=w600-h400-k-no",
       imageAlt: "Wagyu beef buffet at Nikuya no Daidokoro",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Nikuya%20no%20Daidokoro%20Dogenzaka%20tokyo"
     },
@@ -1696,7 +1696,7 @@ window.JAPAN_DATA = {
       status: "closed",
       gmapsQuery: "Tsurugyu, Tokyo, Japan",
       description: "Underground Kobe beef spot that locals don't want tourists to find. Currently closed, but if it reopens, the quality-to-price ratio was unbeatable.",
-      imageUrl: "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoySaOAaR0u2Ixxfjpzh_QRAzAu47XYBN1T1__mcvc09SkamKmZLzbbuilRC6dEjYAg4TJdzHjVqR9vJNyAYVQI_aoXmP2yrtAofPCbVyti3qunbWyHXnuSzF9Z-0OVjbcZny1Ugw=w600-h400-k-no",
       imageAlt: "Kobe beef at Tsurugyu",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Tsurugyu%20tokyo"
     },
@@ -1734,7 +1734,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Syurakuya Kingyo, Tokyo, Japan",
       description: "Authentic washoku izakaya where every dish is prepared with care. The kind of place where regulars sit at the counter and the chef knows their order.",
-      imageUrl: "https://images.unsplash.com/photo-1554797589-7241bb691973?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoqWGx3gqBMPdla2QeHG1qlkHViLszS5J_TvwvwN-N6-9oveJvaJF-HW0kCN7h01HSCKxTIelTRbCd8C3Ype59SIacSKVJEYmobM0iK2lNzK4i_dhXFgxJ9ceIWi083MsR5BkfxQzlZsB8=w600-h400-k-no",
       imageAlt: "Traditional washoku dishes at Syurakuya Kingyo",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Syurakuya%20Kingyo%20tokyo"
     },
@@ -1753,7 +1753,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Asakusa Unana, Tokyo, Japan",
       description: "Unagi (eel) specialist near Sensoji. Their unagi onigiri is the perfect grab-and-go snack after temple visiting. Smoky, sweet, and perfectly grilled.",
-      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoEbVcpGuPloauxsIxrJ5UOHoWYJkBZLzwf-HgCadm4Jz7Ix-bxgms-1dJL7z1aNNUpOhm28g07o10dNtwbiLPjVJnA8L0km9z9JFFikIpiaWiwd0im03tZKxbPFJ7hS9cPZ83aEA=w600-h400-k-no",
       imageAlt: "Grilled unagi eel at Asakusa Unana",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Asakusa%20Unana%20tokyo"
     },
@@ -1772,7 +1772,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Tsukishima Monja Bakuten, Tokyo, Japan",
       description: "Monjayaki is Tokyo's messy, delicious answer to okonomiyaki. Batter cooked on a hotplate into a crispy, gooey puddle. Looks strange, tastes incredible.",
-      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoXUeKVtdc0SobfELCe8CamVaw2EU8Ahz8d5nhfJmi0Gm6qmvP397pIXe1NsKDLli7DIeXzFdizZ4Bu5BOVywSjaTKGja1MS8ZW8SQdX-VgcdShh1cXYJZPeTUPLE3zW-203Zkt=w600-h400-k-no",
       imageAlt: "Monjayaki cooking on a hotplate at Bakuten",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Tsukishima%20Monja%20Bakuten%20tokyo"
     },
@@ -1810,7 +1810,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Yakitori Omino, Tokyo, Japan",
       description: "High-end yakitori omakase. Every skewer is a revelation: the chicken is sourced from specific farms, and each cut is grilled to a different specification.",
-      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoJk_BeYc-nFLXTg5o70qGCOYl0ckfEAePoxEuOEed94x87LeGchpnhQ7Qeqxq_d70XqVutiRXXwvDZgtNojcaKf-XDHINKtnIQnV-UWG2RHptZPUwUYiqPRICn_BGCs1WI-jgX=w600-h400-k-no",
       imageAlt: "Premium yakitori skewers at Omino",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Yakitori%20Omino%20tokyo"
     },
@@ -1829,7 +1829,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Katsuo Shokudo, Tokyo, Japan",
       description: "Bonito-focused breakfast and lunch sets. Fresh katsuobushi shaved over rice with miso soup. A proper Japanese morning meal.",
-      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerObaUzfoztVj2r33fZfNVUqxNpm-BQ73tzpI57R7caXkO-8xH2eZ2jlzXTF8eEYwOw4ldlXudC4-bT1XbFwAjjlIB59DB_saPYtYrPOrxk4N0zCqpCCyo1OLNhmyzjBnX5qGUjIjuV3vtj=w600-h400-k-no",
       imageAlt: "Japanese breakfast set at Katsuo Shokudo",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Katsuo%20Shokudo%20tokyo"
     },
@@ -1867,7 +1867,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "A To Z Cafe, Harajuku, Tokyo, Japan",
       description: "Yoshitomo Nara-themed cafe in Omotesando. Cosy, art-filled interior with decent coffee and light meals. Great for a creative pause between shopping.",
-      imageUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerXYYcxyx9pmE4aHoUmaznsHVkM1I9DbNKvHTX5J_JQd5WBstIq40y8rJuTdOVPpaO_SKti51LnlUANWnnEsThe65M398XIToT_cIilB5bd2Ne9aIkJLPD6-miD7XPlevvyz3eM=w600-h400-k-no",
       imageAlt: "Art-filled interior of A To Z Cafe",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=A%20To%20Z%20Cafe%20tokyo"
     },
@@ -1886,7 +1886,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "SunnyHills minamiaoyama, Tokyo, Japan",
       description: "Taiwanese pineapple cake shop in a stunning Kengo Kuma-designed building made of interlocking wooden sticks. Free tea and cake tasting when you visit.",
-      imageUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer7yYTaXOOETQKdjkOfTFqHbx6MT47SZpPGGxC_WEOnoB1e3Xjib8e5bWVuMUTtLQ1go5M1MFdUau6X9EWzdfjXQzpjGf1pFrHtvw6lPyYk-pVZjAgK9iTDtbIHnLuEcPyVxvU=w600-h400-k-no",
       imageAlt: "SunnyHills architectural building and pineapple cakes",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=SunnyHills%20minamiaoyama%20tokyo"
     },
@@ -1907,7 +1907,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Honke Daiichi Asahi Honten, Kyoto, Japan",
       description: "The ramen shop right outside Kyoto Station with a permanent queue. Rich shoyu broth, straight noodles, and generous chashu. Open since 1947.",
-      imageUrl: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepKSMcLWL0ZMkFDIwG24Es9mqOjXPjhRyP7WnkC3yhOsJEoxdxpii4F818SloIUXB9hhj-a9O8BQ47ta7YFhKbv4yTIg_8VVNXiPJDgqS1LjbPodzohqWV8gQu-UoT7Tne5wK4=w600-h400-k-no",
       imageAlt: "Shoyu ramen at Honke Daiichi Asahi",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Honke%20Daiichi%20Asahi%20Honten%20kyoto"
     },
@@ -1926,7 +1926,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Hekkelun, Kyoto, Japan",
       description: "A 90-year-old man runs this cafe famous for its massive custard puddings. Utterly charming, and the pudding is genuinely excellent.",
-      imageUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo4iq8mIRyMUXJ-T2aLbGHQ-lUArirzvZuLOvn3gLl_C2eKuTTxyaWT4tTabW70lo6DEtSojgp4QqXKh7Gz4VNo7t1j-JmdkUQm_JKrtqrMfdt8TtCJGuK4KnF6TpDhxpDD9sBP=w600-h400-k-no",
       imageAlt: "Giant custard pudding at Hekkelun cafe",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Hekkelun%20kyoto"
     },
@@ -1964,7 +1964,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "EN-EN, Kyoto, Japan",
       description: "Chinese food filtered through a Kyoto sensibility. Lighter, more refined, and served in a cosy machiya-style interior.",
-      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer8GqXlpBAV67eUGms8ceWg63snRoLE8mAH78VbAbhut-VYov_rMKnJF0jTxkG8cTn40clEdk-cTL5Boew6AyW6dyciOl4Cn0mfCCz9P1xmb5avyx8Giqfpx86PH266YCmuhKWERzYgMxFu=w600-h400-k-no",
       imageAlt: "Chinese-Kyoto fusion dishes at EN-EN",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=EN-EN%20kyoto"
     },
@@ -2002,7 +2002,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Funahashiya, Kyoto, Japan",
       description: "Historic wagashi (Japanese sweets) shop by the Kamo River. Their seasonal mochi and warabi mochi are exquisite, paired with matcha of course.",
-      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerFw81-CGgHlNL79ci0l9c7LxYd6Cw24i90a_LPlnT4b355m6qCaIf3FBUSRMzsOWoA4Tii3qeNcgNrqH6twoQEdw36j_7A5tur14HZyMWlkJxFMqnMaafMMHhoAvRb6L5mEuSAihGtyDD9=w600-h400-k-no",
       imageAlt: "Traditional wagashi Japanese sweets at Funahashiya",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Funahashiya%20kyoto"
     },
@@ -2021,7 +2021,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Barcode, Kyoto, Japan",
       description: "Kyoto's go-to party bar. Karaoke, cheap drinks, and a mix of locals and travellers. The vibe picks up around 10pm.",
-      imageUrl: "https://images.unsplash.com/photo-1554797589-7241bb691973?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoz9sOvkIadO8N4md1rq4W3wPJBM5MmbEYc7fviIkhIQrlQ9ExQrOTIILPXrGrthLBxIqgPEWD8PbBQCeQaA4kf8k_q8Vmnsk0pCqgwLHZAwziGI9jg8fZNmJ2ztraX0AwWcgvY=w600-h400-k-no",
       imageAlt: "Lively karaoke bar atmosphere at Barcode Kyoto",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Barcode%20kyoto"
     },
@@ -2040,7 +2040,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Nishiki Market, Kyoto, Japan",
       description: "Five blocks of covered market known as 'Kyoto's Kitchen'. Fresh tofu, pickles, knife shops, tea stalls, and street food. Come hungry, leave heavy.",
-      imageUrl: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqPxNj_G4pI-6SDF_GTZPpj_WPZITr5nBxw7E9vjvt-kU4Xdxzionvsl30cJJQjUCCp-VgWx2syZ_ggevQidt68NLvTqy1-cDWRVsjU9ZQEpp533kUSsSaUf4M-nKLmfFDtT7PiM0n-nO1Q=w600-h400-k-no",
       imageAlt: "Nishiki Market food stalls in Kyoto",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Nishiki%20Market%20kyoto"
     },
@@ -2080,7 +2080,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Toyo Izakaya, Osaka, Japan",
       description: "The chef uses a literal flamethrower to sear tuna and wagyu right in front of you on the street. Part cooking, part performance art. Quintessentially Osaka.",
-      imageUrl: "https://images.unsplash.com/photo-1554797589-7241bb691973?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepJTL13MdKwd9oaie1ZHz4rMK-lRUp9hpbIokMC5CZuVPnhZ6edJxoUs9jrWMeN5FyZ135XN7ip4OVNFQ61mouUKB33uFS7sVdVA__q2SzH4tqYTgMdD8n4TZ-7q-5GqLa2TJP6n7Ymf0c9=w600-h400-k-no",
       imageAlt: "Chef using flamethrower at Toyo street food izakaya",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Toyo%20Izakaya%20osaka"
     },
@@ -2099,7 +2099,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Meat sukiyaki restaurant Kitamura, Osaka, Japan",
       description: "Premium sukiyaki in a traditional setting. The beef is swirled in sweet soy broth and dipped in raw egg. Rich, indulgent, and deeply satisfying.",
-      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweow8U_ljsaqnYehFT2erhL5gWDuzms6S7rEROOPPRf0H8qXxPwjDrr-KGzWsMyEw43uiKMnYie5SjS4S7YqU6bjKSPOIlYoicGIJQSSthr0rmsoBuLcbCT4YmR_1CD9TRMnmpTKDece4yeC=w600-h400-k-no",
       imageAlt: "Premium sukiyaki beef at Kitamura",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Meat%20sukiyaki%20restaurant%20Kitamura%20osaka"
     },
@@ -2118,7 +2118,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Robatayaki Mizukakechaya, Osaka, Japan",
       description: "Robatayaki-style grilling with ingredients passed to you on a long wooden paddle. Theatrical, fun, and the grilled seafood is excellent.",
-      imageUrl: "https://images.unsplash.com/photo-1554797589-7241bb691973?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweppylvCb5AXmsO24IDCHdW-hfsZ502n5J1XhtH94h4hRwmLRAx4Pueydz6kYgkkJLKrR6T7ap78dM5MZc2UW3baMN1IXUxi0MrQzEsskTmyjJF9Es2LB_CvraNjeuwBk6kSmnZpWA=w600-h400-k-no",
       imageAlt: "Robatayaki grilling at Mizukakechaya",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Robatayaki%20Mizukakechaya%20osaka"
     },
@@ -2137,7 +2137,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Fukutaro Honten Okonomiyaki, Osaka, Japan",
       description: "Old-school Osaka okonomiyaki done right. Thick, fluffy, covered in sauce, mayo, bonito flakes, and seaweed. The staff cook it on the hotplate in front of you.",
-      imageUrl: "https://images.unsplash.com/photo-1639024471283-03518883512d?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqeWhFcGv5o_b3gwhDheovvgeryBnazD4HnpwZR6Bja1fVJa3OLkGcs2H2x_9QEzSjS5HonLzvtj2rW_yr8fALuk52TQdyrN-uBOl8CH5y6brCvEGmA1TCviLkAMiqaazmk4xka=w600-h400-k-no",
       imageAlt: "Osaka-style okonomiyaki at Fukutaro Honten",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=%E7%A6%8F%E5%A4%AA%E9%83%8E%20%E6%9C%AC%E5%BA%97%20osaka"
     },
@@ -2277,7 +2277,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Nijo Castle, Kyoto, Japan",
       description: "Shogunate-era castle with 'nightingale floors' that chirp when walked on to detect intruders. The painted sliding doors inside are museum-grade.",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Nij%C5%8D_Castle_-_01.jpg/400px-Nij%C5%8D_Castle_-_01.jpg",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer-VBW71EDLOC9iNPEITANh7OAr9RrBHu-D0nSQs-OTOVo-Q2LCd6ZfE4GrgOizG1vYGRldeN6jzjAj92ajCbZEbnOB51h90bH-Om4QkZu47MpvhVpLBPH7CxZd4IB5mm-LyfsK=w600-h400-k-no",
       imageAlt: "Nijo Castle entrance gate in Kyoto",
       tabelogUrl: ""
     },
@@ -2296,7 +2296,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Otagi Nenbutsuji Temple, Kyoto, Japan",
       description: "1,200 unique stone rakan statues, each with a different expression. Some laughing, some meditating, some drinking. Hidden at the far end of Arashiyama.",
-      imageUrl: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweofVzNlk1OEOkHZzud4k_9Kv4l4mw4c7TvvO9Wmp5WD2ZirNLYwO9U28F4mvDwTle1L1JncBrqBP3JXZUDWrdS3wivbpY9SIurVU9ppyhfBhG7qO3zQU0ri9JaRBQ6VRZ0VdEmJ=w600-h400-k-no",
       imageAlt: "Unique stone Buddhist statues at Otagi Nenbutsuji",
       tabelogUrl: ""
     },
@@ -2315,7 +2315,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Gion, Kyoto, Japan",
       description: "Kyoto's famous geisha district. Wooden machiya teahouses, stone-paved lanes, and if you're lucky, a glimpse of a maiko hurrying to an appointment at dusk.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqllQcGboCS_1SMCJ5dsfZtRAsoZHlLAd0eHaAdKJ553AsMKSPco2s5IMPCG7yfR39X3I15ZWnuioClEOUi2qYjQdFQiJ473ngefcrZXlks7jjv8p4xifyhu_aZQXYH9B6RUtVe=w600-h400-k-no",
       imageAlt: "Traditional wooden buildings in Gion geisha district",
       tabelogUrl: ""
     },
@@ -2334,7 +2334,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Nidec Kyoto Tower, Japan",
       description: "The first thing you see exiting Kyoto Station. The observation deck gives 360-degree views and helps you orient yourself for temple-hopping.",
-      imageUrl: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepTuqHoqJ2rbO6iLUkTsRXPrupPvAId42QQkRIhHMWJUXjDweKvvK_-6byA0lPzumfcDDL823ePKhLprWh3qdZjNiCUvO5E2EYf2hPjsRB-k8em6ntdKZxC-Em_7f4l6KjbZcHgtw=w600-h400-k-no",
       imageAlt: "Kyoto Tower observation deck view",
       tabelogUrl: ""
     },
@@ -2433,7 +2433,7 @@ window.JAPAN_DATA = {
       status: "temp-closed",
       gmapsQuery: "Nezu Museum, Tokyo, Japan",
       description: "Kengo Kuma-designed museum housing pre-modern Japanese and Asian art. The bamboo-lined entrance and the garden are as beautiful as the collection.",
-      imageUrl: "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep7Me-sada-lPOQcrMSDuU3tBfcG75Uteu_H4BRHgQYyvb8c68VFjb_UU8IY158J09GR092fBnzUbd0AgijF_6PO6iflUyb5p553vctLiJzkvfh6FlQnm4sn5coVfDAmdjZUnLQ=w600-h400-k-no",
       imageAlt: "Nezu Museum bamboo-lined entrance",
       tabelogUrl: ""
     },
@@ -2452,7 +2452,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Thermae-Yu, Shinjuku, Tokyo, Japan",
       description: "Natural hot spring onsen right in Kabukicho, Shinjuku. Multiple baths, saunas, and a rest area. The perfect reset after a long day of walking.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerxqDAsatz8JBBNLBtkbEGbCpMyKEI-MPojSBpoNBGyViNnnQ_tfQRWucFGL1vRXpnrSiVmOXJfLVj1LcQQOUtIK4e_XJrux7m9eTMFnZz5mPMHDeoyHGoupCpJpuUlktuFV6E=w600-h400-k-no",
       imageAlt: "Thermae-Yu onsen bath house in Shinjuku",
       tabelogUrl: ""
     },
@@ -2471,7 +2471,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Shibuya Sky, Tokyo, Japan",
       description: "Open-air rooftop observation deck on the 47th floor. Lie on the mirrored floor and watch the sky, or look down at the famous Shibuya crossing. Sunset slot is best.",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Shibuya_Scramble_Square_2019.jpg/400px-Shibuya_Scramble_Square_2019.jpg",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerxur7ijwff8eMv6BVJswlAO1PkZcOBg3HiQmDOBhGteTdrEUANr65kagwkY3AZBEFEoa-FyEQizTHLEAiAx9DCZg2hUR4wr3ysJIxtlWMkYl3yxRokaLbhB_96xic61zl49R8=w600-h400-k-no",
       imageAlt: "Shibuya Sky observation deck with city panorama",
       tabelogUrl: ""
     },
@@ -2509,7 +2509,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "21_21 Design Sight, Roppongi, Tokyo, Japan",
       description: "Tadao Ando-designed design gallery. The exhibitions explore the intersection of design and daily life. The building itself, mostly underground, is the first exhibit.",
-      imageUrl: "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo4axKkuotKTc5iNouKHeKW8XSO46HqazF7DloE9Vp9GpX1K_K_XJ0_8QDr9y-gsXsXnd_sHeogQmxc7KyrBdtYhZuUitmyVR9-MGudeyzuxv224-gZc9lf63I784RQcy-EEqw=w600-h400-k-no",
       imageAlt: "21_21 Design Sight museum architecture",
       tabelogUrl: ""
     },
@@ -2528,7 +2528,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "TAITO Station Akihabara, Tokyo, Japan",
       description: "Multi-floor arcade packed with crane games, rhythm games, fighting games, and purikura booths. The noise and neon are an experience in themselves.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweou08ne7JdoMfiFPdUJwrK9A044Dtv4wxQmA4BGTT0_h3FSHsTqr4kR_w0w05esbnImIEhaxbmrLJCmffHhVJH2Z3YC7sn1zeIV1aA5xN5SYiOX1LMzYqBlTlU8CnJbP__CiwV7=w600-h400-k-no",
       imageAlt: "Neon-lit arcade floor at TAITO Station Akihabara",
       tabelogUrl: ""
     },
@@ -2547,7 +2547,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Yodobashi Akiba, Akihabara, Tokyo, Japan",
       description: "Nine floors of electronics, cameras, toys, and gadgets. Tax-free shopping for tourists. The camera floor alone could absorb an entire afternoon.",
-      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqPKPrGVyNNxbnzQ4kmQ8WYgBwRKctF5NtbdF7eOT5gwWom-JBZYhl26vHDn-soYYyZstJKVwDyByk3qv0g5yH6lCbSfIYNmDFfY4kb9Ch1n7Moilv2BylJjefpKQJHPVtCRHngImNM5CGa=w600-h400-k-no",
       imageAlt: "Yodobashi Akiba electronics mega-store",
       tabelogUrl: ""
     },
@@ -2566,7 +2566,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Nakano Broadway, Tokyo, Japan",
       description: "The otaku alternative to Akihabara. Less tourist-oriented, more serious collector energy. Mandarake shops, vintage toys, and obscure subculture finds.",
-      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerv08MsrjvBp-9rsVy3UwtiDuRWHC1j_g73YIONMP_9kegUdyx4vrYqvhirQLupfvFnC3F6L9tyzKds553anFbz9Xq2llYRtJRFi73y5kcJFjm6l4lUb-IQXl3NaD9WVIhpcRq5fqgDoO3D=w600-h400-k-no",
       imageAlt: "Nakano Broadway shopping mall with otaku shops",
       tabelogUrl: ""
     },
@@ -2585,7 +2585,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Mandarake Complex, Akihabara, Tokyo, Japan",
       description: "Eight floors of manga, anime cels, vintage toys, cosplay supplies, and rare collectibles. The basement rare-book section has items worth thousands.",
-      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqHov1Czl_guvITX20UbsxsbeqZEg1rfYEPvpL5no-4GokSp47aJ4gzudmiRqqn9cAkYPq1nYjLGqhwtXp-puVmAD_xWQjV2FOLAgJNqNr21yVCNmyyRdbTItSzb7EDDD4ai4U9RzHt6BJt=w600-h400-k-no",
       imageAlt: "Manga and collectibles at Mandarake Complex",
       tabelogUrl: ""
     },
@@ -2604,7 +2604,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Nintendo Tokyo, Shibuya, Japan",
       description: "Official Nintendo store with exclusive merchandise you can't get online. The display areas are themed by franchise. Even non-gamers get pulled in.",
-      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqqUpdf7fOOr1PqPCxE4Pbrw4qo8FcIpt-YW5esZWCGmRpvNq3uQhrxccL4lwLLGTbKub88j6AMqKaxyjwcKKcJSt84MJBiF-zCHzhS2GN4pHKiuNqdaUgCuxuK4LH74d6PQFN3=w600-h400-k-no",
       imageAlt: "Nintendo Tokyo official store displays",
       tabelogUrl: ""
     },
@@ -2623,7 +2623,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Laforet Harajuku, Tokyo, Japan",
       description: "Six floors of Japanese fashion brands, from gothic lolita to minimalist streetwear. The ground-floor rotation of pop-up shops is always worth checking.",
-      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepfZs6l1_CgZgoJRAITn7liAo8ltfzu7n3ikoeAdCZE7IfGPoHMSlQZ9AKONAEQUw4KuRy3ivBuDv6YF519u3ihG1f6tUFv_9cLKjsd-UPlMwEIQz8vipzM3Bc8GZJDc0o1jexEIPzVZLU=w600-h400-k-no",
       imageAlt: "Laforet Harajuku fashion shopping mall",
       tabelogUrl: ""
     },
@@ -2642,7 +2642,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Nihombashi Mitsukoshi, Tokyo, Japan",
       description: "Japan's oldest department store, founded in 1673. The basement food hall (depachika) is a destination in itself. Immaculate packaging on everything.",
-      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoK_gkfYyKma8QcaVgYjtcznsRsqOggSzexAR5AyxLpcr4zWhCY9gnU6mAfcgyVdgR3ef0wBzVOG4rzsO3PN-x0QyLuhe9kc19q8nVhL04VrC7cfTICR_dyWEt71l-9RLM9F52FEA7qdh_a=w600-h400-k-no",
       imageAlt: "Grand interior of Nihombashi Mitsukoshi department store",
       tabelogUrl: ""
     },
@@ -2661,7 +2661,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Uniqlo Ginza Flagship, Tokyo, Japan",
       description: "12-floor Uniqlo flagship. Japan-exclusive lines, collaborations that never reach overseas, and the UT graphic tee floor is worth a visit alone.",
-      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqlhVt2nq5-g2YMl4Z15rr3HcqpolVDYdQj-iMAbKPPIEJaiN-s2URqjnCHTifo59_AsjhQLNMc5_63Lt2TDVw1h6atKxE97gfr_EnjDaXdZ44T6vNPJ_llf9ySWoJiXmbwKlgIydDRqcco=w600-h400-k-no",
       imageAlt: "Uniqlo Ginza flagship multi-floor store",
       tabelogUrl: ""
     },
@@ -2680,7 +2680,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Animate Shinjuku, Tokyo, Japan",
       description: "Japan's biggest anime merchandise chain. Multiple floors of figures, manga, CDs, and character goods. Good for finding gifts for anime fans back home.",
-      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwery8QZzR-YoM-etZbsgZ5ZRtYpMVDcl0NJbApp3B34q6wej7pgk9hk9MvD8xCbv3qBzbZohMLJePBK0-G7Fwv0I0Rxh9rOr61kxjHDAwy5tmo6it7ujnkVPI1C22nCjotTHrP1r=w600-h400-k-no",
       imageAlt: "Anime merchandise at Animate Shinjuku",
       tabelogUrl: ""
     },
@@ -2718,7 +2718,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Edo-Tokyo Open Air Architectural Museum, Tokyo, Japan",
       description: "Relocated historic buildings from the Edo period onwards, reassembled in a park. Walk through merchant houses, a bathhouse, and a police box from the 1800s.",
-      imageUrl: "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer7-oi8TJWgApSd9Nt8szf6IPPVvL96BKud2f67gY6jBD1M-yafQvYRbU5VNbar0YM1aKIbww4DC4yfST_Dk2Tx78wYcU9G2Rz1G2R1iFtok33PNcQBlvNUg1qRAw_gSVcNSPmweA=w600-h400-k-no",
       imageAlt: "Historic Edo-era buildings at open air museum",
       tabelogUrl: ""
     },
@@ -2737,7 +2737,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Arashio-beya Sumo Stable, Tokyo, Japan",
       description: "One of the few sumo stables that allows public viewing of morning practice through a window. Arrive by 7:30am. Watching sumo wrestlers train is hypnotic.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepe1EaIml4fUXJLNQnir4NPIbCkW4BolAelqrhqaC5jTtkPMSA3QazRQus4hNaaiMwM3X8sn3ulCbcMHymxrJPy3ZYNKKdpE7qQJxYCbmBaOF1ga0r16LgL2vGy5TU_mpEIfCg=w600-h400-k-no",
       imageAlt: "Sumo wrestlers training at Arashio-beya stable",
       tabelogUrl: ""
     },
@@ -2756,7 +2756,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Hosei University, Tokyo, Japan",
       description: "One of Tokyo's prestigious private universities. The campus is open to walk through and the student cafeteria serves cheap, decent meals.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoLvmGMkqZeWbDD9QmDxJWhk6d21pbgu120BADDUJFo8X9b_U84vHX2gcytyvVvqWEHCGvSrTowUxSJDIWnfU1-iWgH6HJ09VggSmtja_TtNppN5UUQ_ubWlwnrQMTRu-Jlv_g3=w600-h400-k-no",
       imageAlt: "Hosei University campus in Tokyo",
       tabelogUrl: ""
     },
@@ -2775,7 +2775,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Shimokitazawa, Tokyo, Japan",
       description: "Tokyo's bohemian neighbourhood. Narrow streets packed with vintage shops, live music venues, independent cafes, and small theatres. The anti-Shibuya.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqjZfe9-wfC67dKRvA2C3AbI7Jps8P0ckc_KuEv96AP-s2UOIfRs_Vi0aRSE0ydvgz-TUopdBFlANCo9kQMjK4Wv_lcbwKB2av-SIf45aw7tD97gg4MwvbpyjYdUKEAPVxqDCUZ=w600-h400-k-no",
       imageAlt: "Shimokitazawa neighbourhood street scene",
       tabelogUrl: ""
     },
@@ -2796,7 +2796,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Onitsuka Tiger Ginza Red, Tokyo, Japan",
       description: "Red-themed Onitsuka Tiger concept store in Ginza. Japan-exclusive colourways and the Nippon Made premium line you can't get abroad.",
-      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepNQEE6UkzBhvQveBfKOPEC1AFMQ5Ch_-H7xj8pgOzVzrczyR6Gb53ARNSIZRKhtvIX5DNZ3RqizTUPTLd8rRhegtZ8shopgzcCUt0gA0tDRbZw8wMvpgo8kiSePPO-lkEZkcxHm7JtTlPS=w600-h400-k-no",
       imageAlt: "Onitsuka Tiger Ginza Red concept store",
       tabelogUrl: ""
     },
@@ -2815,7 +2815,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Onitsuka Tiger Yellow, Ginza, Tokyo, Japan",
       description: "Yellow-themed counterpart to the Red store. More casual and streetwear-oriented. The two stores together cover the full Onitsuka Tiger range.",
-      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqnSK6dzE-_3ewwyqBCMbbQ_OEFDMOMGu49G3Bc-WR5f7acEnDWvCMg60n84809FO9rAjMaM7uv4dvadBale6lDp7Tq_ldF1rHZComcauJQDDOpwEWmW2m8wCUP3BcuaRNJMjSVH88PulA=w600-h400-k-no",
       imageAlt: "Onitsuka Tiger Yellow concept store Ginza",
       tabelogUrl: ""
     },
@@ -2834,7 +2834,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Onitsuka Tiger Marunouchi, Tokyo, Japan",
       description: "The Marunouchi flagship is more upscale, focusing on the fashion-forward side of the brand. Good stock of collaborative and limited releases.",
-      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweonlIEazr3BOhd-5JyNYpKFK400C64zonUOBO36TRDoOGvRTBEvM-v9ok4X4Saeqxo1cY6qj9YhoYK7KsFtYt7yJDreK4bBbsi4RCwcHVsn8uPqQ86oDKQrmLNCcEVqP5WxYiLVUvJh2DJd=w600-h400-k-no",
       imageAlt: "Onitsuka Tiger Marunouchi flagship store",
       tabelogUrl: ""
     },
@@ -2853,7 +2853,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Onitsuka Tiger NIPPON MADE Tokyo Midtown Yaesu, Japan",
       description: "The Nippon Made line uses traditional Japanese leather-working techniques. Handmade in Japanese factories, these are sneakers treated as craft objects.",
-      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqE0BOkvE_qKPUxJRFjjqOb14nduAu87FLGZycVG0F9vrhs3sw981p_kihLXpAN8oz7ikWD3KP8xagPkqKERQWT4mFxHdqz2U7Ol15SybtPO1WuOVLP7sMmy-JVw4dWi7GXxNkaLs5TMuk=w600-h400-k-no",
       imageAlt: "Premium Nippon Made sneakers at Onitsuka Tiger",
       tabelogUrl: ""
     },
@@ -2891,7 +2891,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Watch CTI Vintage Seiko Watch, Ginza, Tokyo, Japan",
       description: "Specialist in vintage Seiko watches from the 60s and 70s. Grand Seiko, King Seiko, and rare divers at prices that would make overseas collectors weep.",
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerQ0QRq9QYZze5B118msz98bRADyTq_hHLrSYAQ1yCsO0daKShO-n5NpIjngXUy-IhuWaq75jHT01U5S4CEu1Kb4qbl1f3uQFjIznSLNSzxT0Q_G0WMMCdfFkecmUwfqLl_Z-CBKQ=w600-h400-k-no",
       imageAlt: "Vintage Seiko watches at Watch CTI Ginza",
       tabelogUrl: ""
     },
@@ -2910,7 +2910,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Fujiya Camera, Shinjuku, Tokyo, Japan",
       description: "Used camera paradise. Nikon, Canon, Leica, and Hasselblad at prices significantly below international markets. Everything is graded honestly.",
-      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq8skM70cchtSLnWI2bRdu8AJ0RiG7KTjmh7rqGJxi9RnZe4WSuJ2HquL3OgJ7toZ583d7nkyZqVbqHRJ4SqGWXQL7DKUZV53UxrmngOTxXC9kH-xUvEyhC2KX2Q-Y2eGSixBnQLjs-Jz9q=w600-h400-k-no",
       imageAlt: "Used cameras and lenses at Fujiya Camera",
       tabelogUrl: ""
     },
@@ -2929,7 +2929,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Naniwa Camera Shinsaibashi, Osaka, Japan",
       description: "Osaka's best used camera shop. Phenomenal film camera selection and vintage lenses. The staff test everything before it hits the shelf.",
-      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoeISGhPWPsU6jqGSU9heTYabycAhuMVTGE2VrTce5Vo0jyuHwtNnpwo6HMJ1m8MApy9-DBF_VP65e5JNDwDxCsrg5vT_gJE4fWDPQKtJJhtEpnYGiXMqCQ7z0TaxIuLeTIx-cXKh_VgA72=w600-h400-k-no",
       imageAlt: "Vintage cameras at Naniwa Camera Shinsaibashi",
       tabelogUrl: ""
     },
@@ -2969,7 +2969,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Shinsaibashi PARCO, Osaka, Japan",
       description: "Multi-floor fashion and lifestyle complex. A good mix of international brands, Japanese designers, and a top-floor food court with a view.",
-      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer4MdVDdzfGH__LWv8niokcCneqeXp-TazFGUTPZI2dSHgSKl9qBz3nGr1KGM5n7tntarm6icosT_7PHp8EmzjTjcurGR1y1mdKld2NRuhtYYOJkwWdm8mv50S5qDlTHH-B2RuJelnCrxwg=w600-h400-k-no",
       imageAlt: "Shinsaibashi PARCO shopping complex",
       tabelogUrl: ""
     },
@@ -3028,7 +3028,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "JINS ekimo Nanba, Osaka, Japan",
       description: "Japanese eyewear chain with frames starting at 5,000 yen including lenses. Pick frames, get lenses fitted, and walk out in 30 minutes.",
-      imageUrl: "https://images.unsplash.com/photo-1528698827591-e19cef51a699?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepPBFcV7RuXWsCESGZCCVXPqcleYEMoGHrVLEPaNXIEh-OsLCC7OIjC-cEPdJy3NmmlP1iWmg5F4p_fic81c-szxaG-oxYarhuhVPfO1eH-J6N06PJc6Z2Dt38cq5ESAgirur9kDA=w600-h400-k-no",
       imageAlt: "JINS eyewear store in Namba",
       tabelogUrl: ""
     },
@@ -3068,7 +3068,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "TOHO Cinemas Nijo, Kyoto, Japan",
       description: "Catch a Japanese movie in a Japanese cinema. Some screenings have English subtitles. The snack selection (including beer) is better than Western cinemas.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer4faP5QKUTCLUz-209ytE2h1itX801PxjriYynBcFNZ4GCHxJRDt_keCyHBl_BSToefGeDAl0w_FhZf2jtEkdEzwyFugP-8ag7TI4rBIQHPuNca0tQ05cOUZmJXcsSiYSPwe4G=w600-h400-k-no",
       imageAlt: "TOHO Cinemas Nijo movie theatre",
       tabelogUrl: ""
     },
@@ -3186,7 +3186,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Tokyo Biken, Kappabashi, Tokyo, Japan",
       description: "Another food sample specialist. Their keychain-sized food replicas make perfect souvenirs: tiny bowls of ramen, sushi, and tempura you can hang from your bag.",
-      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerNQR17Iwkj09LyihIzO1tzPYYcLMJz2zEZGGa0Ncw7TNfj2Y98oPIV3eQfYEl_GrwT7FCE4L6VLCyBa9PFAhM00hW9O9uaRTsMeJiv7qFXhu7-a1dh_sP4L2olexZETdioZlGkBGfoi3dw=w600-h400-k-no",
       imageAlt: "Miniature food sample keychains at Tokyo Biken",
       tabelogUrl: ""
     },
@@ -3205,7 +3205,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Kama-Asa, Kappabashi, Tokyo, Japan",
       description: "Founded in 1908. Japanese kitchen knives forged by master blacksmiths, with staff who will help you choose the right blade for your cooking style.",
-      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerp4ZZAOFnGCgyBmoNMrmf0UP36tmAuCYAnoWxql_4AFK411Ic864VL81Q767_0nyu4KhtBbDHac2XCXe6tx3Wn0qjLfrsX_ZdVTv-D6Z8voKvVDdQtQfKaA0RQJQxG1PxgcNGn=w600-h400-k-no",
       imageAlt: "Japanese kitchen knives at Kama-Asa",
       tabelogUrl: ""
     },
@@ -3224,7 +3224,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Dengama, Kappabashi, Tokyo, Japan",
       description: "Massive ceramics shop in Kappabashi with pieces from all major Japanese pottery regions. The sheer variety means you'll find something regardless of taste.",
-      imageUrl: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer-HA3eBb0uk95kql1T_jBcCHciBoyi_Dw3PwmA8m1wWOXVjPkOnZq5pJ2vd8o0oVsa3DXoKLVxE3C851O_AQ5ZOkx01-O1NSeIbtMb_YPUBQsTW-_HPqvxxf3jnRRlTH8jM-by8LgJokIX=w600-h400-k-no",
       imageAlt: "Japanese ceramics from multiple regions at Dengama",
       tabelogUrl: ""
     },
@@ -3243,7 +3243,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "mt lab stationery, Tokyo, Japan",
       description: "The official mt masking tape store. Hundreds of washi tape patterns, limited editions, and a custom cutting station. Stationery lovers will lose track of time.",
-      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqzeLrlrTMpMmVHZBZOQs-470RIJndmj9KC_VMwbVODkUje2lmiTB5A4uKuiBz4dFS5PmFQ33IwubGHrLersjOhBwzOwRd7LHKrDq345zea5lCSn3UynQTr37rVWubLEVzPiCEyQcSKXXYz=w600-h400-k-no",
       imageAlt: "Colourful washi tape display at mt lab",
       tabelogUrl: ""
     },
@@ -3262,7 +3262,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "kakimori, Asakusa, Tokyo, Japan",
       description: "Build a custom notebook from scratch: choose cover, paper, binding, and closure. They also sell beautiful fountain pen inks mixed in-house.",
-      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqoayicwvsLD05YpYJOCfAt8zH23Is6EMOYiA-BZB8iThYNhnIpnK4rHlFRmNHRN-E4osiUJDFpXIZle_aR6EaD_l7-en_p_7yoX8M-4gIaV7rmEmWBtYhwUGYzep3ussAoFGw8GMwUVCdW=w600-h400-k-no",
       imageAlt: "Custom notebooks and inks at kakimori",
       tabelogUrl: ""
     },
@@ -3281,7 +3281,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "K's paperie Asakusa, Tokyo, Japan",
       description: "Japanese paper goods and stationery near Sensoji. Beautiful letter sets, envelopes, and washi paper products that showcase traditional Japanese paper-making.",
-      imageUrl: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqwzWfEQy1JOMq2mYPAeYZBAb0bDb4iKIwPdUBSxVNgdyHcQnhgwV_0KpWPXdjJ4oBlWbn8BBwi3_EwUks6erDT-k1ZOmZ4FUoHKKFTS5bEsS_a1ikOdy7X-ksOme6JUqZa8KeS4A=w600-h400-k-no",
       imageAlt: "Japanese paper goods and stationery at K's paperie",
       tabelogUrl: ""
     },
@@ -3304,7 +3304,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Minoh Park, Osaka, Japan",
       description: "A 33-metre waterfall just 30 minutes from Umeda. The forest trail is gentle, and in autumn the maple leaves are spectacular. Try the maple leaf tempura.",
-      imageUrl: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqw8uAWExKTkigSMUMC-bHR-Gq0HCoU9j3YFgKz2kv5IbGw3iAL1sdVE-6M9nMY5EY9oqAp_oWwf31elpkeU0VAev-0gIOHcOlnTIXtP0bQtuwhjFswp7pYAgH96Z8PFBqYDvqCyg=w600-h400-k-no",
       imageAlt: "Minoh waterfall surrounded by forest",
       tabelogUrl: ""
     },
@@ -3323,7 +3323,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "teamLab Botanical Garden Osaka, Japan",
       description: "teamLab's outdoor installation that transforms a botanical garden with projected light art after dark. Wander through illuminated trees and interactive pathways.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqXIrjfqXtATvdewJBvQUnj3bhX9npBiiXgtu0n2Cij2g4Dpa5diV0J-eutJuIKqRAtlI3dkDNFar5gzi10f-t_xAblxR4uFe_PYFG1zuXQgAUGw0bBSsCoQzN8foeo_Mc_YUavUw=w600-h400-k-no",
       imageAlt: "teamLab digital art installation in botanical garden",
       tabelogUrl: ""
     },
@@ -3346,7 +3346,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Suiran Luxury Collection Hotel, Arashiyama, Kyoto, Japan",
       description: "Luxury ryokan-hotel hybrid on the Hozu River in Arashiyama. The onsen and the river views from the room justify the price tag if you're treating yourselves.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGHP-iSvVuoMVRxTvgfb-ZCr80B12lbMTlBRqGqebQcaYxAQCExSTc50Z3pAy6d2nX7WPLSZzLSjc8rLAbgce1f3gzSkHgcg3ABKcLY8aFsAGk_UjAns04Ej4lbOCoNVsQcSJmGuSuZpmJshzAg7eCJgH6g_qJT9AMvFofMGGw_a_bLlDA-TZMk5Q=w600-h400-k-no",
       imageAlt: "Suiran Luxury Collection Hotel by the Hozu River",
       tabelogUrl: ""
     },
@@ -3365,7 +3365,7 @@ window.JAPAN_DATA = {
       status: "closed",
       gmapsQuery: "Kinosaki Onsen, Japan",
       description: "Charming onsen town where you stroll between seven public bathhouses in a yukata. The crab season in winter is legendary.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq8r9ZKmST1AtRpbsI7MMhPUcflFHi5S4QT4JqnlX_Ca6G6ygpKarv9-qhMXjLZKVy3K0z8o7qfwly-m69btoWM8v9Lf4loKASRGyrYlx3_f2O86IFFf9uRfdfvRcZf9JYuZSX2bCZy1JwX=w600-h400-k-no",
       imageAlt: "Traditional onsen town Kinosaki",
       tabelogUrl: ""
     },
@@ -3384,7 +3384,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Ine, Kyoto, Japan",
       description: "Fishing village with 230 funaya (boat houses) lining the bay. Called the 'Venice of Japan', though the vibe is more 'forgotten fishing hamlet, frozen in time'.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerk1TV9S0fJx36JxLyAICYoTPA-tTQ0U2KNHGJTirP0msBAeowJp5Hwcb1VhRJ7Aw8Z4QGXmFDssLBlN5HWXHUKT41gqi_aX5lJZsO9Sku2sFNQXvY9rCfX3iPFlEcQdlsJec_J=w600-h400-k-no",
       imageAlt: "Ine fishing village boat houses on the bay",
       tabelogUrl: ""
     },
@@ -3407,7 +3407,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Uda, Nara, Japan",
       description: "Sleepy town in the Nara mountains. Old merchant houses, barely any tourists, and a pace of life that's genuinely restorative.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepX478Bb6UB5Y8VJ8sttvFTlSzqurWXfO0whrSCApFx4tFAj553LlxDnwFHd0vCOczaCfotxYLLtLAGHN1M4UQyWeyBLkCSO7q74a5h-ADYFDaXqEUbbTEt8pzAl_cHOoDCAca1Lw=w600-h400-k-no",
       imageAlt: "Quiet historic streets of Uda, Nara",
       tabelogUrl: ""
     },
@@ -3426,7 +3426,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Asuka, Nara, Japan",
       description: "Japan's ancient capital before Nara. Rice paddies, burial mounds, mysterious stone carvings, and some of the oldest Buddhist art in the country.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo3anOnh9BXebhitVLRXBfa35-iYJFrVTaxLuQhbV4nt8f5ljj1alDVXxKJGDsBl32WA53zOS7-DiOKTqnX2uLvKH9C-ukilNh9Gs9U5cmLvIWefszBXsQDBGcyAcXwovUQJmACmA=w600-h400-k-no",
       imageAlt: "Ancient Asuka village with rice paddies",
       tabelogUrl: ""
     },
@@ -3445,7 +3445,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Yoshino, Nara, Japan",
       description: "Mountain covered in 30,000 cherry trees. During sakura season it's one of Japan's most spectacular sights. Off-season it's peacefully empty.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqobjjO_HWEhkXIdV73bKbb1ZRBLtgwJvd20-0dAb4ecHWPbqiHmoofpJ14_3nBlGM7x3MuxxSlcDI0U5YcJfTiwN9q34TdDMwQqnujS9WJprkO3q4P7l8lc4IzMlP0eA3jaNkMmA=w600-h400-k-no",
       imageAlt: "Cherry blossoms covering Mount Yoshino",
       tabelogUrl: ""
     },
@@ -3503,7 +3503,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Kasuga Taisha, Nara, Japan",
       description: "3,000 stone and bronze lanterns line the paths. During Mantoro festival they're all lit. Otherworldly.",
-      imageUrl: "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepqsoyjYOnBiQfh1GyyZ1UmOCz6lm0VoN029gwPwkYmJvGVb7mikGIWS6NXezWMiUi0qx33NhwDMUoLZUwL_8AuoW0VJ7qRs7_s3VKmaiyFq-WfYWoMIGPPuoWqBoXSwic7x_gl=w600-h400-k-no",
       imageAlt: "Stone lanterns lining the path to Kasuga Taisha",
       tabelogUrl: ""
     },
@@ -3522,7 +3522,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Naramachi, Nara, Japan",
       description: "Old merchant quarter with machiya townhouses, small museums, and cute cafes.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqwCDe3lkOTyEplzgxRNEoar3_UrAd2ZqpL1xwdvUemf2omkbi9vqP9gWRHEaaSniC1XnIcHkyik1wlUn_OzT2dmg87sXX4yoedyUP2d0sRGeM3LhWmOT1GaRtezJP4kIrfb2Ey=w600-h400-k-no",
       imageAlt: "Traditional machiya townhouses in Naramachi district",
       tabelogUrl: ""
     },
@@ -3541,7 +3541,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Yoshikien Garden, Nara, Japan",
       description: "Three distinct garden styles in one. Free entry for foreign tourists.",
-      imageUrl: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerwNEpTq8nEjgs21KWCHM1bNEh3i6-dy30hNBoyJdhecw8vHkcIaJNfJbBh2CJL1Ppu0C0ZY1mAG78m6EQh0VR5lWDp61ZHN8L8s3lFjNaimNy1JICHP3e_i9fj8SGeG18BkC_BpGCN5mld=w600-h400-k-no",
       imageAlt: "Peaceful Japanese garden at Yoshikien",
       tabelogUrl: ""
     },
@@ -3560,7 +3560,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Isuien Garden, Nara, Japan",
       description: "Borrows the scenery of Todai-ji's roof. One of the most perfectly composed views in Japan.",
-      imageUrl: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqF6vyYAasPU1faoxkqKgqYPuej1ZpWNob3HcieSmaS08bpMPjZZuNvO6SZR0mQMWrNZV8OXL3fFo9YSa9-YPgziWACHzfCxglQXDddOv06axoH7s-P1HcYMEVwlQgnZJ6kITjU3g=w600-h400-k-no",
       imageAlt: "Isuien Garden with borrowed scenery of Todai-ji",
       tabelogUrl: ""
     },
@@ -3583,7 +3583,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Kobe Beef Kaiseki 511, Kobe, Japan",
       description: "The real deal. Certified Kobe beef in a refined kaiseki setting.",
-      imageUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq1uuwnK0qOrWiPBcTUZctk2yLXSs5wGGQbpCvTpOcGzGotu4_HgPwy0_gLozk8R3Q4df1hu3FWape3y4nl_Rq8U9107R1PvdgAqX_rZCpehsvRAQUKWTrPmC1EExefxJR6dvbB0Q=w600-h400-k-no",
       imageAlt: "Kobe beef kaiseki course at restaurant 511",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Kobe%20Beef%20Kaiseki%20511%20kobe"
     },
@@ -3602,7 +3602,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Nankinmachi Kobe Chinatown, Kobe, Japan",
       description: "Japan's oldest Chinatown. Street food stalls, pork buns, and lantern-lit alleys.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepbi_beOm3GjpM3jGo2l7buxt-k2T0Z0zuEhpJVtTfQJcQJ42afB_PfW-oWsN6IB1gFYQDWKylN2BX4zsuGx_DaGV-DL924vNsH6chpoHKRYeNAom-e9aKxNvymNf_xWsI7XIkek5a2_KQU=w600-h400-k-no",
       imageAlt: "Lantern-lit alleys of Nankinmachi Kobe Chinatown",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Nankinmachi%20Kobe%20Chinatown%20kobe"
     },
@@ -3621,7 +3621,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Ikuta Shrine, Kobe, Japan",
       description: "One of Japan's oldest shrines, tucked right in the middle of downtown Kobe.",
-      imageUrl: "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepeWb3iRbtBHZbfFfhvTCdDepx8Fhbb9fmPJ6cuZKyj2Pz9f3SFJjkcJEgC4np5o18C8pouJG2KJCHIqiqYhGBXsl9JzVo3K1DnJVbyh46YiJEHyxwmSEJNmPeXnvHLoRsVpTzC=w600-h400-k-no",
       imageAlt: "Ikuta Shrine in downtown Kobe",
       tabelogUrl: ""
     },
@@ -3640,7 +3640,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Kitano Ijinkan, Kobe, Japan",
       description: "Former foreign settlement with beautifully preserved Victorian and colonial houses on the hillside.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepf1c7qRk-RMZY0KhMEVZp-piPEJmmoDpWvZAUMsSwrv8mK12FUjg5UWhcGLwCkxlA_5JwW1HxYFz41eh9vnDZh2G8pYecJKa3C6_faT_dxUbaBsUGVm4hgkNZYGqIt4WMdQ5iR9pw6IQ8=w600-h400-k-no",
       imageAlt: "Victorian-era foreign houses at Kitano Ijinkan",
       tabelogUrl: ""
     },
@@ -3659,7 +3659,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Nunobiki Herb Garden, Kobe, Japan",
       description: "Take the ropeway up for panoramic Kobe views and a stunning terraced herb garden.",
-      imageUrl: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqW4XaFh41VkErYDmzIBQI07nTecZ7wIXaaA5MfoQQrXbRZ-oCbdV5e6v8spoCR-tTESlsiE7rSnygfvaVpB91Oe19CgrK8ExEZeFuiYVDAl17b5t5UrVoWx_BxLC1auyGsy0jO=w600-h400-k-no",
       imageAlt: "Panoramic Kobe views from Nunobiki Herb Garden",
       tabelogUrl: ""
     },
@@ -3678,7 +3678,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Meriken Park, Kobe, Japan",
       description: "Waterfront park with the iconic Kobe Port Tower and the earthquake memorial.",
-      imageUrl: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqXdgTOa6_61_p3TTME6jUqiuZ-peXvD-G4VH00W_1tAOO1pg57d45QK3aGMWKoOY3zf-m5XgczdRHmjszWEBwOBSS5HQsrGYX3ChwBSEz3mTMNIRKlyKSYY7B-P9DpzbCxRWkp=w600-h400-k-no",
       imageAlt: "Kobe Port Tower at Meriken Park waterfront",
       tabelogUrl: ""
     },
@@ -3739,7 +3739,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Hiroshima Peace Memorial Museum, Hiroshima, Japan",
       description: "Devastating, essential, unforgettable. Go early and give yourself time.",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hiroshima_Peace_Memorial_%28Genbaku_Dome%29.jpg/400px-Hiroshima_Peace_Memorial_%28Genbaku_Dome%29.jpg",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweok529jOFYbR46RQmVlkzHvKXmg7HLi7DmuCBYXBvZHA85vXf1OO0xgs5fgL3pIRhB6OQyMA-dm743Q15FCCBNLfI0RFZ1HjkvNFQdEaEpwScLlNZxkQt9lukU_DInZblbN49bKgg=w600-h400-k-no",
       imageAlt: "Hiroshima Peace Memorial Atomic Bomb Dome",
       tabelogUrl: ""
     },
@@ -3777,7 +3777,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Okonomi-mura, Hiroshima, Japan",
       description: "Multi-floor okonomiyaki food court. Hiroshima-style means noodles layered in. Pick any stall.",
-      imageUrl: "https://images.unsplash.com/photo-1639024471283-03518883512d?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerJ299RNfaeW0uV-l0iLm1glITfiDwIlw3oSriQKH6krr52np3rGuJ7lZOJJVj2Y2fyYmSupJ7MuD8mYUinShlKIJeKUjkAzwZADkG33ohM2dAT-I7tXb8ChOVBbSwKyDB3F5IbrpEdDkQ=w600-h400-k-no",
       imageAlt: "Hiroshima-style okonomiyaki being prepared at Okonomi-mura",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Okonomi-mura%20hiroshima"
     },
@@ -3796,7 +3796,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Shukkeien Garden, Hiroshima, Japan",
       description: "Miniature landscape garden from 1620. Peaceful escape right in the city centre.",
-      imageUrl: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweokbBb3lCGMT42gVJeBRrUN88kbIg7zJmDU079ERsF8Y80VpS1tqefV0SiOqDDfXPsfzZE6d8WeepSI8zkT0JJFs2aJ7bIEf1OffdmqauFd19haxUun1GPD_c2tkwJEVHd0s5ynOokJ8Zr-=w600-h400-k-no",
       imageAlt: "Shukkeien Garden miniature landscape in Hiroshima",
       tabelogUrl: ""
     },
@@ -3834,7 +3834,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Orizuru Tower, Hiroshima, Japan",
       description: "Modern observation tower right next to the Peace Memorial. Fold a paper crane and add it to the cascade.",
-      imageUrl: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqttOkLTL2J6Rardzzly78e-YL2wP60K1LhZCsqGatVYPFWfiT2kDm1hD-fhcZ_OpcPutnzjsRw7BbQqOQBp00F6Ww2xPtiWgS1l86Wda5j-BjJegrqH6mHlKEMFItsXxRW0UUafg=w600-h400-k-no",
       imageAlt: "View from Orizuru Tower observation deck",
       tabelogUrl: ""
     },
@@ -3872,7 +3872,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Nagataya Okonomiyaki, Hiroshima, Japan",
       description: "Another top-tier Hiroshima okonomiyaki spot. Less queuing than Hassei.",
-      imageUrl: "https://images.unsplash.com/photo-1639024471283-03518883512d?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqq3QhkUzG_g3mhBpVx02EqY-jqp2vaN3dsDdOVEVU4sn9mzb64NMy5YUaFB_gQ0tVzznaQMuytCebuzDQ6y5WcREpt8upf96a5KM5pnKAEEOAXJEByFN2A6BamSg8wfNj5-bSE=w600-h400-k-no",
       imageAlt: "Hiroshima-style okonomiyaki at Nagataya",
       tabelogUrl: "https://tabelog.com/en/rstLst/?vs=1&sk=Nagataya%20Okonomiyaki%20hiroshima"
     },
@@ -3895,7 +3895,7 @@ window.JAPAN_DATA = {
       status: "open",
       gmapsQuery: "Mount Takao, Tokyo, Japan",
       description: "Sacred mountain just 50 minutes from Shinjuku. Multiple trail options, a temple halfway up, and panoramic views from the summit. Easy enough for anyone.",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop",
+      imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerjRAtDvQdSOkaMR9_qicxiO-lgX68a2k6Qqkx0N_uP0csSc8yAA5YCBKKSap_EXJb8WAZSMHNkdylaJNSVzbmiesrEEOa9jZ--hGSWFfVTet_a5smnUMBj28XPGp1aHzaCv8lY=w600-h400-k-no",
       imageAlt: "Hiking trail on Mount Takao near Tokyo",
       tabelogUrl: ""
     }
