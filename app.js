@@ -298,10 +298,14 @@
       actionsHtml += `<a class="card-btn card-btn-tabelog" href="${place.tabelogUrl}" target="_blank" rel="noopener">🍽️ Tabelog</a>`;
     }
 
+    // Hanko stamp for Niko's faves (places with personal notes)
+    const hankoHtml = place.nikoNote ? `<div class="hanko-stamp"><svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><circle cx="25" cy="25" r="23" fill="none" stroke="#c62828" stroke-width="2.5" opacity="0.9"/><circle cx="25" cy="25" r="19" fill="none" stroke="#c62828" stroke-width="1" opacity="0.5"/><text x="25" y="22" text-anchor="middle" font-size="10" font-weight="900" font-family="'Noto Serif JP',serif" fill="#c62828">ニコ</text><text x="25" y="33" text-anchor="middle" font-size="7" font-weight="700" font-family="'Noto Serif JP',serif" fill="#c62828">推薦</text></svg></div>` : '';
+
     card.innerHTML = `
       <div class="card-image">
-        <img src="${imageUrl}" alt="${place.imageAlt || place.name}" loading="lazy" />
+        <img src="${imageUrl}" alt="${place.imageAlt || place.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop'" />
         <span class="card-city-badge">${cityName}</span>
+        ${hankoHtml}
         <div class="card-image-info">
           <div class="card-name">${place.name}${place.nameJp ? `<span class="card-name-jp">${place.nameJp}</span>` : ''}</div>
         </div>
@@ -354,7 +358,7 @@
       maxZoom: 18
     }).addTo(map);
 
-    themeMaps[themeId] = { map, markers: L.layerGroup().addTo(map) };
+    themeMaps[themeId] = { map, markers: L.featureGroup().addTo(map) };
     updateThemeMap(themeId, 'all');
   }
 
@@ -402,8 +406,11 @@
         .addTo(tm.markers);
     });
 
-    // Zoom to city or fit all
-    if (city !== 'all' && cityBounds[city]) {
+    // Fit bounds to visible markers
+    if (tm.markers.getLayers().length > 0) {
+      const bounds = tm.markers.getBounds().pad(0.15);
+      tm.map.flyToBounds(bounds, { duration: 0.8, maxZoom: 14 });
+    } else if (city !== 'all' && cityBounds[city]) {
       const cb = cityBounds[city];
       tm.map.flyTo([cb.lat, cb.lng], cb.zoom, { duration: 0.8 });
     } else {
@@ -412,20 +419,81 @@
   }
 
   // ═══════════════ FUN FACTS ═══════════════
+  // Theme × City specific fun facts
+  const themeFunFacts = {
+    'denim-trail': {
+      tokyo: "Harajuku's Cat Street became the epicentre of Japanese denim culture in the early 2000s.",
+      osaka: "Osaka's Amerikamura neighbourhood is where Japan's denim obsession first took hold in the 1960s.",
+      _default: "Japanese mills in Okayama and Hiroshima produce some of the world's most sought-after selvedge denim fabric."
+    },
+    'vinyl-wax': {
+      tokyo: "Tower Records Shibuya is the world's largest record store — nine floors, still thriving while the chain died everywhere else.",
+      osaka: "Osaka's Amerikamura is packed with tiny record shops specialising in everything from city pop to obscure funk.",
+      kyoto: "Kyoto's café culture and record shops overlap — many double as listening bars with curated vinyl collections.",
+      _default: "Japan is the world's second-largest music market and still buys more CDs than any other country."
+    },
+    'tea-path': {
+      kyoto: "Uji, just south of Kyoto, has been producing Japan's finest matcha since the 12th century.",
+      _default: "Japanese tea ceremony (茶道) isn't just about drinking — it's a practice of mindfulness, respect, and beauty in everyday things."
+    },
+    'pottery-road': {
+      kyoto: "Kyoto's Kiyomizu-yaki pottery tradition dates back over 400 years and each kiln has its own distinct style.",
+      _default: "Japanese pottery follows the wabi-sabi philosophy: beauty in imperfection. No two handmade pieces are identical."
+    },
+    'vintage-hunt': {
+      tokyo: "Shimokitazawa has the highest density of vintage clothing shops in Tokyo — over 100 in just a few blocks.",
+      osaka: "Osaka's secondhand prices run 20-30% lower than Tokyo's for the same brands.",
+      kyoto: "Kyoto's vintage scene is smaller but more curated — shops here tend to stock rare pieces with history.",
+      _default: "Japan's secondhand market is impeccable. Items are graded, cleaned, and priced with an honesty you won't find elsewhere."
+    },
+    'eat-local': {
+      tokyo: "Tokyo has more Michelin-starred restaurants than any other city on Earth — over 200.",
+      kyoto: "Kyoto invented kaiseki cuisine — multi-course meals that follow the seasons down to the garnish.",
+      osaka: "Osaka's motto is kuidaore — 'eat until you drop.' Street food here is a lifestyle, not a snack.",
+      nara: "Nara's kakinoha-zushi (persimmon leaf sushi) has been wrapped and pressed the same way for centuries.",
+      kobe: "Only 3,000 heads of cattle qualify as certified Kobe beef each year. Most of it never leaves Japan.",
+      hiroshima: "Hiroshima-style okonomiyaki layers noodles, cabbage, and egg into a savoury pancake unlike anything in Osaka.",
+      _default: "The average Japanese person eats out 4-5 times per week. Dining alone is normal, even preferred."
+    },
+    'temple-run': {
+      kyoto: "Kyoto has over 2,000 temples and shrines — you could visit a new one every day for six years.",
+      tokyo: "Tokyo's Meiji Jingu sits in a 170-acre forest that was hand-planted in 1920 with 100,000 donated trees.",
+      nara: "Nara was Japan's first permanent capital (710 AD) and its temples predate Kyoto's by over a century.",
+      kobe: "Ikuta Shrine in Kobe is one of Japan's oldest, mentioned in the Nihon Shoki chronicle from 720 AD.",
+      hiroshima: "Itsukushima Shrine's floating torii gate on Miyajima has stood in some form since the 6th century.",
+      _default: "The torii gate marks the boundary between the mundane world and the sacred. You'll find them everywhere."
+    },
+    'city-explore': {
+      tokyo: "Tokyo's 13.96 million residents make it the world's most populous city proper.",
+      kyoto: "Kyoto was Japan's imperial capital for over a thousand years (794–1868).",
+      osaka: "Osaka Castle was originally built by Toyotomi Hideyoshi in 1583 using the labour of 100,000 workers.",
+      nara: "The 1,000+ deer in Nara Park are designated as national treasures and protected by law.",
+      kobe: "Kobe rebuilt itself in just two years after the devastating 1995 earthquake.",
+      hiroshima: "The Atomic Bomb Dome survived the 1945 blast and stands as a UNESCO World Heritage peace memorial.",
+      _default: "Japan has 47 prefectures and each one has its own distinct food culture, dialect, and identity."
+    },
+    'stationery-craft': {
+      tokyo: "Kappabashi Kitchen Town has over 170 shops selling everything from sushi knives to the wax food samples in restaurant windows.",
+      kyoto: "Kyoto's washi paper has been handmade for over 1,000 years using mulberry bark, water, and patience.",
+      _default: "Japanese stationery is an art form. The country produces more pen and paper innovation than anywhere else."
+    },
+  };
+
   function updateFunFact(themeId, city) {
     const el = $(`#funfact-${themeId}`);
     if (!el) return;
 
-    // Find a fun fact for the selected city
+    const themeFacts = themeFunFacts[themeId] || {};
     let fact = '';
-    if (city !== 'all') {
+    if (city !== 'all' && themeFacts[city]) {
+      fact = themeFacts[city];
+    } else {
+      fact = themeFacts._default || '';
+    }
+    // Fallback to area-level fact
+    if (!fact && city !== 'all') {
       const area = DATA.areas.find(a => a.city === city || a.id === city);
       if (area && area.funFact) fact = area.funFact;
-    }
-    if (!fact) {
-      // Pick a random city fun fact
-      const factsAreas = DATA.areas.filter(a => a.funFact);
-      if (factsAreas.length) fact = factsAreas[Math.floor(Math.random() * factsAreas.length)].funFact;
     }
 
     el.textContent = fact ? `✨ ${fact}` : '';
@@ -442,7 +510,7 @@
       attribution: '&copy; OSM &copy; CARTO', maxZoom: 19
     }).addTo(map);
 
-    const markers = L.layerGroup().addTo(map);
+    const markers = L.featureGroup().addTo(map);
 
     function renderMarkers(filter) {
       markers.clearLayers();
@@ -563,12 +631,18 @@
   function startGyroLoop() {
     function updateGyro() {
       const { gamma, beta } = window.SakuraParticles.getGyro();
-      // Apply to gyro layers
+      // Apply to gyro layers (background circles)
       $$('.gyro-layer').forEach(el => {
         const strength = parseFloat(getComputedStyle(el).getPropertyValue('--gyro-strength')) || 10;
         const x = (gamma / 45) * strength;
         const y = (Math.min(Math.max(beta - 45, -30), 30) / 30) * strength;
         el.style.transform = `translate(${x}px, ${y}px)`;
+      });
+      // Paper sway — rotate pinned note slightly with gyro
+      $$('.gyro-sway').forEach(el => {
+        const swayX = (gamma / 45) * 3; // max ±3 degrees
+        const swayY = (Math.min(Math.max(beta - 45, -30), 30) / 30) * 1.5;
+        el.style.transform = `rotate(${-0.5 + swayX * 0.3}deg) perspective(400px) rotateY(${swayX}deg) rotateX(${-swayY}deg)`;
       });
       requestAnimationFrame(updateGyro);
     }
@@ -626,6 +700,28 @@
     });
   }
 
+  // ═══════════════ WAVE TEXT (Hero "Japan") ═══════════════
+  function initWaveText() {
+    const el = $('#heroWaveText');
+    if (!el) return;
+    const text = el.textContent;
+    el.innerHTML = text.split('').map((char, i) =>
+      `<span class="wave-char" style="--wave-delay:${i * 200}ms">${char}</span>`
+    ).join('');
+
+    // Spawn sparkles periodically around the text
+    setInterval(() => {
+      const rect = el.getBoundingClientRect();
+      const sparkle = document.createElement('div');
+      sparkle.className = 'wave-sparkle';
+      const x = rect.left + Math.random() * rect.width;
+      const y = rect.top + Math.random() * rect.height;
+      sparkle.style.cssText = `left:${x}px;top:${y}px;position:fixed;`;
+      document.body.appendChild(sparkle);
+      setTimeout(() => sparkle.remove(), 2000);
+    }, 400);
+  }
+
   // ═══════════════ SCROLL-BASED PARALLAX (desktop fallback) ═══════════════
   function initScrollParallax() {
     const hero = $('#hero');
@@ -662,6 +758,9 @@
 
       // Maps (deferred)
       setTimeout(initGlobalMap, 500);
+
+      // Wave text on hero
+      initWaveText();
 
       // Counters
       setTimeout(animateCounters, 400);
